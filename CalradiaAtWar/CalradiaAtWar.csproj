@@ -12,7 +12,7 @@
         <ModuleName>CalradiaAtWar</ModuleName>
         <DisplayName>Calradia At War</DisplayName>
         <AssemblyName>$(ModuleName)</AssemblyName>
-        <Version>1.9.1</Version>
+        <Version>1.9.2</Version>
         <BinaryFolder>$(GameFolder)\Modules\$(ModuleName)\bin\Win64_Shipping_Client</BinaryFolder>
     </PropertyGroup>
 
@@ -30,7 +30,7 @@
 
     <!-- Versions of Major Dependencies (For Package References & SubModule.xml Substitution) -->
     <PropertyGroup>
-        <CustomSpawnsVersion>1.9.4</CustomSpawnsVersion>
+        <CustomSpawnsVersion>1.9.6</CustomSpawnsVersion>
         <BuildResourcesVersion>1.0.0.33</BuildResourcesVersion>
     </PropertyGroup>
 
