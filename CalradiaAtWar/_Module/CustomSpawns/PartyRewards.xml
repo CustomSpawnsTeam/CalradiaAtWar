@@ -149,7 +149,7 @@
         <RewardsList>
             <Reward>
                 <Type>Influence</Type>
-                <RenownInfluenceMoneyAmount>5</RenownInfluenceMoneyAmount>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
             </Reward>
             <Reward>
                 <Type>Renown</Type>
@@ -172,7 +172,7 @@
             </Reward>
             <Reward>
                 <Type>Money</Type>
-                <RenownInfluenceMoneyAmount>5000</RenownInfluenceMoneyAmount>
+                <RenownInfluenceMoneyAmount>20000</RenownInfluenceMoneyAmount>
             </Reward>
         </RewardsList>
     </PartyReward>
@@ -232,7 +232,7 @@
         <RewardsList>
             <Reward>
                 <Type>Influence</Type>
-                <RenownInfluenceMoneyAmount>10</RenownInfluenceMoneyAmount>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
             </Reward>
             <Reward>
                 <Type>Renown</Type>
@@ -240,7 +240,7 @@
             </Reward>
             <Reward>
                 <Type>Money</Type>
-                <RenownInfluenceMoneyAmount>7000</RenownInfluenceMoneyAmount>
+                <RenownInfluenceMoneyAmount>10000</RenownInfluenceMoneyAmount>
             </Reward>
             <Reward>
                 <Type>Item</Type>
@@ -282,19 +282,56 @@
         </RewardsList>
     </PartyReward>
     <PartyReward>
-        <PartyId>cs_makko_invasion_force</PartyId>
+        <PartyId>cs_makko_army_party</PartyId>
         <RewardsList>
             <Reward>
                 <Type>Influence</Type>
-                <RenownInfluenceMoneyAmount>10</RenownInfluenceMoneyAmount>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
             </Reward>
             <Reward>
                 <Type>Renown</Type>
-                <RenownInfluenceMoneyAmount>100</RenownInfluenceMoneyAmount>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
             </Reward>
             <Reward>
                 <Type>Money</Type>
                 <RenownInfluenceMoneyAmount>10000</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>cs_quick_crossbow</ItemId>
+                <Chance>0.2</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>desert_scale_armor</ItemId>
+                <Chance>0.2</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>desert_scale_shoulders</ItemId>
+                <Chance>0.2</Chance>
+            </Reward>
+        </RewardsList>
+    </PartyReward>
+    <PartyReward>
+        <PartyId>cs_makko_invasion_force</PartyId>
+        <RewardsList>
+            <Reward>
+                <Type>Influence</Type>
+                <RenownInfluenceMoneyAmount>200</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Renown</Type>
+                <RenownInfluenceMoneyAmount>200</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Money</Type>
+                <RenownInfluenceMoneyAmount>40000</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>cs_quick_crossbow</ItemId>
+                <Chance>0.5</Chance>
             </Reward>
             <Reward>
                 <Type>Item</Type>
@@ -304,25 +341,25 @@
             <Reward>
                 <Type>Item</Type>
                 <ItemId>desert_scale_armor</ItemId>
-                <Chance>0.3</Chance>
+                <Chance>0.5</Chance>
             </Reward>
             <Reward>
                 <Type>Item</Type>
                 <ItemId>desert_scale_shoulders</ItemId>
-                <Chance>0.3</Chance>
+                <Chance>0.5</Chance>
             </Reward>
         </RewardsList>
     </PartyReward>
     <PartyReward>
-        <PartyId>cs_humar_invasion_force</PartyId>
+        <PartyId>cs_humar_army_party</PartyId>
         <RewardsList>
             <Reward>
                 <Type>Influence</Type>
-                <RenownInfluenceMoneyAmount>10</RenownInfluenceMoneyAmount>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
             </Reward>
             <Reward>
                 <Type>Renown</Type>
-                <RenownInfluenceMoneyAmount>100</RenownInfluenceMoneyAmount>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
             </Reward>
             <Reward>
                 <Type>Money</Type>
@@ -331,7 +368,44 @@
             <Reward>
                 <Type>Item</Type>
                 <ItemId>cs_bombs</ItemId>
-                <Chance>0.5</Chance>
+                <Chance>0.2</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>cs_flaming_arrows</ItemId>
+                <Chance>0.2</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>khuzait_noble_helmet_with_neckguard</ItemId>
+                <Chance>0.2</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>longbow_recurve_desert_bow</ItemId>
+                <Chance>0.2</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>khuzait_noble_helmet_with_feathers</ItemId>
+                <Chance>0.2</Chance>
+            </Reward>
+        </RewardsList>
+    </PartyReward>
+    <PartyReward>
+        <PartyId>cs_humar_invasion_force</PartyId>
+        <RewardsList>
+            <Reward>
+                <Type>Influence</Type>
+                <RenownInfluenceMoneyAmount>200</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Renown</Type>
+                <RenownInfluenceMoneyAmount>200</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Money</Type>
+                <RenownInfluenceMoneyAmount>40000</RenownInfluenceMoneyAmount>
             </Reward>
             <Reward>
                 <Type>Item</Type>
@@ -341,6 +415,16 @@
             <Reward>
                 <Type>Item</Type>
                 <ItemId>cs_bombs</ItemId>
+                <Chance>0.5</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>cs_flaming_arrows</ItemId>
+                <Chance>0.5</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>cs_flaming_arrows</ItemId>
                 <Chance>0.5</Chance>
             </Reward>
             <Reward>
@@ -356,6 +440,152 @@
             <Reward>
                 <Type>Item</Type>
                 <ItemId>khuzait_noble_helmet_with_feathers</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>cs_humar_great_glaive</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+        </RewardsList>
+    </PartyReward>
+    <PartyReward>
+        <PartyId>cs_ro_crusade_group</PartyId>
+        <RewardsList>
+            <Reward>
+                <Type>Influence</Type>
+                <RenownInfluenceMoneyAmount>200</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Renown</Type>
+                <RenownInfluenceMoneyAmount>200</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Money</Type>
+                <RenownInfluenceMoneyAmount>40000</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>lordly_mail_mitten</ItemId>
+                <Chance>0.5</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>coat_of_plates_over_mail</ItemId>
+                <Chance>0.5</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>visored_helmet_over_mail_coif</ItemId>
+                <Chance>0.5</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>mail_and_plate_barding</ItemId>
+                <Chance>0.5</Chance>
+            </Reward>
+        </RewardsList>
+    </PartyReward>
+    <PartyReward>
+        <PartyId>cs_northern_giant_recruit_enslavers</PartyId>
+        <RewardsList>
+            <Reward>
+                <Type>Influence</Type>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Renown</Type>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Money</Type>
+                <RenownInfluenceMoneyAmount>10000</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>northern_coat_of_plates</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>plated_strip_gauntlets</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>northern_warlord_helmet</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>northern_ring_barding</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>northern_plated_boots</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>heavy_round_shield</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>cs_nordic_rune_sword</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>sturgia_2haxe_1_t4</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+        </RewardsList>
+    </PartyReward>
+    <PartyReward>
+        <PartyId>cs_southern_giant_recruit_enslavers</PartyId>
+        <RewardsList>
+            <Reward>
+                <Type>Influence</Type>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Renown</Type>
+                <RenownInfluenceMoneyAmount>50</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Money</Type>
+                <RenownInfluenceMoneyAmount>10000</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>battania_polearm_1_t5</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>vlandia_noble_sword_1_t5</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>eastern_vendel_helmet</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>stitched_leather_over_mail</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>eastern_javelin_3_t4</ItemId>
+                <Chance>0.3</Chance>
+            </Reward>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>eastern_javelin_3_t4</ItemId>
                 <Chance>0.3</Chance>
             </Reward>
         </RewardsList>
