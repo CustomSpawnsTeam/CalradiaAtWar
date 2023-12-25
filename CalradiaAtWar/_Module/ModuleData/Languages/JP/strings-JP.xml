@@ -17,7 +17,7 @@
   <string id="A6c277664e" text="蛮族"/>
   <string id="ec0b1E873a" text="不死鳥騎士団"/>
   <string id="Cc8c5EC785" text="マッコ"/>
-  <string id="3307C8DdF8" text="フマル"/>
+  <string id="3307C8DdF8" text="フマー"/>
   <string id="3CdB01F097" text="マッドメン"/>
   <string id="38c7FB4a48" text="バッタニア脱走兵"/>
   <string id="781d9EbE32" text="ヴランディア脱走兵"/>
@@ -38,7 +38,7 @@
   <string id="699e246926" text="『蛮族』について判明していることは、彼らが野蛮であることと、身分の低い存在として言及されるべき存在であること以外はほとんどない。カルラディアのどの国も、千年にわたって彼らを迫害してきたが、彼らは文化と住居を存続させる道を見つけてきた。その不屈さは、部分的には、半遊牧生活を送っていることと、あらゆる迫害から逃れてきた高度な適応力に由来するものだ。現在、他の集落から遠く離れた北の果ての過酷な地で、スタルジアが重税を課しつつ彼らを住まわせている。しかし今やカルラディアの諸国は弱体化し、彼らが蜂起する機会がめぐってきたのではないかとの噂がある。そしてその噂に後押しされるように、蛮族の軍隊と民はカルラディア北部を眈々と見据えるようになった。"/>
   <string id="F99D7A1a2f" text="ヴランディアは安定した騎士団を持つ唯一の王国である。歴史的に見れば、不死鳥騎士団がカルラディアでも最も規律のある集団であることは特殊なことではない。"/>
   <string id="6946770cdb" text="異国の地から、マッコ人が危険とともにカルラディアにやってきた!"/>
-  <string id="1a03940073" text="フマルの諸部族はカルラディアと同様に多くの内紛を抱えている。だが時として強い男や女が力を持ち、諸部族を一つに結束させるに至ることがある。彼らは果てしない諍いと戦争だけを経験し続けていたため、武器の扱いだけに特化し、進歩してきた。そしてついに独自に黒色火薬を実用化するにまで至ったのだ。"/>
+  <string id="1a03940073" text="フマーの諸部族はカルラディアと同様に多くの内紛を抱えている。だが時として強い男や女が力を持ち、諸部族を一つに結束させるに至ることがある。彼らは果てしない諍いと戦争だけを経験し続けていたため、武器の扱いだけに特化し、進歩してきた。そしてついに独自に黒色火薬を実用化するにまで至ったのだ。"/>
   <string id="263FE07c67" text="マッドメンは長年に渡って苦しみ、そして他者を苦しめてきた存在である。カルラディアのマッドメンにとっては苦しむのが自他どちらも同じなのである。彼らのような社会的落伍者は何をするか全く予想できず、兵として訓練すればカルラディアに災いをもたらす最高の軍団に仕立て上げられるだろう。訓練の結果、マッドメンは恐怖を感じなくなり、中には痛みすら感じくなった者も現れたという。"/>
   <string id="Fb91e018F6" text="この連合は各勢力の脱走兵が迫害を恐れて集結した集団である。想像の通り、恐怖はかつて敵だった者どうしを団結させ、過去の恐ろしい記憶を消し去ることができる。"/>
   <string id="5C25c2eF7F" text="史書を調べても、ヴリナについて分かることはほとんどない。彼は砂漠教団の指導者である。寡黙であり、選ばれた側近たちの中でのみ言葉を発することが知られている。だが、ここから我々が確信できることは、彼が賢い人物だということだ。"/>
@@ -64,7 +64,7 @@
   <string id="89FEb777a9" text="ブブラの母アマである。アマは、戦略的に外交を駆使して戦争でどの陣営につくかを決めれば、安住の地が見つけられると考えている。"/>
   <string id="ba11e9af3b" text="ベルトルドは不死鳥騎士団の指導者である。"/>
   <string id="EdA98D6934" text="モムンブスは、とうとうカルラディアに到達した大規模な探検隊の指導者である。"/>
-  <string id="3A56D8ed34" text="センは極東フマル族の現在の支配者である。"/>
+  <string id="3A56D8ed34" text="センは極東フマー族の現在の支配者である。"/>
   <string id="f7697F8a3f" text="マルクスは組織化した脱走兵たちの指導者だ。"/>
   <string id="FBEde4047b" text="ヴリナ"/>
   <string id="c662f3e7b9" text="クルマ"/>
@@ -131,27 +131,27 @@
   <string id="C3E5b45405" text="熊手"/>
   <string id="4F3aFf18d3" text="農民の熊手"/>
   <string id="57F889e842" text="木のシャベル"/>
-  <string id="05EfC17318" text="フマルの短い剣"/>
-  <string id="e1066f1Fa4" text="フマルの斬撃剣"/>
-  <string id="605f4998a4" text="フマルの装飾ナイフ"/>
-  <string id="D9BD0D7163" text="フマルの丘剣"/>
-  <string id="C880b62b88" text="フマルの鋼剣"/>
-  <string id="bF4b7AbC00" text="フマルのファルシオン"/>
+  <string id="05EfC17318" text="フマーの短い剣"/>
+  <string id="e1066f1Fa4" text="フマーの斬撃剣"/>
+  <string id="605f4998a4" text="フマーの装飾ナイフ"/>
+  <string id="D9BD0D7163" text="フマーの丘剣"/>
+  <string id="C880b62b88" text="フマーの鋼剣"/>
+  <string id="bF4b7AbC00" text="フマーのファルシオン"/>
   <string id="8B77af200f" text="極東の装飾された長柄刀"/>
-  <string id="9E7066f99d" text="フマルの薙刀"/>
-  <string id="9520d8a799" text="フマル人の大薙刀"/>
+  <string id="9E7066f99d" text="フマーの薙刀"/>
+  <string id="9520d8a799" text="フマー人の大薙刀"/>
   <string id="6Ee18125b0" text="森林のパイク"/>
   <string id="E682a18337" text="捕鯨の銛"/>
   <string id="1aCa79b4A1" text="短い竹槍"/>
   <string id="E7E60aE4ba" text="極東の短槍"/>
   <string id="B0c9c73802" text="極東の戦槍"/>
-  <string id="D9E0070d06" text="フマルの馬上槍"/>
+  <string id="D9E0070d06" text="フマーの馬上槍"/>
   <string id="25eECEa2BE" text="竹のジャベリン"/>
   <string id="d579780d0c" text="竹槍"/>
   <string id="7ec0765e8b" text="簡素な短槍"/>
   <string id="0F5Db2988b" text="竹の長槍"/>
-  <string id="DBcf02B312" text="フマルの装飾のある長槍"/>
-  <string id="8E5794EDD5" text="フマルの長槍"/>
+  <string id="DBcf02B312" text="フマーの装飾のある長槍"/>
+  <string id="8E5794EDD5" text="フマーの長槍"/>
   <string id="BBd6963703" text="頭蓋砕き"/>
   <string id="6B2563c597" text="諸葛弩"/>
   <string id="53e2374899" text="ボルトの袋"/>
@@ -381,25 +381,25 @@
   <string id="344C11b65f" text="極東の旗手"/>
   <string id="C6c28326e1" text="極東の歩兵校尉"/>
   <string id="39c95cCf12" text="極東の騎馬旗手"/>
-  <string id="44F89c75d8" text="フマルの野武士"/>
-  <string id="08ecaBa579" text="フマルの長槍兵"/>
-  <string id="6d8d926E3A" text="フマルの郎党長槍兵"/>
-  <string id="bB51b4481d" text="フマルの長槍武士"/>
-  <string id="bF56b0243a" text="フマルの長槍勇士"/>
-  <string id="4BB7413808" text="フマルの軽騎兵"/>
-  <string id="aD7F21417a" text="フマルの馬廻り"/>
-  <string id="e022809881" text="フマルの旗本"/>
-  <string id="3EdA6C6b15" text="フマルの槍騎兵"/>
-  <string id="6Ca4c37cf4" text="フマルの重装槍騎兵"/>
-  <string id="419055711c" text="フマルの弓取り"/>
-  <string id="5499635383" text="フマルの長弓射手"/>
-  <string id="2caB701903" text="フマルの歴戦長弓射手"/>
-  <string id="E8E10b6b9d" text="フマルの具足射手"/>
-  <string id="e771eebf99" text="フマルの乱破"/>
-  <string id="b52c80E4da" text="フマルの歴戦乱破"/>
-  <string id="72eeA30b1A" text="フマルの上乱破"/>
-  <string id="d71Ce367be" text="フマルの侍剣士"/>
-  <string id="eD4f5DAA85" text="フマルの剣豪"/>
+  <string id="44F89c75d8" text="フマーの野武士"/>
+  <string id="08ecaBa579" text="フマーの長槍兵"/>
+  <string id="6d8d926E3A" text="フマーの郎党長槍兵"/>
+  <string id="bB51b4481d" text="フマーの長槍武士"/>
+  <string id="bF56b0243a" text="フマーの長槍勇士"/>
+  <string id="4BB7413808" text="フマーの軽騎兵"/>
+  <string id="aD7F21417a" text="フマーの馬廻り"/>
+  <string id="e022809881" text="フマーの旗本"/>
+  <string id="3EdA6C6b15" text="フマーの槍騎兵"/>
+  <string id="6Ca4c37cf4" text="フマーの重装槍騎兵"/>
+  <string id="419055711c" text="フマーの弓取り"/>
+  <string id="5499635383" text="フマーの長弓射手"/>
+  <string id="2caB701903" text="フマーの歴戦長弓射手"/>
+  <string id="E8E10b6b9d" text="フマーの具足射手"/>
+  <string id="e771eebf99" text="フマーの乱破"/>
+  <string id="b52c80E4da" text="フマーの歴戦乱破"/>
+  <string id="72eeA30b1A" text="フマーの上乱破"/>
+  <string id="d71Ce367be" text="フマーの侍剣士"/>
+  <string id="eD4f5DAA85" text="フマーの剣豪"/>
   <string id="CEdDe41805" text="ローニン"/>
  </strings>
 </base>
