@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base>
+    <tags>
+        <tag language="English" />
+    </tags>
+    <strings>
+        <string id="mVsS00uC" text="Throwing Hammer" />
+        <string id="eC69191427" text="Desert Cult" />
+        <string id="627dD5e7e1" text="Redemptive Order" />
+        <string id="4C2d83083D" text="Harbingers of Wrath" />
+        <string id="0b59184854" text="Manhunters" />
+        <string id="3B91f16e28" text="Southern Enslavers" />
+        <string id="9c3D0C143f" text="Northern Liberators" />
+        <string id="f249d04e32" text="Revolutionaries" />
+        <string id="14807c5a26" text="Outcasts" />
+        <string id="eD5109ae31" text="Roaming Brigands" />
+        <string id="A6c277664e" text="Barbarians" />
+        <string id="ec0b1E873a" text="Order of the Phoenix" />
+        <string id="Cc8c5EC785" text="Makko" />
+        <string id="3307C8DdF8" text="Humar" />
+        <string id="3CdB01F097" text="Madmen" />
+        <string id="38c7FB4a48" text="Battanian Deserters" />
+        <string id="781d9EbE32" text="Vlandian Deserters" />
+        <string id="E6E4a19125" text="Sturgian Deserters" />
+        <string id="66577F598b" text="Imperial Deserters" />
+        <string id="0973fFDE36" text="Khuzait Deserters" />
+        <string id="50B40Cc5c0" text="Aserai Deserters" />
+        <string id="905EeF17f3" text="United Deserters" />
+        <string id="8B467aC6db" text="The Desert Cult, unique in Calradia, is a devout group of people formed around the idea that Calradia is doomed, and only worship of the Barren may bring survival in the harsh conditions about to arrive. They accept recruits from all over Calradia, either forcefully or through persuasion. In addition, they capture wanderers, often in the desert, and convert them to their cause through perhaps the most psychologically advanced methods of the age. They are led by Vlyna, a highly controversial man. Some call him a cheat, others a prophet; most history books refer to him as an epileptic, and some even a schizophrenic. Regardless, it is certain that he is a tactical genius, as the HQ of the Desert Cult has never been found. Of course, the desert cult uses his mystery and facts such as the HQ never being found as a talking point about God's favour shining upon them, thus bringing in even more recruits. Their forces can be seen sacking villages to gather loot for their cause, as well as burning down the places of worship of the infidels." />
+        <string id="1de25a17Db" text="The Redemptive Order is a religious organization inspired by a simple and yet elegant line of reasoning: 'If Calradia is in turmoil, and whatever the lords and the masses do make it worse, then we must be suffering under God's punishment and not a man-made conflict.' Though this was initially the exhortations of a few priests, knights all over Calradia started to take a liking to this idea. These knights then formed the Redemptive Order, which sought to punish all who 'obstructed God's grace shining upon' Calradia. The order captures those who it deems to be the disruptors of peace, and either retrains or executes them. Their methods and the intricacies of their organization are mostly unknown. The membership of the order seems to increase directly after kingdoms suffering heavy losses or economic hardship. Some say that this spike is due to the knights seeing with their own eyes the travesties of war; others say that this is due to the lords running out of money to pay the knights." />
+        <string id="01AFd5b8C9" text="The Harbingers of Wrath share similar roots to The Redemptive Order, but they seem to have reached opposite conclusions. They believe that God's days are limited, as evidenced by Him trying to destroy His creation before He is weakened enough for His creation to kill Him first. They claim to represent the wrathful age about to consume God, but for this age to come, they must first kill all who would rather take God's side." />
+        <string id="2621caD13E" text="The Manhunters represent the efforts of the bourgeoisie and the aristocracy to put a hold on Calradia completely slipping from their hands. Each year, a fund is collected from every kingdom and every city in proportion to its wealth to fund the manhunters. It seems that the leading classes are aware that no matter how much infighting they may do, if anarchy takes hold, it will know no borders. " />
+        <string id="A5864a44f3" text="The Southern Enslavers are an organized effort to capture the citizens of Vlandia, Battania, Sturgia, and the Northern Empire and sell them to the Enslavers' merchant protectors among the Aserai, the Western Empire, the Khuzait and the Southern Empire. They operate in fast skirmishes, though they also form some slave stacks when greed compels them to do so. Their elite soldiers are extremely cost-effective, as they are fast, deadly, and cautious." />
+        <string id="DaAd8ECb59" text="The Northern Liberators are a response to the Southern Enslavers, though their activities parallel theirs. The practical difference between the two is that the Southern Enslavers are indiscriminate, whereas the Northern Liberators capture high-profile targets among the Southern supporters of the Enslavers. They then use these high-profile targets to either bargain or make some money themselves." />
+        <string id="fa1F17BCDc" text="A unique group among the peasant revolts - the Revolutionaries as they call themselves - want to reduce the powers of the aristocracy 'to ensure that they represent the interests of the people.' The exact method as to how this would be done is ambiguous among them, but they continuously discuss ideas ranging from a stronger senate to a parliamentary system. Historians have noted them to be an anomaly in Calradia, and most among these historians are certain that a person or group of people has spread these ideas among the revolters. Their exact intentions are, of course, unknown. These ideas pose a major predicament to the aristocracy." />
+        <string id="D693658D72" text="The Outcasts are an extremely dangerous group of exiled tribespeople. This 'free folk' disregard any reign and view the lords as traitors to Nature, citing that the former is trying to take advantage of human turmoils and the latter as having allowed these 'destructive' laws to happen in the first place. To ensure freedom and a better world, they fight for a free choice of living. The group is especially popular among people who were exiled and lost their homes." />
+        <string id="d55D4739Af" text="The Roaming Brigands are composed of devious people who have taken arms against their lords either due to high taxation, recruitment, or insufficient protection. These scourges wander steppes, deserts and tundras and take to the ideas of absolulte anarchy and not rarily to destruction, as well." />
+        <string id="699e246926" text="Little is known about the Barbarians, except for the fact that they are barbarians and must be referred to suiting their lowly position. Every kingdom throughout Calradia has persecuted them for millennia, but their culture and settlements have always found a way to survive. Their tenacity is partially thanks to their semi-nomadic lifestyle and high adaptability, resulting in them outliving almost every one of their oppressors. Currently, Sturgia has them living under heavy taxation, tolerating them on the condition that they stay on the far northern lands, away from everyone else. However, rumour has it now that the Calradian kingdoms are weakened, they might stand a chance, and in support of the rumours, barbarian troops and peoples have started to be sighted through especially Northern Calradia." />
+        <string id="F99D7A1a2f" text="The Vlandians are the last kingdom left with a stable knight order. This is no surprise, as historically, The Order of the Phoenix was the most disciplined in Calradia." />
+        <string id="6946770cdb" text="Makkonian expeditioners have arrived in Calradia, bringing danger from foreign lands!" />
+        <string id="1a03940073" text="The Humar clans struggle with a lot of infighting just like Calradia. Though, sometimes there are strong men or women who rise to power and unite the clans under one banner. With their people having experienced nothing but constant rivalry and war, they have found ways to optimize and modernize their weaponry, let alone the use of black-powder!" />
+        <string id="263FE07c67" text="Madmen have been suffering and making others suffer throughout the ages, and the madmen of Calradia are no different. Though these social outcasts are highly unpredictable, training them can yield some of the best troops Calradia has to suffer. After all, with some practice, certain madmen feel no fear, and some say, even pain." />
+        <string id="Fb91e018F6" text="Deserters from all factions united in fear of persecution. As you might imagine, fear can unite those who used to be enemies and make a man forget his most traumatic memories." />
+        <string id="5C25c2eF7F" text="Little is known about Vlyna, even in the history books. He is the leader of the Desert Cult, and is known to be quite reticent, only speaking to a select circle around him. One thing that we can be sure of, however, is his intelligience." />
+        <string id="D3820a12b6" text="The right hand of Vlyna." />
+        <string id="C0BC16707e" text="The chief of recruitment of the Desert Cult." />
+        <string id="E3FCeB2828" text="A devout believer in God, Ryagos has dedicated his entire life to purging every corner of Calradia." />
+        <string id="D7Ab2D5BC5" text="The wife of Ryagos, dedicated to the same cause as him. She can be a little more rash or merciless, though her values are often aligned with those of her husband." />
+        <string id="ABcc82E937" text="Lamos is a skilled preacher, and at the same time, a skilled commander. He rallies the people around him, serving Ryagos' orders and giving sermons in every village he passes." />
+        <string id="9C4faD64E8" text="Lucus is the leader of The Harbingers of Wrath. He was infamous as a tournament champion throughout Calradia before he was caught doping and kicked out of the Order of the Phoenix. He then joined the Redemptive Order, until one day he led a failed coup in the order and him and his compatriots were kicked out." />
+        <string id="5d4eB66df4" text="The mistress of Lucus." />
+        <string id="0746B63Ba7" text="The chief organizer of the manhunters, deciding how funding is spent." />
+        <string id="7a86a666bB" text="The chief organizer of the southern enslavers, arranging campaigns and deciding on strategy. Enslavement of people has been a family tradition in Razes' dynasty for a long time now. With the Southern Enslavers as his fathers greatest accomplishment, he seeks to expand his realm of crimes and slaves ever more. He'd walk over any corpse to achieve his ultimate dream. A kingdom built on slaves." />
+        <string id="f6087A0185" text="The financial pillar of the southern enslavers, funding campaigns and deciding on prisoners. Asmona, also famously called the scourge of the coast, is the patron of the Slavecoast. She once was a former noble lady of the imperial court and thus knows valuable contacts. However, she was never well known for her patience nor the ambition to stay and being married to some boring old general, so she joined crime and landed in the Slavecoast where she gained renown fast." />
+        <string id="A89273c8be" text="The enforcer of the southern enslavers, leading campaigns and deciding on tactics. He's an eager war chief of a land beyond the southern dunes. Even though the migration of his Obaktu tribe started by seeking wealth and slaves in Calrdadia, his ambition grew onto funding a holding in this new foreign land called Calradia, in which his tribe may live one day." />
+        <string id="c14b1Ac0Bd" text="The chief organizer of the northern liberators, arranging campaigns and deciding on strategy. He once was a prisoner of the Southern Enslavers himself, but he managed to escape. Now with the help of the Bjornings, his fellow northern captives who he freed, he fights for northern supremacy." />
+        <string id="B7c5a13298" text="The financial pillar of the northern liberators, funding campaigns and deciding on prisoners. Titled as one of the most hideous, pompous and fattest vlandian merchants, he's also one among the most wealthiest men in western Calradia. Even though he's an absolutely incompetent fighter, his tongue is at least as sharp as a sword and his mercenary company, the Sellswords, does all the dirty work for him." />
+        <string id="532b434134" text="The enforcer of the northern liberators, leading campaigns and deciding on tactics. Nobody knows his real name nor his ambitions. He never speaks much, too. He's a mystery among his foes and his Bloodsworn brothers alike. Though the rage that aflames in his remaining eye tells a story of a man with a clear vision and a goal ahead." />
+        <string id="8cA6ae48c7" text="Karlinn is the leader of the Revolutionaries. Once a simple farmhand, now an enraged man with determination in his eyes. His fiery temper and hate for the upper classes made him the vanguard of the peasant uprising movements." />
+        <string id="e30e7876ac" text="Hiltminn is the leader of the Outcasts. He's a tower among men. Before he got thrown out of his home for his dishonorable clan, he fought as a bodyguard for an unthankful noble. Since his banishment, the Outcasts have been like a family for him. He became a lighthouse and protector for all the poor souls who lost their homes and families just like him." />
+        <string id="2085C4961D" text="Chungis is the leader of the Roaming Brigands. He's one of the most devious and cunning steppe warlords. Scoundrels of all sorts admire him and follow his horde gladly." />
+        <string id="FFc54dDb95" text="Bubla is the de-facto leader of the barbarians, and each smaller semi-nomadic family unit eventually answers to him." />
+        <string id="E487a6C0A9" text="Bubla's brother Rogo. He is much more aggressive, and believes that an assault on Sturgia could actually yield results." />
+        <string id="89FEb777a9" text="Bubla's mother Ama. Ama believes that through diplomacy and taking sides in the war in a strategic manner, stable land for the people could be found." />
+        <string id="ba11e9af3b" text="Bertholdt is the leader of the Order of the Phoenix." />
+        <string id="EdA98D6934" text="Momumbus is the captain of the giant expedition that eventually reaches Calradia." />
+        <string id="3A56D8ed34" text="Ceng is the current ruler of the far-eastern Humar tribes." />
+        <string id="f7697F8a3f" text="Marcus is the leader of the united deserters." />
+        <string id="FBEde4047b" text="Vlyna" />
+        <string id="c662f3e7b9" text="Kruma" />
+        <string id="414537252a" text="Ragnaros" />
+        <string id="4913eeC53E" text="Ayse" />
+        <string id="EEc943fd5b" text="Ryagos" />
+        <string id="eE5E02364b" text="Ashlay" />
+        <string id="A3d9159295" text="Lamos" />
+        <string id="7DF450e154" text="Mathilde" />
+        <string id="F1c48c62d7" text="Lucus" />
+        <string id="A9Acc465e1" text="Cathreyn" />
+        <string id="A4A3d06246" text="Vrumann" />
+        <string id="7BB56Fb864" text="Vetos" />
+        <string id="0112cca571" text="Razes" />
+        <string id="8D7A290850" text="Asmona" />
+        <string id="575698B8fD" text="Urug" />
+        <string id="0ac81f6e34" text="Bjorn" />
+        <string id="6b57fC6C20" text="Forvik" />
+        <string id="17a0e95A10" text="'One-Eye'" />
+        <string id="7Dac78528d" text="Karlinn" />
+        <string id="7019DdeE88" text="Johanna" />
+        <string id="cF70f68f2c" text="Hiltminn" />
+        <string id="f84e5CFDd1" text="Kaja" />
+        <string id="558e61558e" text="Chungis" />
+        <string id="26309cc60b" text="Zor" />
+        <string id="400e05C3e8" text="Bubla" />
+        <string id="c5384895ad" text="Rogo" />
+        <string id="58cd48c1ab" text="Ama" />
+        <string id="1455d6c65e" text="Snokr" />
+        <string id="0552079101" text="Gwyn" />
+        <string id="93466aE97c" text="Alba" />
+        <string id="d80b69fF4d" text="Bertholdt" />
+        <string id="845Ca90dfa" text="Thoras" />
+        <string id="EAc3df8EB9" text="Momumbus" />
+        <string id="51a7897985" text="Ceng" />
+        <string id="af173aBCEf" text="Madmen Hero" />
+        <string id="ac022f7134" text="Battanian Deserters Hero" />
+        <string id="04B57EF621" text="Vlandian Deserters Hero" />
+        <string id="F3FA11d6ad" text="Sturgian Deserters Hero" />
+        <string id="71D65D6480" text="Imperial Deserters Hero" />
+        <string id="C9c2cbb5ea" text="Khuzait Deserters Hero" />
+        <string id="14772889a7" text="Aserai Deserters Hero" />
+        <string id="3E70f4e457" text="Marcus" />
+        <string id="f11309088c" text="Maul" />
+        <string id="4836248389" text="Far-Eastern Honorguard Sabre" />
+        <string id="d110cac244" text="Decorated Highland Sword" />
+        <string id="4Aed5Ac554" text="Northern Rune Sword" />
+        <string id="B9B6387541" text="War Sword" />
+        <string id="7f4966aE27" text="Mercenary Claymore" />
+        <string id="3deF1EA565" text="Great Sword" />
+        <string id="6cc87e43ff" text="Wrathblade" />
+        <string id="330A9D2554" text="Mining Pick" />
+        <string id="3CbFDE0c80" text="Short Waraxe" />
+        <string id="C79E9A48f5" text="Halberd" />
+        <string id="604dCBbC3D" text="Throwing Hammer" />
+        <string id="64a12f5869" text="Throwing Club" />
+        <string id="396D086998" text="Woodland Large Club" />
+        <string id="64B943c3b7" text="Wooden Morningstar" />
+        <string id="43a02ca825" text="Heavy Nailclub" />
+        <string id="4F3eEF0422" text="Spiked Longmace" />
+        <string id="1c6b27bac8" text="Quarterstaff" />
+        <string id="aE55f5A9Ec" text="Iron Staff" />
+        <string id="741aD7FbaF" text="Redemptive Flail" />
+        <string id="C3E5b45405" text="Farming Rake" />
+        <string id="4F3aFf18d3" text="Peasant Rake" />
+        <string id="57F889e842" text="Wooden Shovel" />
+        <string id="05EfC17318" text="Humarian Shortsword" />
+        <string id="e1066f1Fa4" text="Humarian Slashing Sword" />
+        <string id="605f4998a4" text="Humarian Ornamental Knife" />
+        <string id="D9BD0D7163" text="Humarian Hillsword" />
+        <string id="C880b62b88" text="Humarian Steel Sword" />
+        <string id="bF4b7AbC00" text="Humarian Falchion" />
+        <string id="8B77af200f" text="Far-Eastern Decorated Glaive" />
+        <string id="9E7066f99d" text="Humarian Glaive" />
+        <string id="9520d8a799" text="Humarian War-Glaive" />
+        <string id="6Ee18125b0" text="Woodland Pike" />
+        <string id="E682a18337" text="Whalehunt Harpoon" />
+        <string id="1aCa79b4A1" text="Bamboo Shortspear" />
+        <string id="E7E60aE4ba" text="Far-Eastern Shortspear" />
+        <string id="B0c9c73802" text="Far-Eastern Combat Spear" />
+        <string id="D9E0070d06" text="Humarian Lance" />
+        <string id="25eECEa2BE" text="Bamboo Javelin" />
+        <string id="d579780d0c" text="Bamboo Spear" />
+        <string id="7ec0765e8b" text="Simple Short Spear" />
+        <string id="0F5Db2988b" text="Bamboo Pike" />
+        <string id="DBcf02B312" text="Humarian Decorated Pike" />
+        <string id="8E5794EDD5" text="Humarian Pike" />
+        <string id="BBd6963703" text="Headcracker" />
+        <string id="6B2563c597" text="Repeating Crossbow" />
+        <string id="53e2374899" text="Sack of Bolts" />
+        <string id="8f20650acf" text="Flaming Arrows" />
+        <string id="26f01eb351" text="Explosive Arrows" />
+        <string id="825D56C13b" text="Blackpowder Grenades" />
+        <string id="6165bD19b3" text="Bombs" />
+        <string id="3C71a751C6" text="Grand Banner" />
+        <string id="2B18a84a6c" text="Slinger Stone" />
+        <string id="C7943c974c" text="Maul Head" />
+        <string id="774590b442" text="Blacksmith Hammer Head" />
+        <string id="98A5be04Ba" text="Mining Pick Head" />
+        <string id="2E158c214f" text="Bamboo Shaft" />
+        <string id="c642927Bb2" text="Nail Head" />
+        <string id="3AfE3Eeb03" text="Spiked Head" />
+        <string id="06e8124A61" text="Oaken Great Mace Shaft" />
+        <string id="9a18cA12bb" text="Long Spiked Club" />
+        <string id="0A4ecC82bb" text="Leather Wrapped Two Handed Ash Shaft" />
+        <string id="6758C8693C" text="Blunt Club Head" />
+        <string id="98Ac06E2b5" text="Studded Ash Morningstar Shaft" />
+        <string id="ABEd750138" text="Morningstar Head" />
+        <string id="01e132f8f2" text="Short Club Handle" />
+        <string id="7BBc8Cb79E" text="Shabby Club Materials" />
+        <string id="6a86bBA574" text="Empty" />
+        <string id="622d1119b1" text="Broad Axe Head" />
+        <string id="dD4c092222" text="Oaken Shaft With Pointy End" />
+        <string id="31dAfC03DF" text="Wrapped Oaken Long Shaft" />
+        <string id="9a2330563b" text="Wrapped Harpoon Long Shaft" />
+        <string id="2E162Be818" text="Crazed Man" />
+        <string id="579c789316" text="Decent Crazed Man" />
+        <string id="4f838bEDa0" text="Competent Crazed Man" />
+        <string id="dc2533F6D0" text="Trained Crazed Man" />
+        <string id="23cE46f69B" text="Drilled Crazed Man" />
+        <string id="6AacBC9949" text="Madman" />
+        <string id="DBF364891e" text="Competent Madman" />
+        <string id="CAF2a3f6d8" text="Trained Madman" />
+        <string id="BbB1212967" text="Drilled Madman" />
+        <string id="42598c0784" text="Fearless Man" />
+        <string id="4FafE2FE2E" text="Indomitable Man" />
+        <string id="d832594Ccb" text="Mountain Raider" />
+        <string id="4d8b08B0c6" text="Bandit Trainee" />
+        <string id="aC706f3643" text="Forest Waylay" />
+        <string id="282591A230" text="Desert Wanderer" />
+        <string id="87F75eB9D5" text="Desert Recruit" />
+        <string id="4495dC0Fa7" text="Desert Warrior" />
+        <string id="935B4C45Cc" text="Desert Ranger" />
+        <string id="93F2cd2219" text="Desert Marksman" />
+        <string id="cd3400169a" text="Desert Immortal" />
+        <string id="578a9c72b2" text="Desert Cultsman" />
+        <string id="6576a94dd0" text="Desert High Cultsman" />
+        <string id="27bA79927F" text="Razes' Raider" />
+        <string id="ed29cD2a79" text="Razes' Enslaver" />
+        <string id="3132bDdb03" text="Razes' Chosen" />
+        <string id="f134bb66db" text="Razes' Raid-Boss" />
+        <string id="7c860A7d8d" text="Obaktu Youth" />
+        <string id="0b201991D5" text="Obaktu Clubman" />
+        <string id="7f159489d4" text="Obaktu Bonebreaker" />
+        <string id="EcA221eA78" text="Obaktu Chief" />
+        <string id="B592a3d0ce" text="Slavecoast Heloti" />
+        <string id="85dE1A7Fdd" text="Slavecoast Guardsman" />
+        <string id="d444fa155f" text="Slavecoast Elite Guardsman" />
+        <string id="7571eccCe4" text="Slavecoast Captain" />
+        <string id="3f6A42896E" text="Slavecoast Slinger" />
+        <string id="a65B0D8A12" text="Slavecoast Elite Slinger" />
+        <string id="017d02c9c6" text="Bloodsworn Roughneck" />
+        <string id="c22c1A8e93" text="Bloodsworn Warrior" />
+        <string id="c67299bD3b" text="Bloodsworn Chosen Warrior" />
+        <string id="c50c5744fe" text="Bloodsworn Chieftain" />
+        <string id="Db90596ac5" text="Sellsword Trainee" />
+        <string id="0b2Be50699" text="Sellsword" />
+        <string id="86A3cfc491" text="Sellsword Elite" />
+        <string id="f7304d8dae" text="Sellsword-Captain" />
+        <string id="617a8cFd60" text="Bjorning Marauder" />
+        <string id="bf20aa1ecc" text="Bjorning Headhunter" />
+        <string id="cd204e41be" text="Bjorning Skulldrinker" />
+        <string id="0d1ad7D8D0" text="Bjorning Skullboss" />
+        <string id="da2f69419f" text="Angry Peasant" />
+        <string id="30f336C130" text="Angry Citizen" />
+        <string id="2E3Bb8CfF9" text="Angry Smith" />
+        <string id="48c4863e17" text="Angry Tanner" />
+        <string id="12DE8a3Cc3" text="Angry Blacksmith" />
+        <string id="3c8F8CC45b" text="Angry Merchant" />
+        <string id="C2B4f7A7c6" text="Angry Butcher" />
+        <string id="5Ded9C5828" text="Angry Cook" />
+        <string id="6AFd23c5d3" text="Angry Tavern Keeper" />
+        <string id="483f84B5f0" text="Angry Carawanist" />
+        <string id="8c2351b0B9" text="Angry Guildmaster" />
+        <string id="21d202dbfc" text="Rebel Militia" />
+        <string id="5bD722FA09" text="Rebel Armored Militia" />
+        <string id="fb00be282a" text="Rebel Footman" />
+        <string id="EEd4c60f82" text="Rebel Man-at-arms" />
+        <string id="FBd717397d" text="Rebel Pikeman" />
+        <string id="0f8264AEa8" text="Rebel Halberdier" />
+        <string id="93297Abd7b" text="Exiled Oathbreaker" />
+        <string id="FEFAaE0B7a" text="Exiled Villager" />
+        <string id="5C30900ea7" text="Exiled Belligerent Drunk" />
+        <string id="8AdE6AB436" text="Exiled Shepherd" />
+        <string id="B5BD4C51F5" text="Exiled Elder" />
+        <string id="5a8aC46b76" text="Exiled Witch" />
+        <string id="A2c5b8A639" text="Exiled Gem Artisan" />
+        <string id="98B63eC60f" text="Exiled Miner" />
+        <string id="2d23aF6821" text="Exiled Bejewelled Noble" />
+        <string id="04189e158C" text="Exiled Lumberjack" />
+        <string id="3625467ebC" text="Exiled Whalehunter" />
+        <string id="C3A70b4463" text="Exiled Savage" />
+        <string id="82A37f45C1" text="Outcast Scavenger" />
+        <string id="23d9da36F8" text="Outcast Strider" />
+        <string id="E8d431E513" text="Outcast Stalker" />
+        <string id="d54bb4f3Fd" text="Outcast Avenger" />
+        <string id="fd1BaDa082" text="Roaming Thief" />
+        <string id="b7361c9B57" text="Roaming Vagabond" />
+        <string id="7cc32e7542" text="Roaming Bazaar Charlatan" />
+        <string id="9103b115Af" text="Roaming Gladiator" />
+        <string id="81E2e7aE57" text="Roaming Dervish" />
+        <string id="dC648c0e5d" text="Roaming Assassin" />
+        <string id="18a5939E82" text="Roaming Scholar" />
+        <string id="b32380d67c" text="Roaming Engineer" />
+        <string id="697c137c53" text="Brigand Raider" />
+        <string id="549b6566f3" text="Brigand Pillager" />
+        <string id="B5d59a7562" text="Brigand Sacker" />
+        <string id="51412d9B4f" text="Brigand Chosen" />
+        <string id="c56f0BEA33" text="Brigand Destroyer" />
+        <string id="3D763E6d1d" text="Barbarian Youth" />
+        <string id="7DF5b234bA" text="Barbarian Warrior" />
+        <string id="301392120b" text="Barbarian Scout" />
+        <string id="c708dEb5dc" text="Barbarian Fierce Warrior" />
+        <string id="71Bb76E62c" text="Barbarian Slayer" />
+        <string id="1fd0da5C80" text="Barbarian Chosen Slayer" />
+        <string id="6cc91c0C40" text="Barbarian Legendary Slayer" />
+        <string id="7FefF317d0" text="Barbarian Fighter" />
+        <string id="f561932c20" text="Barbarian Boar Warrior" />
+        <string id="9885950b6e" text="Barbarian Axethrower" />
+        <string id="43a8950c74" text="Barbarian Veteran Fighter" />
+        <string id="56a4169429" text="Barbarian Raider" />
+        <string id="20bE18565e" text="Barbarian Charger" />
+        <string id="FEF3291BCb" text="Barbarian Noble" />
+        <string id="da0ea847c3" text="Barbarian Nighthunter" />
+        <string id="8C760b9810" text="Barbarian Horrific Nighthunter" />
+        <string id="84d03fa8f0" text="Barbarian Heavy Axethrower" />
+        <string id="4f1558f8a5" text="Barbarian Hero" />
+        <string id="D8c2146130" text="Barbarian Marauder" />
+        <string id="CaBFa5F8Da" text="Barbarian Wolfrunner" />
+        <string id="E2FEdF391e" text="Barbarian Pikeman" />
+        <string id="93c2613D63" text="Barbarian Longspears" />
+        <string id="15067598F4" text="Battanian Slave" />
+        <string id="d251b3de5e" text="Imperial Slave" />
+        <string id="2feA1E7580" text="Sturgian Slave" />
+        <string id="16110038b6" text="Vlandian Slave" />
+        <string id="D3E3dff327" text="Khuzait Slave" />
+        <string id="3C9Bc764BB" text="Aserai Slave" />
+        <string id="739a2e2ed1" text="Barbarian Slave" />
+        <string id="F9Ea54c653" text="Village Youth" />
+        <string id="EDEb0E4416" text="Village Scout" />
+        <string id="6945a07B18" text="Lookout" />
+        <string id="322963Ce57" text="Village Ranger" />
+        <string id="230FFAF12C" text="Village Sherrif" />
+        <string id="d36ea27726" text="Trained Youth" />
+        <string id="E3dD9BCa85" text="Burgher" />
+        <string id="CFF10fbaB5" text="Town Guard" />
+        <string id="C8Ac548daf" text="Town Marksman" />
+        <string id="b07550626d" text="Righteous Citizen" />
+        <string id="35fC790203" text="Manhunter" />
+        <string id="09253a9E6c" text="Veteran Manhunter" />
+        <string id="Ae8ac1399e" text="Sherrif" />
+        <string id="08d994ed36" text="Redemptive Conscript" />
+        <string id="f5235dbED5" text="Redemptive Footman" />
+        <string id="6087fD8E78" text="Redemptive Crusader" />
+        <string id="Ee9D6D63A1" text="Redemptive Heavy Crusader" />
+        <string id="b060a1dfa9" text="Redemptive Grand-Crusader" />
+        <string id="a92074555b" text="Redemptive Guard" />
+        <string id="E9BB4A1CF5" text="Redemptive Phalanx" />
+        <string id="2372eFc814" text="Redemptive Moloch" />
+        <string id="A5EfeD0972" text="Redemptive Levy Bowman" />
+        <string id="2fe1ec9a9A" text="Redemptive Longbowman" />
+        <string id="2138224a71" text="Redemptive Veteran Longbowman" />
+        <string id="995434Da07" text="Redemptive Cloudpiercer" />
+        <string id="766779734f" text="Pilgrim" />
+        <string id="566fA81B84" text="Redemptive Priest" />
+        <string id="c44aeE4281" text="Redemptive Inquisitor" />
+        <string id="215E1Fc8f8" text="Western Standard-Bearer" />
+        <string id="bE5546C2D1" text="Redemptive Knight" />
+        <string id="F492c69F78" text="Redemptive Grand Knight" />
+        <string id="94F3657055" text="Cultist" />
+        <string id="79107d8a9a" text="Zealot of Wrath" />
+        <string id="238A88ffAc" text="Ascendant of Wrath" />
+        <string id="99E6650E2b" text="Wrath Fanatic" />
+        <string id="57Bc284b05" text="Wrath Flagellant" />
+        <string id="d603e9fFEa" text="Wrath Bloodbrother" />
+        <string id="60c63B1dee" text="Wrath Deathbrother" />
+        <string id="71e9Ae1C93" text="Wrath Doombringer" />
+        <string id="2B5825e0eb" text="Wrath Rider" />
+        <string id="41266B3bfe" text="Wrath Punisher" />
+        <string id="950366c556" text="Wrath Purifier" />
+        <string id="88dA4A682a" text="Wrath Lurker" />
+        <string id="072f692244" text="Wrath Marksman" />
+        <string id="85c35a7204" text="Wrath Veteran Marksman" />
+        <string id="4e8c8F6a8E" text="Wrath Eagleeye" />
+        <string id="38b5B6006c" text="Cult Standard-Bearer" />
+        <string id="5Fa0abf789" text="Phoenix Squire" />
+        <string id="AeAaf5bD81" text="Phoenix Scout" />
+        <string id="e64657A89c" text="Phoenix Huntsman" />
+        <string id="01dE6bd534" text="Phoenix Knight" />
+        <string id="2A3F0A5f03" text="Phoenix Champion" />
+        <string id="a209bE925c" text="Phoenix Paladin" />
+        <string id="4250829f53" text="Western Mounted Standard-Bearer" />
+        <string id="3F5016d752" text="Western Heavy Mounted Standard-Bearer" />
+        <string id="aa2af45B28" text="Makkonian Levy" />
+        <string id="44968008b2" text="Makkonian Spearman" />
+        <string id="11ADe3f297" text="Makkonian Shielder" />
+        <string id="239Bc5FaCC" text="Makkonian Greatshielder" />
+        <string id="3Ed7AA12Da" text="Makkonian Ironguard" />
+        <string id="415e9C2da1" text="Makkonian Skirmisher" />
+        <string id="351340013F" text="Makkonian Light Swordsman" />
+        <string id="0DD76184e4" text="Makkonian Heavy Swordsman" />
+        <string id="6EFe774467" text="Makkonian Horseman" />
+        <string id="F6E6834Ba0" text="Makkonian Horse Archer" />
+        <string id="70a1bd7079" text="Makkonian Veteran Horse Archer" />
+        <string id="eb2b67cEF0" text="Makkonian Elite Horse Archer" />
+        <string id="F3E112edD7" text="Makkonian Steppe Lancer" />
+        <string id="7D2114cCad" text="Makkonian Shock-Cavalry" />
+        <string id="82ce93E030" text="Makkonian Charger of the Eternal Sky" />
+        <string id="C1E2c6bEd7" text="Makkonian Crossbowman" />
+        <string id="9dA2945C69" text="Makkonian Quickfire Crossbowman" />
+        <string id="B392517C8f" text="Makkonian Chu-Ko-Nu" />
+        <string id="072f57d7ca" text="Far-Eastern Banner-Peasant" />
+        <string id="344C11b65f" text="Far-Eastern Standard-Bearer" />
+        <string id="C6c28326e1" text="Far-Eastern Infantry-Officer" />
+        <string id="39c95cCf12" text="Far-Eastern Cavalry Standard-Bearer" />
+        <string id="44F89c75d8" text="Humar Militia" />
+        <string id="08ecaBa579" text="Humar Pikeman" />
+        <string id="6d8d926E3A" text="Humar Clan-Pikeman" />
+        <string id="bB51b4481d" text="Humar Pike Samurai" />
+        <string id="bF56b0243a" text="Humar Pike Hero" />
+        <string id="4BB7413808" text="Humar Light Cavalry" />
+        <string id="aD7F21417a" text="Humar Banner-Cavalry" />
+        <string id="e022809881" text="Humar Banner-Bodyguard" />
+        <string id="3EdA6C6b15" text="Humar Lancer" />
+        <string id="6Ca4c37cf4" text="Humar Heavy Lancer" />
+        <string id="419055711c" text="Humar Archer" />
+        <string id="5499635383" text="Humar Longbow Archer" />
+        <string id="2caB701903" text="Humar Veteran Longbow Archer" />
+        <string id="E8E10b6b9d" text="Humar Armored Archer" />
+        <string id="e771eebf99" text="Humar Saboteur" />
+        <string id="b52c80E4da" text="Humar Veteran Saboteur" />
+        <string id="72eeA30b1A" text="Humar Master-Saboteur" />
+        <string id="d71Ce367be" text="Humar Sword Samurai" />
+        <string id="eD4f5DAA85" text="Humar Sword Hero" />
+        <string id="CEdDe41805" text="Ronin" />
+    </strings>
+</base>
