@@ -13,9 +13,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Desert Cult"
+           name="{=eC69191427}Desert Cult"
            tier="4"
-           text="The Desert Cult, unique in Calradia, is a devout group of people formed around the idea that Calradia is doomed, and only worship of the Barren may bring survival in the harsh conditions about to arrive. They accept recruits from all over Calradia, either forcefully or through persuasion. In addition, they capture wanderers, often in the desert, and convert them to their cause through perhaps the most psychologically advanced methods of the age. They are led by Vlyna, a highly controversial man. Some call him a cheat, others a prophet; most history books refer to him as an epileptic, and some even a schizophrenic. Regardless, it is certain that he is a tactical genius, as the HQ of the Desert Cult has never been found. Of course, the desert cult uses his mystery and facts such as the HQ never being found as a talking point about God's favour shining upon them, thus bringing in even more recruits. Their forces can be seen sacking villages to gather loot for their cause, as well as burning down the places of worship of the infidels.">        
+           text="{=8B467aC6db}The Desert Cult, unique in Calradia, is a devout group of people formed around the idea that Calradia is doomed, and only worship of the Barren may bring survival in the harsh conditions about to arrive. They accept recruits from all over Calradia, either forcefully or through persuasion. In addition, they capture wanderers, often in the desert, and convert them to their cause through perhaps the most psychologically advanced methods of the age. They are led by Vlyna, a highly controversial man. Some call him a cheat, others a prophet; most history books refer to him as an epileptic, and some even a schizophrenic. Regardless, it is certain that he is a tactical genius, as the HQ of the Desert Cult has never been found. Of course, the desert cult uses his mystery and facts such as the HQ never being found as a talking point about God's favour shining upon them, thus bringing in even more recruits. Their forces can be seen sacking villages to gather loot for their cause, as well as burning down the places of worship of the infidels.">        
   </Faction>
     <Faction id="cs_redemptive_order"
           banner_key="24.148.116.1836.1836.764.764.1.0.0.418.35.35.245.245.766.732.0.1.45.302.35.35.503.567.770.831.0.1.0.401.35.35.197.195.766.736.0.1.179.423.35.35.476.473.763.727.0.1.179"
@@ -29,9 +29,9 @@
            is_minor_faction="true"
            is_outlaw="false"
            is_mafia="false"
-           name="Redemptive Order"
+           name="{=627dD5e7e1}Redemptive Order"
            tier="4"
-           text="The Redemptive Order is a religious organization inspired by a simple and yet elegant line of reasoning: 'If Calradia is in turmoil, and whatever the lords and the masses do make it worse, then we must be suffering under God's punishment and not a man-made conflict.' Though this was initially the exhortations of a few priests, knights all over Calradia started to take a liking to this idea. These knights then formed the Redemptive Order, which sought to punish all who 'obstructed God's grace shining upon' Calradia. The order captures those who it deems to be the disruptors of peace, and either retrains or executes them. Their methods and the intricacies of their organization are mostly unknown. The membership of the order seems to increase directly after kingdoms suffering heavy losses or economic hardship. Some say that this spike is due to the knights seeing with their own eyes the travesties of war; others say that this is due to the lords running out of money to pay the knights.">        
+           text="{=1de25a17Db}The Redemptive Order is a religious organization inspired by a simple and yet elegant line of reasoning: 'If Calradia is in turmoil, and whatever the lords and the masses do make it worse, then we must be suffering under God's punishment and not a man-made conflict.' Though this was initially the exhortations of a few priests, knights all over Calradia started to take a liking to this idea. These knights then formed the Redemptive Order, which sought to punish all who 'obstructed God's grace shining upon' Calradia. The order captures those who it deems to be the disruptors of peace, and either retrains or executes them. Their methods and the intricacies of their organization are mostly unknown. The membership of the order seems to increase directly after kingdoms suffering heavy losses or economic hardship. Some say that this spike is due to the knights seeing with their own eyes the travesties of war; others say that this is due to the lords running out of money to pay the knights.">        
   </Faction>
   <Faction id="cs_harbingers_of_wrath"
           banner_key="11.145.142.3142.1908.776.703.1.0.0.458.35.35.449.486.761.757.1.1.0.429.35.35.172.189.799.518.1.1.0.429.35.35.172.189.793.991.1.0.180"
@@ -45,9 +45,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Harbingers of Wrath"
+           name="{=4C2d83083D}Harbingers of Wrath"
            tier="4"
-           text="The Harbingers of Wrath share similar roots to The Redemptive Order, but they seem to have reached opposite conclusions. They believe that God's days are limited, as evidenced by Him trying to destroy His creation before He is weakened enough for His creation to kill Him first. They claim to represent the wrathful age about to consume God, but for this age to come, they must first kill all who would rather take God's side.">        
+           text="{=01AFd5b8C9}The Harbingers of Wrath share similar roots to The Redemptive Order, but they seem to have reached opposite conclusions. They believe that God's days are limited, as evidenced by Him trying to destroy His creation before He is weakened enough for His creation to kill Him first. They claim to represent the wrathful age about to consume God, but for this age to come, they must first kill all who would rather take God's side.">        
   </Faction>
   <!-- Man Hunters -->
   <Faction id="cs_manhunters"
@@ -62,9 +62,9 @@
            is_minor_faction="true"
            is_outlaw="false"
            is_mafia="false"
-           name="Manhunters"
+           name="{=0b59184854}Manhunters"
            tier="4"
-           text="The Manhunters represent the efforts of the bourgeoisie and the aristocracy to put a hold on Calradia completely slipping from their hands. Each year, a fund is collected from every kingdom and every city in proportion to its wealth to fund the manhunters. It seems that the leading classes are aware that no matter how much infighting they may do, if anarchy takes hold, it will know no borders. ">        
+           text="{=2621caD13E}The Manhunters represent the efforts of the bourgeoisie and the aristocracy to put a hold on Calradia completely slipping from their hands. Each year, a fund is collected from every kingdom and every city in proportion to its wealth to fund the manhunters. It seems that the leading classes are aware that no matter how much infighting they may do, if anarchy takes hold, it will know no borders. ">        
   </Faction>
   <!-- Enslavers -->
   <Faction id="cs_southern_enslavers"
@@ -79,9 +79,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Southern Enslavers"
+           name="{=3B91f16e28}Southern Enslavers"
            tier="4"
-           text="The Southern Enslavers are an organized effort to capture the citizens of Vlandia, Battania, Sturgia, and the Northern Empire and sell them to the Enslavers' merchant protectors among the Aserai, the Western Empire, the Khuzait and the Southern Empire. They operate in fast skirmishes, though they also form some slave stacks when greed compels them to do so. Their elite soldiers are extremely cost-effective, as they are fast, deadly, and cautious.">        
+           text="{=A5864a44f3}The Southern Enslavers are an organized effort to capture the citizens of Vlandia, Battania, Sturgia, and the Northern Empire and sell them to the Enslavers' merchant protectors among the Aserai, the Western Empire, the Khuzait and the Southern Empire. They operate in fast skirmishes, though they also form some slave stacks when greed compels them to do so. Their elite soldiers are extremely cost-effective, as they are fast, deadly, and cautious.">        
   </Faction>
    <Faction id="cs_northern_liberators"
           banner_key="33.35.35.3564.2197.779.762.1.0.8.314.116.35.283.306.899.741.0.0.330.314.116.35.283.306.623.732.0.1.30.327.116.35.264.287.768.749.0.1.0"
@@ -95,9 +95,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Northern Liberators"
+           name="{=9c3D0C143f}Northern Liberators"
            tier="4"
-           text="The Northern Liberators are a response to the Southern Enslavers, though their activities parallel theirs. The practical difference between the two is that the Southern Enslavers are indiscriminate, whereas the Northern Liberators capture high-profile targets among the Southern supporters of the Enslavers. They then use these high-profile targets to either bargain or make some money themselves.">        
+           text="{=DaAd8ECb59}The Northern Liberators are a response to the Southern Enslavers, though their activities parallel theirs. The practical difference between the two is that the Southern Enslavers are indiscriminate, whereas the Northern Liberators capture high-profile targets among the Southern supporters of the Enslavers. They then use these high-profile targets to either bargain or make some money themselves.">        
   </Faction>
   <!-- Peasant Revolters -->
     <Faction id="cs_peasant_revolutionaries"
@@ -112,9 +112,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Revolutionaries"
+           name="{=f249d04e32}Revolutionaries"
            tier="4"
-           text="A unique group among the peasant revolts - the Revolutionaries as they call themselves - want to reduce the powers of the aristocracy 'to ensure that they represent the interests of the people.' The exact method as to how this would be done is ambiguous among them, but they continuously discuss ideas ranging from a stronger senate to a parliamentary system. Historians have noted them to be an anomaly in Calradia, and most among these historians are certain that a person or group of people has spread these ideas among the revolters. Their exact intentions are, of course, unknown. These ideas pose a major predicament to the aristocracy.">        
+           text="{=fa1F17BCDc}A unique group among the peasant revolts - the Revolutionaries as they call themselves - want to reduce the powers of the aristocracy 'to ensure that they represent the interests of the people.' The exact method as to how this would be done is ambiguous among them, but they continuously discuss ideas ranging from a stronger senate to a parliamentary system. Historians have noted them to be an anomaly in Calradia, and most among these historians are certain that a person or group of people has spread these ideas among the revolters. Their exact intentions are, of course, unknown. These ideas pose a major predicament to the aristocracy.">        
    </Faction>
 
    <Faction id="cs_peasant_absolutists"
@@ -129,9 +129,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Outcasts"
+           name="{=14807c5a26}Outcasts"
            tier="4"
-           text="The Outcasts are an extremely dangerous group of exiled tribespeople. This 'free folk' disregard any reign and view the lords as traitors to Nature, citing that the former is trying to take advantage of human turmoils and the latter as having allowed these 'destructive' laws to happen in the first place. To ensure freedom and a better world, they fight for a free choice of living. The group is especially popular among people who were exiled and lost their homes.">        
+           text="{=D693658D72}The Outcasts are an extremely dangerous group of exiled tribespeople. This 'free folk' disregard any reign and view the lords as traitors to Nature, citing that the former is trying to take advantage of human turmoils and the latter as having allowed these 'destructive' laws to happen in the first place. To ensure freedom and a better world, they fight for a free choice of living. The group is especially popular among people who were exiled and lost their homes.">        
     </Faction>
     <Faction id="cs_peasant_revolters"
            banner_key="10.95.95.2715.1855.776.788.1.0.0.405.128.116.365.370.759.863.0.1.90.411.128.116.402.408.758.865.0.1.88.447.128.116.502.508.763.621.0.1.90"
@@ -146,9 +146,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Roaming Brigands"
+           name="{=eD5109ae31}Roaming Brigands"
            tier="4"
-           text="The Roaming Brigands are composed of devious people who have taken arms against their lords either due to high taxation, recruitment, or insufficient protection. These scourges wander steppes, deserts and tundras and take to the ideas of absolulte anarchy and not rarily to destruction, as well.">        
+           text="{=d55D4739Af}The Roaming Brigands are composed of devious people who have taken arms against their lords either due to high taxation, recruitment, or insufficient protection. These scourges wander steppes, deserts and tundras and take to the ideas of absolulte anarchy and not rarily to destruction, as well.">        
     </Faction>
     <!-- Barbarians -->
     <Faction id="cs_barbarians"
@@ -163,9 +163,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Barbarians"
+           name="{=A6c277664e}Barbarians"
            tier="5"
-           text="Little is known about the Barbarians, except for the fact that they are barbarians and must be referred to suiting their lowly position. Every kingdom throughout Calradia has persecuted them for millennia, but their culture and settlements have always found a way to survive. Their tenacity is partially thanks to their semi-nomadic lifestyle and high adaptability, resulting in them outliving almost every one of their oppressors. Currently, Sturgia has them living under heavy taxation, tolerating them on the condition that they stay on the far northern lands, away from everyone else. However, rumour has it now that the Calradian kingdoms are weakened, they might stand a chance, and in support of the rumours, barbarian troops and peoples have started to be sighted through especially Northern Calradia.">      
+           text="{=699e246926}Little is known about the Barbarians, except for the fact that they are barbarians and must be referred to suiting their lowly position. Every kingdom throughout Calradia has persecuted them for millennia, but their culture and settlements have always found a way to survive. Their tenacity is partially thanks to their semi-nomadic lifestyle and high adaptability, resulting in them outliving almost every one of their oppressors. Currently, Sturgia has them living under heavy taxation, tolerating them on the condition that they stay on the far northern lands, away from everyone else. However, rumour has it now that the Calradian kingdoms are weakened, they might stand a chance, and in support of the rumours, barbarian troops and peoples have started to be sighted through especially Northern Calradia.">      
 
     </Faction>  
 
@@ -183,9 +183,9 @@
            is_minor_faction="true"
            is_outlaw="false"
            is_mafia="false"
-           name="Order of the Phoenix"
+           name="{=ec0b1E873a}Order of the Phoenix"
            tier="4"
-           text="The Vlandians are the last kingdom left with a stable knight order. This is no surprise, as historically, The Order of the Phoenix was the most disciplined in Calradia.">       
+           text="{=F99D7A1a2f}The Vlandians are the last kingdom left with a stable knight order. This is no surprise, as historically, The Order of the Phoenix was the most disciplined in Calradia.">       
     </Faction>
 
     <!-- Makko -->
@@ -202,9 +202,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Makko"
+           name="{=Cc8c5EC785}Makko"
            tier="5"
-           text="Makkonian expeditioners have arrived in Calradia, bringing danger from foreign lands!">
+           text="{=6946770cdb}Makkonian expeditioners have arrived in Calradia, bringing danger from foreign lands!">
     </Faction>
 
     <!-- Humar -->
@@ -221,9 +221,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Humar"
+           name="{=3307C8DdF8}Humar"
            tier="4"
-           text="The Humar clans struggle with a lot of infighting just like Calradia. Though, sometimes there are strong men or women who rise to power and unite the clans under one banner. With their people having experienced nothing but constant rivalry and war, they have found ways to optimize and modernize their weaponry, let alone the use of black-powder!">
+           text="{=1a03940073}The Humar clans struggle with a lot of infighting just like Calradia. Though, sometimes there are strong men or women who rise to power and unite the clans under one banner. With their people having experienced nothing but constant rivalry and war, they have found ways to optimize and modernize their weaponry, let alone the use of black-powder!">
     </Faction>
 
     <!-- Madmen -->
@@ -239,9 +239,9 @@
            is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
-           name="Madmen"
+           name="{=3CdB01F097}Madmen"
            tier="1"
-           text="Madmen have been suffering and making others suffer throughout the ages, and the madmen of Calradia are no different. Though these social outcasts are highly unpredictable, training them can yield some of the best troops Calradia has to suffer. After all, with some practice, certain madmen feel no fear, and some say, even pain.">        
+           text="{=263FE07c67}Madmen have been suffering and making others suffer throughout the ages, and the madmen of Calradia are no different. Though these social outcasts are highly unpredictable, training them can yield some of the best troops Calradia has to suffer. After all, with some practice, certain madmen feel no fear, and some say, even pain.">        
     </Faction>
 
     <!-- Deserters -->
@@ -256,7 +256,7 @@
            is_outlaw="true"
            is_minor_faction="true"
            is_mafia="false"
-           name="Battanian Deserters"
+           name="{=38c7FB4a48}Battanian Deserters"
            tier="1">        
     </Faction>
 
@@ -271,7 +271,7 @@
            is_outlaw="true"
            is_minor_faction="true"
            is_mafia="false"
-           name="Vlandian Deserters"
+           name="{=781d9EbE32}Vlandian Deserters"
            tier="1">        
     </Faction>
 
@@ -286,7 +286,7 @@
            is_outlaw="true"
            is_minor_faction="true"
            is_mafia="false"
-           name="Sturgian Deserters"
+           name="{=E6E4a19125}Sturgian Deserters"
            tier="1">        
     </Faction>
 
@@ -301,7 +301,7 @@
            is_outlaw="true"
            is_minor_faction="true"
            is_mafia="false"
-           name="Imperial Deserters"
+           name="{=66577F598b}Imperial Deserters"
            tier="1">        
     </Faction>
 
@@ -316,7 +316,7 @@
            is_outlaw="true"
            is_minor_faction="true"
            is_mafia="false"
-           name="Khuzait Deserters"
+           name="{=0973fFDE36}Khuzait Deserters"
            tier="1">        
     </Faction>
 
@@ -331,7 +331,7 @@
            is_outlaw="true"
            is_minor_faction="true"
            is_mafia="false"
-           name="Aserai Deserters"
+           name="{=50B40Cc5c0}Aserai Deserters"
            tier="1">        
     </Faction>
 
@@ -347,8 +347,8 @@
            is_outlaw="true"
            is_minor_faction="true"
            is_mafia="false"
-           name="United Deserters"
-           text = "Deserters from all factions united in fear of persecution. As you might imagine, fear can unite those who used to be enemies and make a man forget his most traumatic memories."
+           name="{=905EeF17f3}United Deserters"
+           text="{=Fb91e018F6}Deserters from all factions united in fear of persecution. As you might imagine, fear can unite those who used to be enemies and make a man forget his most traumatic memories."
            tier="3">        
     </Faction>
 
