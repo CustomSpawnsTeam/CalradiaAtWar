@@ -18,7 +18,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_desertcult_template_highlord" />
-      <EquipmentSet id="cs_desertcult_template_highlord_civic" civilian="true" />
+      <EquipmentSet id="cs_desertcult_template_highlord_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="49" culture="Culture.aserai" default_group="Cavalry" id="cs_lord_desert_cult_2" is_hero="true" name="Kruma" occupation="Lord" voice="softspoken">
@@ -36,7 +36,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_desertcult_template_genericlord" />
-      <EquipmentSet id="cs_desertcult_template_genericlord_civic" civilian="true" />
+      <EquipmentSet id="cs_desertcult_template_genericlord_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="31" culture="Culture.aserai" default_group="Cavalry" id="cs_lord_desert_cult_3" is_hero="true" name="Ragnaros" occupation="Lord" voice="earnest">
@@ -55,7 +55,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_desertcult_template_genericlord" />
-      <EquipmentSet id="cs_desertcult_template_genericlord_civic" civilian="true" />
+      <EquipmentSet id="cs_desertcult_template_genericlord_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="10" culture="Culture.aserai" default_group="Cavalry" id="cs_lord_desert_cult_4" is_female="true" is_hero="true" name="Ayse" occupation="Lord" voice="ironic">
@@ -67,7 +67,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_desertcult_template_genericlord" />
-      <EquipmentSet id="cs_desertcult_template_genericlord_civic" civilian="true" />
+      <EquipmentSet id="cs_desertcult_template_genericlord_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Redemptive Order -->
@@ -87,7 +87,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_redemptive_template_lord" />
-      <EquipmentSet id="cs_redemptive_template_lord_civic" civilian="true" />
+      <EquipmentSet id="cs_redemptive_template_lord_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="40" culture="Culture.vlandia" default_group="Cavalry" id="cs_lord_redemptive_order_2" is_female="true" is_hero="true" name="Ashlay" occupation="Lord" voice="curt">
@@ -105,7 +105,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_redemptive_template_lord" />
-      <EquipmentSet id="cs_redemptive_template_lady_civic" civilian="true" />
+      <EquipmentSet id="cs_redemptive_template_lady_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="51" culture="Culture.vlandia" default_group="Cavalry" id="cs_lord_redemptive_order_3" is_hero="true" name="Lamos" occupation="Lord" voice="earnest">
@@ -124,7 +124,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_redemptive_template_grandinquisitor" />
-      <EquipmentSet id="cs_redemptive_template_inquisitor_civic" civilian="true" />
+      <EquipmentSet id="cs_redemptive_template_inquisitor_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="9" culture="Culture.vlandia" default_group="Cavalry" id="cs_lord_redemptive_order_4" is_female="true" is_hero="true" name="Mathilde" occupation="Lord" voice="softspoken">
@@ -136,7 +136,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_redemptive_template_grandinquisitor" />
-      <EquipmentSet id="cs_redemptive_template_inquisitor_civic" civilian="true" />
+      <EquipmentSet id="cs_redemptive_template_inquisitor_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Harbingers of Wrath -->
@@ -156,7 +156,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_wrath_template_cultlord" />
-      <EquipmentSet id="cs_wrath_template_cultcivic" civilian="true" />
+      <EquipmentSet id="cs_wrath_template_cultcivic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="25" culture="Culture.empire" default_group="Infantry" id="cs_lord_harbingers_of_wrath_2" is_female="true" is_hero="true" name="{=KsBoNHW5}Cathreyn" occupation="Lord" voice="ironic">
@@ -175,7 +175,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_wrath_template_cultlord" />
-      <EquipmentSet id="cs_wrath_template_cultcivic" civilian="true" />
+      <EquipmentSet id="cs_wrath_template_cultcivic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Manhunters -->
@@ -195,7 +195,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_manhunter_template_lord" />
-      <EquipmentSet id="cs_manhunter_template_civic" civilian="true" />
+      <EquipmentSet id="cs_manhunter_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="14" culture="Culture.empire" default_group="Cavalry" id="cs_lord_manhunters_2" is_hero="true" name="Vetos" occupation="Lord" voice="ironic">
@@ -207,7 +207,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_manhunter_template_lord" />
-      <EquipmentSet id="cs_manhunter_template_civic" civilian="true" />
+      <EquipmentSet id="cs_manhunter_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Southern Enslavers -->
@@ -227,7 +227,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_razesraiders_template_lord" />
-      <EquipmentSet id="cs_razesraiders_template_civic" civilian="true" />
+      <EquipmentSet id="cs_razesraiders_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="24" culture="Culture.empire" default_group="Infantry" id="cs_lord_southern_enslavers_2" is_female="true" is_hero="true" name="Asmona" occupation="Lord" voice="curt">
@@ -245,7 +245,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_slavecoast_template_lord" />
-      <EquipmentSet id="cs_slavecoast_template_civic" civilian="true" />
+      <EquipmentSet id="cs_slavecoast_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="41" culture="Culture.aserai" default_group="Infantry" id="cs_lord_southern_enslavers_3" is_hero="true" name="Urug" occupation="Lord" voice="earnest">
@@ -264,7 +264,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_obaktu_template_lord" />
-      <EquipmentSet id="cs_obaktu_template_civic" civilian="true" />
+      <EquipmentSet id="cs_obaktu_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Northern Liberators -->
@@ -285,7 +285,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_bjorning_template_lord" />
-      <EquipmentSet id="cs_bjorning_template_civic" civilian="true" />
+      <EquipmentSet id="cs_bjorning_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="42" culture="Culture.vlandia" default_group="Infantry" id="cs_lord_northern_liberators_2" is_hero="true" name="Forvik" occupation="Lord" voice="earnest">
@@ -304,7 +304,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_sellswords_template_boss" />
-      <EquipmentSet id="cs_sellswords_template_civic" civilian="true" />
+      <EquipmentSet id="cs_sellswords_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="56" culture="Culture.battania" default_group="Infantry" id="cs_lord_northern_liberators_3" is_hero="true" name="'One-Eye'" occupation="Lord" voice="curt">
@@ -323,7 +323,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_bloodsworn_template_lord" />
-      <EquipmentSet id="cs_bloodsworn_template_civic" civilian="true" />
+      <EquipmentSet id="cs_bloodsworn_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Revolutionaries -->
@@ -343,7 +343,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_revolutionaries_template_lord" />
-      <EquipmentSet id="cs_revolutionaries_template_civic" civilian="true" />
+      <EquipmentSet id="cs_revolutionaries_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="11" culture="Culture.vlandia" default_group="Infantry" id="cs_lord_peasant_revolutionaries_2" is_female="true" is_hero="true" name="Johanna" occupation="Lord" voice="earnest">
@@ -355,7 +355,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_revolutionaries_template_lord" />
-      <EquipmentSet id="cs_revolutionaries_template_female_civic" civilian="true" />
+      <EquipmentSet id="cs_revolutionaries_template_female_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Outcasts -->
@@ -374,7 +374,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_outcast_template_lord" />
-      <EquipmentSet id="cs_outcast_template_civic" civilian="true" />
+      <EquipmentSet id="cs_outcast_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="13" culture="Culture.battania" default_group="Infantry" id="cs_lord_peasant_absolutists_2" is_female="true" is_hero="true" name="Kaja" occupation="Lord" voice="earnest">
@@ -386,7 +386,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_outcast_template_lord" />
-      <EquipmentSet id="cs_outcast_template_female_civic" civilian="true" />
+      <EquipmentSet id="cs_outcast_template_female_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Roaming Brigands -->
@@ -406,7 +406,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_roamingbrigand_template_lord" />
-      <EquipmentSet id="cs_roamingbrigand_template_civic" civilian="true" />
+      <EquipmentSet id="cs_roamingbrigand_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="11" culture="Culture.khuzait" default_group="Cavalry" id="cs_lord_peasant_revolters_2" is_hero="true" name="Zor" occupation="Lord" voice="softspoken">
@@ -423,7 +423,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_roamingbrigand_template_lord" />
-      <EquipmentSet id="cs_roamingbrigand_template_civic" civilian="true" />
+      <EquipmentSet id="cs_roamingbrigand_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Barbarians -->
@@ -442,7 +442,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_barbarians_template_chieftain" />
-      <EquipmentSet id="cs_barbarians_template_civic" civilian="true" />
+      <EquipmentSet id="cs_barbarians_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="38" culture="Culture.sturgia" default_group="Infantry" id="cs_lord_barbarians_2" is_hero="true" name="Rogo" occupation="Lord" voice="earnest">
@@ -461,7 +461,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_barbarians_template_chieftain" />
-      <EquipmentSet id="cs_barbarians_template_civic" civilian="true" />
+      <EquipmentSet id="cs_barbarians_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="61" culture="Culture.sturgia" default_group="Infantry" id="cs_lord_barbarians_3" is_female="true" is_hero="true" name="Ama" occupation="Lord" voice="softspoken">
@@ -478,7 +478,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_barbarians_template_chieftain" />
-      <EquipmentSet id="cs_barbarians_template_female_civic" civilian="true" />
+      <EquipmentSet id="cs_barbarians_template_female_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="3" culture="Culture.sturgia" default_group="Infantry" id="cs_lord_barbarians_4" is_hero="true" name="Snokr" occupation="Lord" voice="earnest">
@@ -490,7 +490,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_barbarians_template_chieftain" />
-      <EquipmentSet id="cs_barbarians_template_civic" civilian="true" />
+      <EquipmentSet id="cs_barbarians_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="11" culture="Culture.sturgia" default_group="Infantry" id="cs_lord_barbarians_5" is_female="true" is_hero="true" name="Gwyn" occupation="Lord" voice="curt">
@@ -502,7 +502,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_barbarians_template_chieftain" />
-      <EquipmentSet id="cs_barbarians_template_female_civic" civilian="true" />
+      <EquipmentSet id="cs_barbarians_template_female_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="6" culture="Culture.sturgia" default_group="Infantry" id="cs_lord_barbarians_6" is_female="true" is_hero="true" name="Alba" occupation="Lord" voice="softspoken">
@@ -514,7 +514,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_barbarians_template_chieftain" />
-      <EquipmentSet id="cs_barbarians_template_female_civic" civilian="true" />
+      <EquipmentSet id="cs_barbarians_template_female_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Order of the Phoenix -->
@@ -533,7 +533,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_phoenix_template_lord" />
-      <EquipmentSet id="cs_phoenix_template_civic" civilian="true" />
+      <EquipmentSet id="cs_phoenix_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="12" culture="Culture.vlandia" default_group="Cavalry" id="cs_lord_ko_phoenix_2" is_hero="true" name="Thoras" occupation="Lord" voice="softspoken">
@@ -545,7 +545,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_phoenix_template_lord" />
-      <EquipmentSet id="cs_phoenix_template_civic" civilian="true" />
+      <EquipmentSet id="cs_phoenix_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Makko -->
@@ -565,7 +565,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_makko_template_grandgeneral" />
-      <EquipmentSet id="cs_makko_template_civic" civilian="true" />
+      <EquipmentSet id="cs_makko_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Humar -->
@@ -586,7 +586,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_humar_template_lord" />
-      <EquipmentSet id="cs_humar_template_civic" civilian="true" />
+      <EquipmentSet id="cs_humar_template_civic" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Madmen -->
@@ -606,7 +606,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="cs_madman_template_boss" />
-      <EquipmentSet id="cs_madman_template_civic_ifyoucansaythat" civilian="true" />
+      <EquipmentSet id="cs_madman_template_civic_ifyoucansaythat" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <!-- Deserters -->
@@ -626,7 +626,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="bat_bat_template_wild" />
-      <EquipmentSet id="bat_civ_template_wild" civilian="true" />
+      <EquipmentSet id="bat_civ_template_wild" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="35" culture="Culture.vlandia" default_group="Infantry" id="cs_lord_vlandia_deserters_1" is_hero="true" name="Vlandian Deserters Hero" occupation="Bandit" voice="curt">
@@ -645,7 +645,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="vla_bat_template_heavy" />
-      <EquipmentSet id="vla_civ_template_default" civilian="true" />
+      <EquipmentSet id="vla_civ_template_default" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="45" culture="Culture.sturgia" default_group="Infantry" id="cs_lord_sturgia_deserters_1" is_hero="true" name="Sturgian Deserters Hero" occupation="Bandit" voice="curt">
@@ -664,7 +664,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="stu_bat_template_woodsman" />
-      <EquipmentSet id="stu_civ_template_woodsman" civilian="true" />
+      <EquipmentSet id="stu_civ_template_woodsman" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="45" culture="Culture.empire" default_group="Infantry" id="cs_lord_empire_deserters_1" is_hero="true" name="Imperial Deserters Hero" occupation="Bandit" voice="curt">
@@ -683,7 +683,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="emp_bat_template_medium" />
-      <EquipmentSet id="emp_civ_template_default" civilian="true" />
+      <EquipmentSet id="emp_civ_template_default" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="28" culture="Culture.khuzait" default_group="Infantry" id="cs_lord_khuzait_deserters_1" is_hero="true" name="Khuzait Deserters Hero" occupation="Bandit" voice="curt">
@@ -702,7 +702,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="khu_bat_template_medium" />
-      <EquipmentSet id="khu_civ_template_nomad" civilian="true" />
+      <EquipmentSet id="khu_civ_template_nomad" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter age="23" culture="Culture.aserai" default_group="Cavalry" id="cs_lord_aserai_deserters_1" is_hero="true" name="Aserai Deserters Hero" occupation="Bandit" voice="curt">
@@ -721,7 +721,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="ase_bat_template_bedouin" />
-      <EquipmentSet id="ase_civ_template_default" civilian="true" />
+      <EquipmentSet id="ase_civ_template_default" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
 
@@ -740,7 +740,7 @@
     </Traits>
     <Equipments>
       <EquipmentSet id="emp_bat_template_heavy" />
-      <EquipmentSet id="emp_civ_template_default" civilian="true" />
+      <EquipmentSet id="emp_civ_template_default" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
 </NPCCharacters>

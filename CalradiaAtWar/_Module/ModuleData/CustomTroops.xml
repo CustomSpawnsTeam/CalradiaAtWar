@@ -29,7 +29,7 @@
       <EquipmentRoster>
         <equipment id="Item.peasant_pitchfork_1_t1" slot="Item0" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_decent_crazed_man" level="4" name="Decent Crazed Man" occupation="Bandit">
@@ -73,7 +73,7 @@
         <equipment id="Item.battania_mace_2_t2" slot="Item2" />
         <equipment id="Item.burlap_sack_dress" slot="Body" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_competent_crazed_man" level="7" name="Competent Crazed Man" occupation="Bandit">
@@ -114,7 +114,7 @@
         <equipment id="Item.eastern_wrapped_armguards" slot="Gloves" />
         <equipment id="Item.head_piece" slot="Head" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_trained_crazed_man" level="10" name="Trained Crazed Man" occupation="Bandit">
@@ -170,7 +170,7 @@
         <equipment id="Item.wrapped_headcloth" slot="Head" />
         <equipment id="Item.hood" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_drilled_crazed_man" level="13" name="Drilled Crazed Man" occupation="Bandit">
@@ -240,7 +240,7 @@
         <equipment id="Item.battanian_leather_shoulder_a" slot="Cape" />
         <equipment id="Item.ladys_shoe" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_madman" level="17" name="Madman" occupation="Bandit">
@@ -304,7 +304,7 @@
         <equipment id="Item.reinforced_suede_shoulders" slot="Cape" />
         <equipment id="Item.khuzait_curved_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_competent_madman" level="20" name="Competent Madman" occupation="Bandit">
@@ -379,7 +379,7 @@
         <equipment id="Item.battanian_chainmail_shoulder_a" slot="Cape" />
         <equipment id="Item.turndown_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_trained_madman" level="23" name="Trained Madman" occupation="Bandit">
@@ -454,7 +454,7 @@
         <equipment id="Item.padded_leather_shoulders" slot="Cape" />
         <equipment id="Item.highland_leg_wrappings" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_drilled_madman" level="26" name="Drilled Madman" occupation="Bandit">
@@ -496,7 +496,7 @@
         <equipment id="Item.aserai_horseman_shoulder" slot="Cape" />
         <equipment id="Item.plated_strip_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_mad_lad" level="29" name="Fearless Man" occupation="Bandit" upgrade_requires="ItemCategory.war_horse">
@@ -555,7 +555,7 @@
         <equipment id="Item.charger" slot="Horse" />
         <equipment id="Item.steppe_half_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_absolute_mad_lad" level="32" name="Indomitable Man" occupation="Bandit">
@@ -585,7 +585,7 @@
         <equipment id="Item.noble_horse" slot="Horse" />
         <equipment id="Item.half_mail_and_plate_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -735,7 +735,7 @@
         <equipment id="Item.leather_shoes" slot="Leg" />
         <equipment id="Item.t2_empire_horse" slot="Horse" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.forest_bandits" default_group="Ranged" id="cs_forest_trainee" level="6" name="Bandit Trainee" occupation="Bandit">
@@ -816,7 +816,7 @@
         <equipment id="Item.hemp_tunic" slot="Body" />
         <equipment id="Item.leather_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.forest_bandits" default_group="Infantry" id="cs_forest_waylay" level="11" name="Forest Waylay" occupation="Bandit">
@@ -854,7 +854,7 @@
         <equipment id="Item.guarded_armwraps" slot="Gloves" />
         <equipment id="Item.empire_horseman_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -878,7 +878,7 @@
         <equipment id="Item.aserai_civil_d" slot="Body" />
         <equipment id="Item.ragged_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.desert_bandits" default_group="Infantry" id="cs_desert_recruit" level="11" name="Desert Recruit" occupation="Bandit">
@@ -905,7 +905,7 @@
         <equipment id="Item.scarf" slot="Cape" />
         <equipment id="Item.ragged_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.desert_bandits" default_group="Infantry" id="cs_desert_warrior" level="16" name="Desert Warrior" occupation="Bandit">
@@ -931,7 +931,7 @@
         <equipment id="Item.desert_fabric_shoulderpad" slot="Cape" />
         <equipment id="Item.leather_cavalier_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.desert_bandits" default_group="Ranged" id="cs_desert_ranger" level="16" name="Desert Ranger" occupation="Bandit">
@@ -959,7 +959,7 @@
         <equipment id="Item.scarf" slot="Cape" />
         <equipment id="Item.ragged_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.desert_bandits" default_group="Ranged" id="cs_desert_marksman" level="21" name="Desert Marksman" occupation="Bandit">
@@ -1007,7 +1007,7 @@
         <equipment id="Item.reinforced_leather_vambraces" slot="Gloves" />
         <equipment id="Item.strapped_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.desert_bandits" default_group="Ranged" id="cs_desert_elite_marksman" level="26" name="Desert Immortal" occupation="Bandit">
@@ -1042,7 +1042,7 @@
         <equipment id="Item.brass_lamellar_over_mail" slot="Body" />
         <equipment id="Item.mail_cavalier_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.desert_bandits" default_group="Cavalry" id="cs_desert_cultsman" level="21" name="Desert Cultsman" occupation="Bandit" upgrade_requires="ItemCategory.horse">
@@ -1070,7 +1070,7 @@
         <equipment id="Item.mail_chausses" slot="Leg" />
         <equipment id="Item.war_camel" slot="Horse" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.desert_bandits" default_group="Cavalry" id="cs_desert_high_cultsman" level="26" name="Desert High Cultsman" occupation="Bandit">
@@ -1122,7 +1122,7 @@
         <equipment id="Item.war_camel" slot="Horse" />
         <equipment id="Item.camel_saddle" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -1250,7 +1250,7 @@
         <equipment id="Item.hunter" slot="Horse" />
         <equipment id="Item.bandit_saddle_steppe" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_enslaver" level="16" name="Razes' Enslaver" occupation="Soldier">
@@ -1280,7 +1280,7 @@
         <equipment id="Item.steppe_war_horse" slot="Horse" />
         <equipment id="Item.steppe_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_razes_chosen" level="26" name="Razes' Chosen" occupation="Soldier">
@@ -1322,7 +1322,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.half_scale_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_razes_raidboss" level="31" name="Razes' Raid-Boss" occupation="Soldier">
@@ -1353,7 +1353,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.imperial_scale_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cs_obaktu_youth" is_basic_troop="true" level="6" name="Obaktu Youth" occupation="Soldier">
@@ -1372,7 +1372,7 @@
         <equipment id="Item.battania_mace_1_t2" slot="Item0" />
         <equipment id="Item.oval_shield" slot="Item1" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cs_obaktu_clubman" level="16" name="Obaktu Clubman" occupation="Soldier">
@@ -1403,7 +1403,7 @@
         <equipment id="Item.fur_skirt" slot="Body" />
         <equipment id="Item.battania_fur_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cs_obaktu_bonebreaker" level="26" name="Obaktu Bonebreaker" occupation="Soldier">
@@ -1468,7 +1468,7 @@
         <equipment id="Item.bandit_fur_a" slot="Body" />
         <equipment id="Item.battania_fur_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cs_obaktu_chief" level="31" name="Obaktu Chief" occupation="Soldier">
@@ -1505,7 +1505,7 @@
         <equipment id="Item.bandit_fur_b" slot="Body" />
         <equipment id="Item.battania_fur_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_slavecoast_heloti" is_basic_troop="true" level="6" name="Slavecoast Heloti" occupation="Soldier">
@@ -1571,7 +1571,7 @@
         <equipment id="Item.empire_short_dress" slot="Body" />
         <equipment id="Item.empire_horseman_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_slavecoast_guardsman" level="16" name="Slavecoast Guardsman" occupation="Soldier">
@@ -1626,7 +1626,7 @@
         <equipment id="Item.padded_leather_shirt" slot="Body" />
         <equipment id="Item.leather_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_slavecoast_elite_guardsman" level="26" name="Slavecoast Elite Guardsman" occupation="Soldier">
@@ -1690,7 +1690,7 @@
         <equipment id="Item.empire_horseman_armor" slot="Body" />
         <equipment id="Item.leather_cavalier_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_slavecoast_captain" level="31" name="Slavecoast Captain" occupation="Soldier">
@@ -1715,7 +1715,7 @@
         <equipment id="Item.empire_horseman_armor" slot="Body" />
         <equipment id="Item.decorated_imperial_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_slavecoast_slinger" level="16" name="Slavecoast Slinger" occupation="Soldier">
@@ -1776,7 +1776,7 @@
         <equipment id="Item.empire_short_dress" slot="Body" />
         <equipment id="Item.turndown_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_slavecoast_elite_slinger" level="26" name="Slavecoast Elite Slinger" occupation="Soldier">
@@ -1846,7 +1846,7 @@
         <equipment id="Item.empire_short_dress" slot="Body" />
         <equipment id="Item.empire_horseman_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -1911,7 +1911,7 @@
         <equipment id="Item.battania_shoulder_strap_cloak" slot="Cape" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_bloodsworn_warrior" level="16" name="Bloodsworn Warrior" occupation="Soldier">
@@ -1979,7 +1979,7 @@
         <equipment id="Item.guarded_armwraps" slot="Gloves" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_bloodsworn_chosen_warrior" level="26" name="Bloodsworn Chosen Warrior" occupation="Soldier">
@@ -2058,7 +2058,7 @@
         <equipment id="Item.highland_cloth" slot="Cape" />
         <equipment id="Item.highland_leg_wrappings" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_bloodsworn_chieftain" level="31" name="Bloodsworn Chieftain" occupation="Soldier">
@@ -2124,7 +2124,7 @@
         <equipment id="Item.battania_cloak_furr" slot="Cape" />
         <equipment id="Item.battania_woodland_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_sellsword_trainee" is_basic_troop="true" level="6" name="Sellsword Trainee" occupation="Mercenary">
@@ -2178,7 +2178,7 @@
         <equipment id="Item.gambeson_b" slot="Body" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_sellsword" level="16" name="Sellsword" occupation="Mercenary">
@@ -2237,7 +2237,7 @@
         <equipment id="Item.padded_leather_shoulders" slot="Cape" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_sellsword_elite" level="26" name="Sellsword Elite" occupation="Mercenary">
@@ -2320,7 +2320,7 @@
         <equipment id="Item.mail_shoulders" slot="Cape" />
         <equipment id="Item.mail_chausses" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_sellsword_captain" level="31" name="Sellsword-Captain" occupation="Mercenary">
@@ -2374,7 +2374,7 @@
         <equipment id="Item.leather_gloves" slot="Gloves" />
         <equipment id="Item.plated_strip_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.sturgia" default_group="Cavalry" id="cs_bjorning_marauder" is_basic_troop="true" level="6" name="Bjorning Marauder" occupation="Soldier">
@@ -2442,7 +2442,7 @@
         <equipment id="Item.sturgia_horse" slot="Horse" />
         <equipment id="Item.bandit_saddle_steppe" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.sturgia" default_group="Cavalry" id="cs_bjorning_headhunter" level="16" name="Bjorning Headhunter" occupation="Soldier">
@@ -2525,7 +2525,7 @@
         <equipment id="Item.t2_sturgia_horse" slot="Horse" />
         <equipment id="Item.bandit_saddle_highland" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.sturgia" default_group="Cavalry" id="cs_bjorning_skulldrinker" level="26" name="Bjorning Skulldrinker" occupation="Soldier">
@@ -2590,7 +2590,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.northern_ring_barding" slot="HorseHarness" />
       </EquipmentRoster>
-      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.sturgia" default_group="Cavalry" id="cs_bjorning_skullboss" level="31" name="Bjorning Skullboss" occupation="Soldier">
@@ -2650,7 +2650,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.northern_ring_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -2732,7 +2732,7 @@
         <equipment id="Item.sackcloth_tunic" slot="Body" />
         <equipment id="Item.leather_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_revolutionary_peasant" level="6" name="Angry Citizen" occupation="Bandit">
@@ -2777,7 +2777,7 @@
         <equipment id="Item.hood" slot="Cape" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_western_enraged_smith" level="11" name="Angry Smith" occupation="Bandit">
@@ -2831,7 +2831,7 @@
         <equipment id="Item.leather_gloves" slot="Gloves" />
         <equipment id="Item.leather_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_rebel_tanner" level="16" name="Angry Tanner" occupation="Bandit">
@@ -2876,7 +2876,7 @@
         <equipment id="Item.long_hemp_tunic" slot="Body" />
         <equipment id="Item.ragged_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_western_enraged_engineer" level="16" name="Angry Blacksmith" occupation="Bandit">
@@ -2926,7 +2926,7 @@
         <equipment id="Item.leather_gloves" slot="Gloves" />
         <equipment id="Item.wrapped_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_rebel_merchant" level="11" name="Angry Merchant" occupation="Bandit">
@@ -2976,7 +2976,7 @@
         <equipment id="Item.hood" slot="Cape" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_rebel_butcher" level="16" name="Angry Butcher" occupation="Bandit">
@@ -3005,7 +3005,7 @@
         <equipment id="Item.cloth_apron" slot="Body" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_western_furious_cook" level="21" name="Angry Cook" occupation="Bandit">
@@ -3066,7 +3066,7 @@
         <equipment id="Item.hood" slot="Cape" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_rebel_tavernkeeper" level="21" name="Angry Tavern Keeper" occupation="Bandit">
@@ -3114,7 +3114,7 @@
         <equipment id="Item.cloth_tunic" slot="Body" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_rebel_carawanist" level="16" name="Angry Carawanist" occupation="Bandit" upgrade_requires="ItemCategory.horse">
@@ -3155,7 +3155,7 @@
         <equipment id="Item.sumpter_horse" slot="Horse" />
         <equipment id="Item.light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_rebel_guildmaster" level="21" name="Angry Guildmaster" occupation="Bandit">
@@ -3198,7 +3198,7 @@
         <equipment id="Item.empire_horse_tournament" slot="Horse" />
         <equipment id="Item.bandit_saddle_highland" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_furious_peasant" level="6" name="Rebel Militia" occupation="Bandit">
@@ -3234,7 +3234,7 @@
         <equipment id="Item.leather_cap" slot="Head" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_rebel_armored_militia" level="11" name="Rebel Armored Militia" occupation="Bandit">
@@ -3274,7 +3274,7 @@
         <equipment id="Item.cervelliere_over_padded_cap" slot="Head" />
         <equipment id="Item.folded_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_rebel_footman" level="16" name="Rebel Footman" occupation="Bandit">
@@ -3305,7 +3305,7 @@
         <equipment id="Item.empire_warrior_padded_armor_b" slot="Body" />
         <equipment id="Item.woven_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_rebel_manatarms" level="21" name="Rebel Man-at-arms" occupation="Bandit">
@@ -3349,7 +3349,7 @@
         <equipment id="Item.banded_leather_over_mail" slot="Body" />
         <equipment id="Item.mail_chausses" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_rebel_pikeman" level="16" name="Rebel Pikeman" occupation="Bandit">
@@ -3388,7 +3388,7 @@
         <equipment id="Item.woven_leather_coat" slot="Body" />
         <equipment id="Item.woven_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_rebel_halberdier" level="21" name="Rebel Halberdier" occupation="Bandit">
@@ -3418,7 +3418,7 @@
         <equipment id="Item.hauberk" slot="Body" />
         <equipment id="Item.mail_chausses" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -3482,7 +3482,7 @@
         <equipment id="Item.ragged_armwraps" slot="Gloves" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_outcast_villager" level="6" name="Exiled Villager" occupation="Bandit">
@@ -3537,7 +3537,7 @@
         <equipment id="Item.tattered_rags" slot="Body" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_outcast_belligerentdrunk" level="11" name="Exiled Belligerent Drunk" occupation="Bandit">
@@ -3582,7 +3582,7 @@
         <equipment id="Item.nordic_sloven_leather" slot="Body" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Cavalry" id="cs_outcast_shepherd" level="16" name="Exiled Shepherd" occupation="Bandit">
@@ -3623,7 +3623,7 @@
         <equipment id="Item.ragged_boots" slot="Leg" />
         <equipment id="Item.mule" slot="Horse" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Cavalry" id="cs_outcast_elder" level="21" name="Exiled Elder" occupation="Bandit" upgrade_requires="ItemCategory.horse">
@@ -3685,7 +3685,7 @@
         <equipment id="Item.sturgia_horse_tournament" slot="Horse" />
         <equipment id="Item.bandit_saddle_highland" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_outcast_ruffian" is_female="true" level="16" name="Exiled Witch" occupation="Bandit">
@@ -3788,7 +3788,7 @@
         <equipment id="Item.battania_dress_b" slot="Body" />
         <equipment id="Item.highland_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentRoster civilian="true" >
+	  <EquipmentRoster equipmentType="Civilian" >
         <equipment id="Item.peasant_pitchfork_2_t1" slot="Item0" />
         <equipment id="Item.battania_civil_hood" slot="Head" />
         <equipment id="Item.battania_dress_b" slot="Body" />
@@ -3850,7 +3850,7 @@
         <equipment id="Item.wolf_shoulder" slot="Cape" />
         <equipment id="Item.highland_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_outcast_miner" level="16" name="Exiled Miner" occupation="Bandit">
@@ -3896,7 +3896,7 @@
         <equipment id="Item.spangenhelm_with_leather" slot="Head" />
         <equipment id="Item.wrapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_outcast_bejewelled_noble" level="21" name="Exiled Bejewelled Noble" occupation="Bandit">
@@ -3967,7 +3967,7 @@
         <equipment id="Item.battanian_chainmail_shoulder_b" slot="Cape" />
         <equipment id="Item.plated_strip_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_outcast_lumberjack" level="16" name="Exiled Lumberjack" occupation="Bandit">
@@ -4023,7 +4023,7 @@
         <equipment id="Item.burlap_waistcoat" slot="Body" />
         <equipment id="Item.ragged_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cs_outcast_fisher" level="21" name="Exiled Whalehunter" occupation="Bandit">
@@ -4067,7 +4067,7 @@
         <equipment id="Item.battania_civil_cape" slot="Cape" />
         <equipment id="Item.battania_woodland_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Infantry" id="cs_outcast_savage" level="21" name="Exiled Savage" occupation="Bandit">
@@ -4133,7 +4133,7 @@
         <equipment id="Item.rough_tied_bracers" slot="Gloves" />
         <equipment id="Item.wrapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cs_outcast_scavenger" level="6" name="Outcast Scavenger" occupation="Bandit">
@@ -4169,7 +4169,7 @@
         <equipment id="Item.eastern_spear_1_t2" slot="Item2" />
         <equipment id="Item.battanian_savage_armor" slot="Body" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cs_outcast_strider" level="11" name="Outcast Strider" occupation="Bandit">
@@ -4212,7 +4212,7 @@
         <equipment id="Item.wolf_shoulder" slot="Cape" />
         <equipment id="Item.highland_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cs_outcast_stalker" level="16" name="Outcast Stalker" occupation="Bandit">
@@ -4264,7 +4264,7 @@
         <equipment id="Item.battania_cloak_furr" slot="Cape" />
         <equipment id="Item.belted_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.battania" default_group="Ranged" id="cs_outcast_avenger" level="21" name="Outcast Avenger" occupation="Bandit">
@@ -4306,7 +4306,7 @@
         <equipment id="Item.pilgrim_hood" slot="Head" />
         <equipment id="Item.highland_leg_wrappings" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -4334,7 +4334,7 @@
         <equipment id="Item.leafblade_throwing_knife" slot="Item1" />
         <equipment id="Item.roughcloth_shortcoat" slot="Body" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_brigand_vagabond" level="6" name="Roaming Vagabond" occupation="Bandit">
@@ -4388,7 +4388,7 @@
         <equipment id="Item.khuzait_civil_coat_b" slot="Body" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_brigand_bazaar_trader" level="11" name="Roaming Bazaar Charlatan" occupation="Bandit">
@@ -4429,7 +4429,7 @@
         <equipment id="Item.headscarf_d" slot="Head" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_brigand_gladiator" level="16" name="Roaming Gladiator" occupation="Bandit">
@@ -4485,7 +4485,7 @@
         <equipment id="Item.adarga" slot="Item1" />
         <equipment id="Item.studded_leather_waistcoat" slot="Body" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_brigand_arenamaster" level="21" name="Roaming Dervish" occupation="Bandit">
@@ -4539,7 +4539,7 @@
         <equipment id="Item.eastern_silk_clothing" slot="Body" />
         <equipment id="Item.eastern_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_brigand_assassin" level="21" name="Roaming Assassin" occupation="Bandit">
@@ -4587,7 +4587,7 @@
         <equipment id="Item.steppe_leather_shoulders" slot="Cape" />
         <equipment id="Item.khuzait_curved_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_brigand_scholar" level="16" name="Roaming Scholar" occupation="Bandit">
@@ -4619,7 +4619,7 @@
         <equipment id="Item.nomad_cap" slot="Head" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_brigand_engineer" level="21" name="Roaming Engineer" occupation="Bandit">
@@ -4652,7 +4652,7 @@
         <equipment id="Item.decorated_nomad_cap" slot="Head" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_brigand_raider" level="6" name="Brigand Raider" occupation="Bandit" upgrade_requires="ItemCategory.horse">
@@ -4686,7 +4686,7 @@
         <equipment id="Item.khuzait_horse" slot="Horse" />
         <equipment id="Item.steppe_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_brigand_pillager" level="11" name="Brigand Pillager" occupation="Bandit">
@@ -4739,7 +4739,7 @@
         <equipment id="Item.aserai_horse_tournament" slot="Horse" />
         <equipment id="Item.steppe_fur_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_brigand_sacker" level="16" name="Brigand Sacker" occupation="Bandit">
@@ -4790,7 +4790,7 @@
         <equipment id="Item.steppe_war_horse" slot="Horse" />
         <equipment id="Item.steppe_fur_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_brigand_chosen" level="21" name="Brigand Chosen" occupation="Bandit">
@@ -4858,7 +4858,7 @@
         <equipment id="Item.t2_aserai_horse" slot="Horse" />
         <equipment id="Item.steppe_half_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_brigand_destroyer" level="21" name="Brigand Destroyer" occupation="Bandit">
@@ -4893,7 +4893,6 @@
         <equipment id="Item.desert_lamellar" slot="Body" />
         <equipment id="Item.eastern_plated_leather_vambraces" slot="Gloves" />
         <equipment id="Item.feathered_spangenhelm_over_imperial_coif" slot="Head" />
-        <equipment id="Item.Cape" slot="Cape" />
         <equipment id="Item.plated_strip_boots" slot="Leg" />
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.steppe_half_barding" slot="HorseHarness" />
@@ -4910,7 +4909,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.steppe_half_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -4947,7 +4946,7 @@
         <equipment id="Item.simple_pike_t2" slot="Item0" />
         <equipment id="Item.fur_skirt" slot="Body" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_raider" level="6" name="Barbarian Warrior" occupation="Bandit">
@@ -4989,7 +4988,7 @@
         <equipment id="Item.ragged_armwraps" slot="Gloves" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_ranger" level="6" name="Barbarian Scout" occupation="Bandit">
@@ -5057,7 +5056,7 @@
         <equipment id="Item.strapped_shoes" slot="Leg" />
         <equipment id="Item.wrapped_scarf" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_fiercewarrior" level="11" name="Barbarian Fierce Warrior" occupation="Bandit">
@@ -5123,7 +5122,7 @@
         <equipment id="Item.ragged_boots" slot="Leg" />
         <equipment id="Item.aserai_horseman_shoulder" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_slayer" level="16" name="Barbarian Slayer" occupation="Bandit">
@@ -5154,7 +5153,7 @@
         <equipment id="Item.strapped_shoes" slot="Leg" />
         <equipment id="Item.wolf_shoulder" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_chosenslayer" level="21" name="Barbarian Chosen Slayer" occupation="Bandit">
@@ -5218,7 +5217,7 @@
         <equipment id="Item.battania_woodland_boots" slot="Leg" />
         <equipment id="Item.bearskin" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_legendaryslayer" level="26" name="Barbarian Legendary Slayer" occupation="Bandit">
@@ -5281,7 +5280,7 @@
         <equipment id="Item.battania_fur_boots" slot="Leg" />
         <equipment id="Item.bearskin" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_shielder" level="16" name="Barbarian Fighter" occupation="Bandit">
@@ -5310,7 +5309,7 @@
         <equipment id="Item.battania_woodland_boots" slot="Leg" />
         <equipment id="Item.aserai_horseman_shoulder" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_spearman" level="11" name="Barbarian Boar Warrior" occupation="Bandit">
@@ -5367,7 +5366,7 @@
         <equipment id="Item.ragged_boots" slot="Leg" />
         <equipment id="Item.scarf" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_axethrower" level="11" name="Barbarian Axethrower" occupation="Bandit">
@@ -5438,7 +5437,7 @@
         <equipment id="Item.strapped_shoes" slot="Leg" />
         <equipment id="Item.wrapped_scarf" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_veteran" level="21" name="Barbarian Veteran Fighter" occupation="Bandit">
@@ -5489,7 +5488,7 @@
         <equipment id="Item.battania_fur_boots" slot="Leg" />
         <equipment id="Item.wolf_shoulder" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Cavalry" id="cs_barbarian_cavalry" level="16" name="Barbarian Raider" occupation="Bandit" upgrade_requires="ItemCategory.horse">
@@ -5544,7 +5543,7 @@
         <equipment id="Item.sturgia_horse_tournament" slot="Horse" />
         <equipment id="Item.bandit_saddle_highland" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Cavalry" id="cs_barbarian_charger" level="21" name="Barbarian Charger" occupation="Bandit">
@@ -5582,7 +5581,7 @@
         <equipment id="Item.t2_sturgia_horse" slot="Horse" />
         <equipment id="Item.northern_noble_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Cavalry" id="cs_barbarian_noble" level="26" name="Barbarian Noble" occupation="Bandit">
@@ -5621,7 +5620,7 @@
         <equipment id="Item.t2_sturgia_horse" slot="Horse" />
         <equipment id="Item.northern_noble_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Cavalry" id="cs_barbarian_nighthunter" level="16" name="Barbarian Nighthunter" occupation="Bandit">
@@ -5647,7 +5646,7 @@
         <equipment id="Item.sturgia_horse_tournament" slot="Horse" />
         <equipment id="Item.bandit_saddle_highland" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Cavalry" id="cs_barbarian_horrificnighthunter" level="21" name="Barbarian Horrific Nighthunter" occupation="Bandit">
@@ -5675,7 +5674,7 @@
         <equipment id="Item.t2_sturgia_horse" slot="Horse" />
         <equipment id="Item.bandit_saddle_highland" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_bearhunter" level="16" name="Barbarian Heavy Axethrower" occupation="Bandit">
@@ -5723,7 +5722,7 @@
         <equipment id="Item.battania_woodland_boots" slot="Leg" />
         <equipment id="Item.wolf_shoulder" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_chief" level="26" name="Barbarian Hero" occupation="Bandit">
@@ -5758,7 +5757,7 @@
         <equipment id="Item.strapped_mail_chausses" slot="Leg" />
         <equipment id="Item.rough_bearskin" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_marauder" level="21" name="Barbarian Marauder" occupation="Bandit">
@@ -5806,7 +5805,7 @@
         <equipment id="Item.battania_woodland_boots" slot="Leg" />
         <equipment id="Item.wolf_shoulder" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_wolfrunner" level="11" name="Barbarian Wolfrunner" occupation="Bandit" upgrade_requires="ItemCategory.horse">
@@ -5851,7 +5850,7 @@
         <equipment id="Item.strapped_shoes" slot="Leg" />
         <equipment id="Item.wolf_shoulder" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_pikeman" level="21" name="Barbarian Pikeman" occupation="Bandit">
@@ -5893,7 +5892,7 @@
         <equipment id="Item.rough_tied_boots" slot="Leg" />
         <equipment id="Item.mail_shoulders" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_longspears" level="16" name="Barbarian Longspears" occupation="Bandit">
@@ -5939,7 +5938,7 @@
         <equipment id="Item.battania_woodland_boots" slot="Leg" />
         <equipment id="Item.battania_woodland_cloak" slot="Cape" />
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -6038,7 +6037,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       </EquipmentRoster>
-	  <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="battania_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_empire_slave" level="1" name="Imperial Slave" occupation="Bandit">
@@ -6136,7 +6135,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.sturgia" default_group="Infantry" id="cs_sturgia_slave" level="1" name="Sturgian Slave" occupation="Bandit">
@@ -6234,7 +6233,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_vlandia_slave" level="1" name="Vlandian Slave" occupation="Bandit">
@@ -6332,7 +6331,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_khuzait_slave" level="1" name="Khuzait Slave" occupation="Bandit">
@@ -6430,7 +6429,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.aserai" default_group="Infantry" id="cs_aserai_slave" level="1" name="Aserai Slave" occupation="Bandit">
@@ -6528,7 +6527,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       </EquipmentRoster>
-	  <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="aserai_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.mountain_bandits" default_group="Infantry" id="cs_barbarian_slave" level="1" name="Barbarian Slave" occupation="Bandit">
@@ -6626,7 +6625,7 @@
       </EquipmentRoster>
       <EquipmentRoster>
       </EquipmentRoster>
-	  <EquipmentSet id="sturgia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="sturgia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -6760,7 +6759,7 @@
         <equipment id="Item.aserai_civil_b" slot="Body" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_village_scout" level="11" name="Village Scout" occupation="Soldier">
@@ -6835,7 +6834,7 @@
         <equipment id="Item.leather_gloves" slot="Gloves" />
         <equipment id="Item.highland_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_lookout" level="16" name="Lookout" occupation="Soldier">
@@ -6870,7 +6869,7 @@
         <equipment id="Item.leather_gloves" slot="Gloves" />
         <equipment id="Item.highland_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="HorseArcher" id="cs_village_ranger" level="16" name="Village Ranger" occupation="Soldier" upgrade_requires="ItemCategory.horse">
@@ -6911,7 +6910,7 @@
         <equipment id="Item.sturgia_horse_tournament" slot="Horse" />
         <equipment id="Item.bandit_saddle_steppe" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="HorseArcher" id="cs_village_sherrif" level="21" name="Village Sherrif" occupation="Soldier">
@@ -6939,7 +6938,7 @@
         <equipment id="Item.vlandia_horse_tournament" slot="Horse" />
         <equipment id="Item.northern_light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_trained_youth" level="11" name="Trained Youth" occupation="Soldier">
@@ -7016,7 +7015,7 @@
         <equipment id="Item.highland_gloves" slot="Gloves" />
         <equipment id="Item.steppe_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_burgher" is_basic_troop="true" level="6" name="Burgher" occupation="Soldier">
@@ -7107,7 +7106,7 @@
         <equipment id="Item.short_padded_robe" slot="Body" />
         <equipment id="Item.steppe_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_town_guard" level="16" name="Town Guard" occupation="Soldier">
@@ -7226,7 +7225,7 @@
         <equipment id="Item.highland_gloves" slot="Gloves" />
         <equipment id="Item.battania_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_town_marksman" level="16" name="Town Marksman" occupation="Soldier">
@@ -7281,7 +7280,7 @@
         <equipment id="Item.highland_gloves" slot="Gloves" />
         <equipment id="Item.battania_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_righteous_citizen" level="11" name="Righteous Citizen" occupation="Soldier">
@@ -7324,7 +7323,7 @@
         <equipment id="Item.highland_gloves" slot="Gloves" />
         <equipment id="Item.steppe_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_manhunter" level="16" name="Manhunter" occupation="Soldier" upgrade_requires="ItemCategory.horse">
@@ -7460,7 +7459,7 @@
         <equipment id="Item.vlandia_horse_tournament" slot="Horse" />
         <equipment id="Item.northern_light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_veteran_manhunter" level="21" name="Veteran Manhunter" occupation="Soldier">
@@ -7596,7 +7595,7 @@
         <equipment id="Item.vlandia_horse_tournament" slot="Horse" />
         <equipment id="Item.northern_light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_sherrif" level="26" name="Sherrif" occupation="Soldier">
@@ -7653,7 +7652,7 @@
         <equipment id="Item.vlandia_horse_tournament" slot="Horse" />
         <equipment id="Item.northern_light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -7716,7 +7715,7 @@
         <equipment id="Item.armwraps" slot="Gloves" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_footman" level="11" name="Redemptive Footman" occupation="Soldier">
@@ -7769,7 +7768,7 @@
         <equipment id="Item.vlandia_bandit_b" slot="Body" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_sentry" level="16" name="Redemptive Crusader" occupation="Soldier">
@@ -7810,7 +7809,7 @@
         <equipment id="Item.padded_vambrace" slot="Gloves" />
         <equipment id="Item.belted_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_crusader" level="21" name="Redemptive Heavy Crusader" occupation="Soldier">
@@ -7879,7 +7878,7 @@
         <equipment id="Item.padded_mitten" slot="Gloves" />
         <equipment id="Item.mail_cavalier_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_juggernaut" level="26" name="Redemptive Grand-Crusader" occupation="Soldier">
@@ -7904,7 +7903,7 @@
         <equipment id="Item.lordly_mail_mitten" slot="Gloves" />
         <equipment id="Item.plated_strip_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_guard" level="16" name="Redemptive Guard" occupation="Soldier">
@@ -7943,7 +7942,7 @@
         <equipment id="Item.padded_vambrace" slot="Gloves" />
         <equipment id="Item.belted_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_phalanx" level="21" name="Redemptive Phalanx" occupation="Soldier">
@@ -7974,7 +7973,7 @@
         <equipment id="Item.reinforced_padded_mitten" slot="Gloves" />
         <equipment id="Item.mail_chausses" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_moloch" level="26" name="Redemptive Moloch" occupation="Soldier">
@@ -7996,7 +7995,7 @@
         <equipment id="Item.lordly_mail_mitten" slot="Gloves" />
         <equipment id="Item.plated_strip_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Ranged" id="cs_redemptive_levy_bowman" level="11" name="Redemptive Levy Bowman" occupation="Soldier">
@@ -8059,7 +8058,7 @@
         <equipment id="Item.vlandia_bandit_b" slot="Body" />
         <equipment id="Item.belted_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Ranged" id="cs_redemptive_longbowman" level="16" name="Redemptive Longbowman" occupation="Soldier">
@@ -8084,7 +8083,7 @@
         <equipment id="Item.padded_leather_shirt" slot="Body" />
         <equipment id="Item.belted_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Ranged" id="cs_redemptive_veteran_longbowman" level="21" name="Redemptive Veteran Longbowman" occupation="Soldier">
@@ -8120,7 +8119,7 @@
         <equipment id="Item.sleeveless_padded_coat" slot="Body" />
         <equipment id="Item.belted_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Ranged" id="cs_redemptive_cloudpiercer" level="26" name="Redemptive Cloudpiercer" occupation="Soldier">
@@ -8145,7 +8144,7 @@
         <equipment id="Item.leather_and_iron_plate_armor" slot="Body" />
         <equipment id="Item.plated_strip_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_pilgrim" is_basic_troop="true" level="6" name="Pilgrim" occupation="Soldier">
@@ -8163,7 +8162,7 @@
       <upgrade_target id="NPCCharacter.cs_redemptive_priest" />
     </upgrade_targets>
     <Equipments>
-      <EquipmentRoster  civilian="true">
+      <EquipmentRoster  equipmentType="Civilian">
         <equipment id="Item.cs_quarter_staff_t1" slot="Item0" />
         <equipment id="Item.lowland_throwing_knife" slot="Item1" />
         <equipment id="Item.pilgrim_hood" slot="Head" />
@@ -8232,7 +8231,7 @@
       <upgrade_target id="NPCCharacter.cs_redemptive_inquisitor" />
     </upgrade_targets>
     <Equipments>
-      <EquipmentRoster civilian="true">
+      <EquipmentRoster equipmentType="Civilian">
         <equipment id="Item.cs_priest_staff" slot="Item0" />
         <equipment id="Item.hood" slot="Cape" />
         <equipment id="Item.monk_robe" slot="Body" />
@@ -8275,7 +8274,7 @@
         <equipment id="Item.monk_robe" slot="Body" />
         <equipment id="Item.turndown_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_inquisitor" level="26" name="Redemptive Inquisitor" occupation="Soldier">
@@ -8289,7 +8288,7 @@
     <upgrade_targets>
     </upgrade_targets>
     <Equipments>
-      <EquipmentRoster civilian="true">
+      <EquipmentRoster equipmentType="Civilian">
         <equipment id="Item.cs_2h_morningstar_t4" slot="Item0" />
         <equipment id="Item.pauldron_cape_a" slot="Cape" />
         <equipment id="Item.monk_robe" slot="Body" />
@@ -8303,7 +8302,7 @@
         <equipment id="Item.decorated_imperial_gauntlets" slot="Gloves" />
         <equipment id="Item.decorated_imperial_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Infantry" id="cs_redemptive_standardbearer" is_basic_troop="true" level="16" name="Western Standard-Bearer" occupation="Soldier">
@@ -8326,7 +8325,7 @@
         <equipment id="Item.guarded_padded_vambrace" slot="Gloves" />
         <equipment id="Item.belted_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Cavalry" id="cs_redemptive_knight" level="21" name="Redemptive Knight" occupation="Soldier" upgrade_requires="ItemCategory.war_horse">
@@ -8366,7 +8365,7 @@
         <equipment id="Item.war_horse" slot="Horse" />
         <equipment id="Item.halfchain_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Cavalry" id="cs_redemptive_grandknight" level="26" name="Redemptive Grand Knight" occupation="Soldier">
@@ -8395,7 +8394,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.mail_and_plate_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -8453,7 +8452,7 @@
         <equipment id="Item.long_desert_robe" slot="Body" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_wrathful_zealot" level="16" name="Zealot of Wrath" occupation="Soldier">
@@ -8493,7 +8492,7 @@
         <equipment id="Item.woven_leather_vest" slot="Body" />
         <equipment id="Item.wrapped_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_wrathful_ascendant" level="26" name="Ascendant of Wrath" occupation="Soldier">
@@ -8532,7 +8531,7 @@
         <equipment id="Item.imperial_lamellar_over_leather" slot="Body" />
         <equipment id="Item.lamellar_plate_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_wrathful_fanatic" is_basic_troop="true" level="6" name="Wrath Fanatic" occupation="Soldier">
@@ -8579,7 +8578,7 @@
         <equipment id="Item.long_desert_robe" slot="Body" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_wrathful_flagellant" level="11" name="Wrath Flagellant" occupation="Soldier">
@@ -8648,7 +8647,7 @@
         <equipment id="Item.highland_gloves" slot="Gloves" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_wrathful_bloodbrother" level="16" name="Wrath Bloodbrother" occupation="Soldier">
@@ -8688,7 +8687,7 @@
         <equipment id="Item.buckled_wildsman_armor" slot="Body" />
         <equipment id="Item.leather_cavalier_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_wrathful_deathbrother" level="21" name="Wrath Deathbrother" occupation="Soldier">
@@ -8721,7 +8720,7 @@
         <equipment id="Item.veteran_mercenary_armor" slot="Body" />
         <equipment id="Item.leather_cavalier_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_wrathful_doombringer" level="26" name="Wrath Doombringer" occupation="Soldier">
@@ -8753,7 +8752,7 @@
         <equipment id="Item.plated_leather_coat" slot="Body" />
         <equipment id="Item.mail_chausses" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_wrathful_rider" level="16" name="Wrath Rider" occupation="Soldier" upgrade_requires="ItemCategory.horse">
@@ -8793,7 +8792,7 @@
         <equipment id="Item.empire_horse" slot="Horse" />
         <equipment id="Item.light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_wrathful_punisher" level="21" name="Wrath Punisher" occupation="Soldier">
@@ -8835,7 +8834,7 @@
         <equipment id="Item.war_horse" slot="Horse" />
         <equipment id="Item.light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Cavalry" id="cs_wrathful_purifier" level="26" name="Wrath Purifier" occupation="Soldier">
@@ -8878,7 +8877,7 @@
         <equipment id="Item.war_horse" slot="Horse" />
         <equipment id="Item.halfchain_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_wrathful_lurker" level="11" name="Wrath Lurker" occupation="Soldier">
@@ -8913,7 +8912,7 @@
         <equipment id="Item.layered_leather_tunic" slot="Body" />
         <equipment id="Item.wrapped_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_wrathful_marksman" level="16" name="Wrath Marksman" occupation="Soldier">
@@ -8945,7 +8944,7 @@
         <equipment id="Item.buckled_wildsman_armor" slot="Body" />
         <equipment id="Item.leather_cavalier_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_wrathful_veteranmarksman" level="21" name="Wrath Veteran Marksman" occupation="Soldier">
@@ -8971,7 +8970,7 @@
         <equipment id="Item.veteran_mercenary_armor" slot="Body" />
         <equipment id="Item.leather_cavalier_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Ranged" id="cs_wrathful_eagleeye" level="26" name="Wrath Eagleeye" occupation="Soldier">
@@ -9007,7 +9006,7 @@
         <equipment id="Item.plated_leather_coat" slot="Body" />
         <equipment id="Item.leather_cavalier_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.empire" default_group="Infantry" id="cs_wrathful_standardbearer" is_basic_troop="true" level="16" name="Cult Standard-Bearer" occupation="Soldier">
@@ -9029,7 +9028,7 @@
         <equipment id="Item.long_hemp_tunic" slot="Body" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="empire_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -9077,7 +9076,7 @@
         <equipment id="Item.empire_horse" slot="Horse" />
         <equipment id="Item.light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Cavalry" id="cs_phoenix_scout" level="21" name="Phoenix Scout" occupation="Soldier">
@@ -9106,7 +9105,7 @@
         <equipment id="Item.empire_horse" slot="Horse" />
         <equipment id="Item.light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="HorseArcher" id="cs_phoenix_huntsman" level="26" name="Phoenix Huntsman" occupation="Soldier">
@@ -9153,7 +9152,7 @@
         <equipment id="Item.charger" slot="Horse" />
         <equipment id="Item.light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Cavalry" id="cs_phoenix_knight" level="21" name="Phoenix Knight" occupation="Soldier" upgrade_requires="ItemCategory.war_horse">
@@ -9181,7 +9180,7 @@
         <equipment id="Item.war_horse" slot="Horse" />
         <equipment id="Item.halfchain_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Cavalry" id="cs_phoenix_champion" level="31" name="Phoenix Champion" occupation="Soldier">
@@ -9209,7 +9208,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.chain_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Cavalry" id="cs_phoenix_paladin" level="31" name="Phoenix Paladin" occupation="Soldier">
@@ -9234,7 +9233,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.chain_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Cavalry" id="cs_phoenix_standardbearer" is_basic_troop="true" level="21" name="Western Mounted Standard-Bearer" occupation="Soldier">
@@ -9260,7 +9259,7 @@
         <equipment id="Item.empire_horse" slot="Horse" />
         <equipment id="Item.light_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.vlandia" default_group="Cavalry" id="cs_phoenix_heavystandardbearer" level="31" name="Western Heavy Mounted Standard-Bearer" occupation="Soldier" upgrade_requires="ItemCategory.war_horse">
@@ -9286,7 +9285,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.chain_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="vlandia_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -9361,7 +9360,7 @@
         <equipment id="Item.vlandia_bandit_a" slot="Body" />
         <equipment id="Item.leather_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_makko_spearman" level="11" name="Makkonian Spearman" occupation="Soldier">
@@ -9392,7 +9391,7 @@
         <equipment id="Item.imperial_padded_coif" slot="Head" />
         <equipment id="Item.leather_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_makko_shield_spearman" level="16" name="Makkonian Shielder" occupation="Soldier">
@@ -9432,7 +9431,7 @@
         <equipment id="Item.nasalhelm_over_mail" slot="Head" />
         <equipment id="Item.turndown_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_makko_greatshield_spearman" level="21" name="Makkonian Greatshielder" occupation="Soldier">
@@ -9468,7 +9467,7 @@
         <equipment id="Item.spiked_helmet" slot="Head" />
         <equipment id="Item.mail_chausses" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_makko_ironguard" level="26" name="Makkonian Ironguard" occupation="Soldier">
@@ -9513,7 +9512,7 @@
         <equipment id="Item.desert_scale_shoulders" slot="Cape" />
         <equipment id="Item.mail_chausses" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_makko_skirmisher" level="16" name="Makkonian Skirmisher" occupation="Soldier">
@@ -9580,7 +9579,7 @@
         <equipment id="Item.wrapped_scarf" slot="Cape" />
         <equipment id="Item.strapped_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_makko_swordsman" level="21" name="Makkonian Light Swordsman" occupation="Soldier">
@@ -9620,7 +9619,7 @@
         <equipment id="Item.leather_studdedhelm" slot="Head" />
         <equipment id="Item.strapped_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_makko_elite_swordsman" level="26" name="Makkonian Heavy Swordsman" occupation="Soldier">
@@ -9655,7 +9654,7 @@
         <equipment id="Item.eastern_studded_shoulders" slot="Cape" />
         <equipment id="Item.strapped_mail_chausses" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cs_makko_horseman" level="11" name="Makkonian Horseman" occupation="Soldier" upgrade_requires="ItemCategory.horse">
@@ -9684,7 +9683,7 @@
         <equipment id="Item.khuzait_horse" slot="Horse" />
         <equipment id="Item.steppe_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cs_makko_horse_archer" level="16" name="Makkonian Horse Archer" occupation="Soldier">
@@ -9713,7 +9712,7 @@
         <equipment id="Item.khuzait_horse" slot="Horse" />
         <equipment id="Item.stripped_leather_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cs_makko_veteran_horse_archer" level="21" name="Makkonian Veteran Horse Archer" occupation="Soldier">
@@ -9754,7 +9753,7 @@
         <equipment id="Item.khuzait_horse" slot="Horse" />
         <equipment id="Item.stripped_leather_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="HorseArcher" id="cs_makko_elite_horse_archer" level="26" name="Makkonian Elite Horse Archer" occupation="Soldier">
@@ -9782,7 +9781,7 @@
         <equipment id="Item.noble_horse_eastern" slot="Horse" />
         <equipment id="Item.half_mail_and_plate_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_makko_light_cavalry" level="16" name="Makkonian Steppe Lancer" occupation="Soldier">
@@ -9810,7 +9809,7 @@
         <equipment id="Item.khuzait_horse" slot="Horse" />
         <equipment id="Item.stripped_leather_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_makko_heavy_cavalry" level="21" name="Makkonian Shock-Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.war_horse">
@@ -9839,7 +9838,7 @@
         <equipment id="Item.steppe_war_horse" slot="Horse" />
         <equipment id="Item.stripped_leather_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_makko_charger_of_the_eternal_sky" level="26" name="Makkonian Charger of the Eternal Sky" occupation="Soldier">
@@ -9891,7 +9890,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.mail_and_plate_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_makko_crossbowman" level="21" name="Makkonian Crossbowman" occupation="Soldier">
@@ -9925,7 +9924,7 @@
         <equipment id="Item.leather_studdedhelm_over_headcloth" slot="Head" />
         <equipment id="Item.khuzait_curved_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_makko_veteran_crossbowman" level="26" name="Makkonian Quickfire Crossbowman" occupation="Soldier">
@@ -9950,7 +9949,7 @@
         <equipment id="Item.plumed_fur_lined_helmet" slot="Head" />
         <equipment id="Item.khuzait_curved_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_makko_elite_crossbowman" level="31" name="Makkonian Chu-Ko-Nu" occupation="Soldier">
@@ -9975,7 +9974,7 @@
         <equipment id="Item.eastern_studded_shoulders" slot="Cape" />
         <equipment id="Item.khuzait_curved_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_makko_bannerpeasant" is_basic_troop="true" level="6" name="Far-Eastern Banner-Peasant" occupation="Soldier">
@@ -10011,7 +10010,7 @@
         <equipment id="Item.vlandia_bandit_a" slot="Body" />
         <equipment id="Item.leather_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_makko_standardbearer" level="16" name="Far-Eastern Standard-Bearer" occupation="Soldier">
@@ -10034,7 +10033,7 @@
         <equipment id="Item.nasal_helmet_with_leather" slot="Head" />
         <equipment id="Item.rough_tied_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_makko_heavy_standardbearer" level="26" name="Far-Eastern Infantry-Officer" occupation="Soldier">
@@ -10056,7 +10055,7 @@
         <equipment id="Item.steppe_helmet" slot="Head" />
         <equipment id="Item.wrapped_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_makko_cavalry_standardbearer" is_basic_troop="true" level="16" name="Far-Eastern Cavalry Standard-Bearer" occupation="Soldier">
@@ -10081,7 +10080,7 @@
         <equipment id="Item.khuzait_horse" slot="Horse" />
         <equipment id="Item.stripped_leather_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   
@@ -10150,7 +10149,7 @@
         <equipment id="Item.wrapped_desert_cap" slot="Head" />
         <equipment id="Item.ragged_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_humar_spearman" level="11" name="Humar Pikeman" occupation="Soldier">
@@ -10180,7 +10179,7 @@
         <equipment id="Item.wrapped_desert_cap" slot="Head" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_humar_pikeman" level="16" name="Humar Clan-Pikeman" occupation="Soldier">
@@ -10210,7 +10209,7 @@
         <equipment id="Item.desert_helmet" slot="Head" />
         <equipment id="Item.wrapped_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_humar_veteran_pikeman" level="21" name="Humar Pike Samurai" occupation="Soldier">
@@ -10239,7 +10238,7 @@
         <equipment id="Item.khuzait_noble_helmet_with_feathers" slot="Head" />
         <equipment id="Item.reinforced_suede_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_humar_elite_pikeman" level="26" name="Humar Pike Hero" occupation="Soldier">
@@ -10269,7 +10268,7 @@
         <equipment id="Item.imperial_lamellar_shoulders" slot="Cape" />
         <equipment id="Item.decorated_imperial_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_humar_light_cav" level="16" name="Humar Light Cavalry" occupation="Soldier" upgrade_requires="ItemCategory.horse">
@@ -10297,7 +10296,7 @@
         <equipment id="Item.vlandia_horse" slot="Horse" />
         <equipment id="Item.steppe_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_humar_banner_cavalry" level="21" name="Humar Banner-Cavalry" occupation="Soldier">
@@ -10333,7 +10332,7 @@
         <equipment id="Item.hunter" slot="Horse" />
         <equipment id="Item.northern_noble_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_humar_banner_bodyguard" level="26" name="Humar Banner-Bodyguard" occupation="Soldier" upgrade_requires="ItemCategory.war_horse">
@@ -10370,7 +10369,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.steppe_half_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_humar_lancer" level="21" name="Humar Lancer" occupation="Soldier">
@@ -10407,7 +10406,7 @@
         <equipment id="Item.hunter" slot="Horse" />
         <equipment id="Item.northern_noble_harness" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Cavalry" id="cs_humar_heavy_lancer" level="26" name="Humar Heavy Lancer" occupation="Soldier" upgrade_requires="ItemCategory.war_horse">
@@ -10445,7 +10444,7 @@
         <equipment id="Item.storm_charger" slot="Horse" />
         <equipment id="Item.steppe_half_barding" slot="HorseHarness" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_humar_archer" level="11" name="Humar Archer" occupation="Soldier">
@@ -10470,7 +10469,7 @@
         <equipment id="Item.wrapped_desert_cap" slot="Head" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t1" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_humar_longbow_archer" level="16" name="Humar Longbow Archer" occupation="Soldier">
@@ -10495,7 +10494,7 @@
         <equipment id="Item.desert_cap" slot="Head" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_humar_veteran_archer" level="21" name="Humar Veteran Longbow Archer" occupation="Soldier">
@@ -10521,7 +10520,7 @@
         <equipment id="Item.desert_helmet" slot="Head" />
         <equipment id="Item.wrapped_leather_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_humar_elite_archer" level="26" name="Humar Armored Archer" occupation="Soldier">
@@ -10546,7 +10545,7 @@
         <equipment id="Item.khuzait_noble_helmet_with_feathers" slot="Head" />
         <equipment id="Item.reinforced_suede_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_humar_bomb_thrower" level="16" name="Humar Saboteur" occupation="Soldier">
@@ -10570,7 +10569,7 @@
         <equipment id="Item.cloth_headwrap" slot="Head" />
         <equipment id="Item.fine_town_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_humar_shinobi" level="21" name="Humar Veteran Saboteur" occupation="Soldier">
@@ -10606,7 +10605,7 @@
         <equipment id="Item.battania_civil_hood" slot="Head" />
         <equipment id="Item.khuzait_curved_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Ranged" id="cs_humar_master_shinobi" level="26" name="Humar Master-Saboteur" occupation="Soldier">
@@ -10643,7 +10642,7 @@
         <equipment id="Item.closed_head_scarf" slot="Head" />
         <equipment id="Item.reinforced_suede_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_humar_veteran_samurai" level="21" name="Humar Sword Samurai" occupation="Soldier">
@@ -10667,7 +10666,7 @@
         <equipment id="Item.steppe_leather_vambraces" slot="Gloves" />
         <equipment id="Item.reinforced_suede_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_humar_elite_samurai" level="26" name="Humar Sword Hero" occupation="Soldier">
@@ -10691,7 +10690,7 @@
         <equipment id="Item.imperial_lamellar_shoulders" slot="Cape" />
         <equipment id="Item.northern_plated_boots" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t3" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
   <NPCCharacter culture="Culture.khuzait" default_group="Infantry" id="cs_humar_ronin" level="11" name="Ronin" occupation="Bandit">
@@ -10725,7 +10724,7 @@
         <equipment id="Item.steppe_robe" slot="Body" />
         <equipment id="Item.strapped_shoes" slot="Leg" />
       </EquipmentRoster>
-	  <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+	  <EquipmentSet id="khuzait_troop_civilian_template_t2" equipmentType="Civilian" />
     </Equipments>
   </NPCCharacter>
 </NPCCharacters>
