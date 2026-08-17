@@ -1,101 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
 
-	<PriorityPartyBehaviourTemplates>
-		<PriorityPartyBehaviourTemplate>
-			<Id>patrol-village-castle-3-6</Id>
-			<PriorityPartyBehaviours>
-				<PatrolAroundClosestLestInterruptedAndSwitch>
-					<TargetTypes>
-						<TargetType>Village</TargetType>
-						<TargetType>Castle</TargetType>
-					</TargetTypes>
-					<StableTimeInDays>
-						<Minimum>3</Minimum>
-						<Maximum>6</Maximum>
-					</StableTimeInDays>
-				</PatrolAroundClosestLestInterruptedAndSwitch>
-			</PriorityPartyBehaviours>
-		</PriorityPartyBehaviourTemplate>
-		<PriorityPartyBehaviourTemplate>
-			<Id>patrol-town-3-6</Id>
-			<PriorityPartyBehaviours>
-				<PatrolAroundClosestLestInterruptedAndSwitch>
-					<TargetTypes>
-						<TargetType>Town</TargetType>
-					</TargetTypes>
-					<StableTimeInDays>
-						<Minimum>3</Minimum>
-						<Maximum>6</Maximum>
-					</StableTimeInDays>
-				</PatrolAroundClosestLestInterruptedAndSwitch>
-			</PriorityPartyBehaviours>
-		</PriorityPartyBehaviourTemplate>
-		<PriorityPartyBehaviourTemplate>
-			<Id>patrol-all-1-4</Id>
-			<PriorityPartyBehaviours>
-				<PatrolAroundClosestLestInterruptedAndSwitch>
-					<StableTimeInDays>
-						<Minimum>1</Minimum>
-						<Maximum>4</Maximum>
-					</StableTimeInDays>
-				</PatrolAroundClosestLestInterruptedAndSwitch>
-			</PriorityPartyBehaviours>
-		</PriorityPartyBehaviourTemplate>
-		<PriorityPartyBehaviourTemplate>
-			<Id>patrol-all-3-6</Id>
-			<PriorityPartyBehaviours>
-				<PatrolAroundClosestLestInterruptedAndSwitch>
-					<StableTimeInDays>
-						<Minimum>3</Minimum>
-						<Maximum>6</Maximum>
-					</StableTimeInDays>
-				</PatrolAroundClosestLestInterruptedAndSwitch>
-			</PriorityPartyBehaviours>
-		</PriorityPartyBehaviourTemplate>
-		<PriorityPartyBehaviourTemplate>
-			<Id>patrol-all-1-2</Id>
-			<PriorityPartyBehaviours>
-				<PatrolAroundClosestLestInterruptedAndSwitch>
-					<StableTimeInDays>
-						<Minimum>1</Minimum>
-						<Maximum>2</Maximum>
-					</StableTimeInDays>
-				</PatrolAroundClosestLestInterruptedAndSwitch>
-			</PriorityPartyBehaviours>
-		</PriorityPartyBehaviourTemplate>
-		<PriorityPartyBehaviourTemplate>
-			<Id>raid-and-patrol</Id>
-			<PriorityPartyBehaviours>
-				<RaidClosestVillage />
-				<PatrolAroundClosestLestInterruptedAndSwitch>
-					<StableTimeInDays>
-						<Minimum>1</Minimum>
-						<Maximum>3</Maximum>
-					</StableTimeInDays>
-				</PatrolAroundClosestLestInterruptedAndSwitch>
-			</PriorityPartyBehaviours>
-		</PriorityPartyBehaviourTemplate>
-		<PriorityPartyBehaviourTemplate>
-			<Id>siege-raid-and-patrol</Id>
-			<PriorityPartyBehaviours>
-				<BesiegeClosestSettlement>
-					<TargetTypes>
-						<TargetType>Town</TargetType>
-						<TargetType>Castle</TargetType>
-					</TargetTypes>
-				</BesiegeClosestSettlement>
-				<RaidClosestVillage />
-				<PatrolAroundClosestLestInterruptedAndSwitch>
-					<StableTimeInDays>
-						<Minimum>1</Minimum>
-						<Maximum>3</Maximum>
-					</StableTimeInDays>
-				</PatrolAroundClosestLestInterruptedAndSwitch>
-			</PriorityPartyBehaviours>
-		</PriorityPartyBehaviourTemplate>
-	</PriorityPartyBehaviourTemplates>
-
 	<!-- Bandits -->
 
 	<RegularBanditDailySpawnData
@@ -121,7 +26,7 @@
 	 	<ChanceInverseConstant>0.0015</ChanceInverseConstant>
 	 	<Name>Mountain Invaders</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>raid-and-patrol</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<SpawnMessage>Groups of Mountain Bandits have sacked an entire village, and united under their newly found wealth!</SpawnMessage>
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The Mountain Invaders have been brought to justice at [deathPlace]!</DeathMessage>
@@ -421,7 +326,7 @@
 	 	<ChanceInverseConstant>0</ChanceInverseConstant>
 	 	<Name>Giant Pillaging Stack</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>raid-and-patrol</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<DynamicSpawnChancePeriod> 170 </DynamicSpawnChancePeriod>
 	 	<DynamicSpawnChanceEffect> 0.7 </DynamicSpawnChanceEffect>
 	 </RegularBanditDailySpawnData>
@@ -620,7 +525,7 @@
 	 	<DevestationLinearMultiplier>0.03</DevestationLinearMultiplier>
 	 	<Name>Peasant Revolt</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>raid-and-patrol</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<SpawnMessage>Injustice, rapine, and high taxes have lead to a massive peasant revolt at [spawnPlace]!</SpawnMessage>
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The ludicrous possiblity of filthy peasants being equal to the nobles is no more. The revolutionaries have been crushed at [deathPlace]!</DeathMessage>
@@ -663,7 +568,7 @@
 	 	<DevestationLinearMultiplier>0.03</DevestationLinearMultiplier>
 	 	<Name>Free Folk Uprising</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>raid-and-patrol</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<SpawnMessage>Famine, unrest, and suppression have lead to a massive uprising of tribal outcasts at [spawnPlace]!</SpawnMessage>
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The outcast tribespeople and their dreams of a free Calradia have been crushed at [deathPlace]! The lords and their divine rights shall stay protected.</DeathMessage>
@@ -735,7 +640,7 @@
 	 	<DevestationLinearMultiplier>0.03</DevestationLinearMultiplier>
 	 	<Name>Ravenous Roaming Horde</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>raid-and-patrol</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<SpawnMessage>Greed, terror, and instability have lead to a massive gathering of rogues at [spawnPlace]!</SpawnMessage>
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The roaming horde has been squashed at [deathPlace] and the survivors have returned to their docile servitude.</DeathMessage>
@@ -917,7 +822,7 @@
 	 	<Name>Village Watch</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
 	 	<TrySpawnAt>Village</TrySpawnAt>
-	 	<PriorityPartyBehaviourTemplateId>patrol-village-castle-3-6</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-patrol-village-castle-3-6</PriorityPartyBehaviourTemplateId>
 	 </RegularBanditDailySpawnData>
 
 	 <RegularBanditDailySpawnData
@@ -937,7 +842,7 @@
 	 	<Name>Town Watch</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
 	 	<TrySpawnAt>Town</TrySpawnAt>
-	 	<PriorityPartyBehaviourTemplateId>patrol-town-3-6</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-patrol-town-3-6</PriorityPartyBehaviourTemplateId>
 	 </RegularBanditDailySpawnData>
 
 	 <RegularBanditDailySpawnData
@@ -956,7 +861,7 @@
 	 	<ChanceInverseConstant>0.4</ChanceInverseConstant>
 	 	<Name>Manhunters</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>patrol-all-1-4</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-patrol-all-1-4</PriorityPartyBehaviourTemplateId>
 	 </RegularBanditDailySpawnData>
 
 	 <RegularBanditDailySpawnData
@@ -975,7 +880,7 @@
 	 	<ChanceInverseConstant>0.15</ChanceInverseConstant>
 	 	<Name>Zealous Conscripts</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>patrol-all-3-6</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-patrol-all-3-6</PriorityPartyBehaviourTemplateId>
 	 </RegularBanditDailySpawnData>
 
 	 <RegularBanditDailySpawnData
@@ -994,7 +899,7 @@
 	 	<ChanceInverseConstant>0.9</ChanceInverseConstant>
 	 	<Name>Idealistic Citizens</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>patrol-all-3-6</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-patrol-all-3-6</PriorityPartyBehaviourTemplateId>
 	 </RegularBanditDailySpawnData>
 
 	 <RegularBanditDailySpawnData
@@ -1018,7 +923,7 @@
 	 	<DeathMessage>The Manhunters' Cleansing Group has been defeated at [deathPlace]!</DeathMessage>
 	 	<DeathMessageColor>danger</DeathMessageColor>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>patrol-all-1-2</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-patrol-all-1-2</PriorityPartyBehaviourTemplateId>
 
 	    <DynamicSpawnChancePeriod> 90 </DynamicSpawnChancePeriod>
 	 	<DynamicSpawnChanceEffect> 0.7 </DynamicSpawnChanceEffect>
@@ -1059,7 +964,7 @@
 	 	<ChanceInverseConstant>0</ChanceInverseConstant>
 	 	<Name>Makkonian Invasion</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>siege-raid-and-patrol</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-siege-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<SpawnMessage>The hordes of Makko have landed at [spawnPlace]. They're eager to raid and conquer!</SpawnMessage>
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The grand makkonian invasion have been defeated at [deathPlace]! The scourges of Calradia are no more.</DeathMessage>
@@ -1099,7 +1004,7 @@
 	 	<DevestationLinearMultiplier>0.002</DevestationLinearMultiplier>
 	 	<Name>Humar Invasion</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
-	 	<PriorityPartyBehaviourTemplateId>siege-raid-and-patrol</PriorityPartyBehaviourTemplateId>
+	 	<PriorityPartyBehaviourTemplateId>caw-siege-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<SpawnMessage>A huge united force of clans from Humar invades Calradia! Their army has been spotted at [spawnPlace]. They have no mercy for the people of Calradia, as they seek glory and wealth in battle!</SpawnMessage>
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The Humar invasion force received a crushing defeat their end at [deathPlace].</DeathMessage>
