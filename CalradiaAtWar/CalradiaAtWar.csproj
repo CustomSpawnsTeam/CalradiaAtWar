@@ -30,7 +30,7 @@
 
     <!-- Versions of Major Dependencies (For Package References & SubModule.xml Substitution) -->
     <PropertyGroup>
-        <CustomSpawnsVersion>2.1.0</CustomSpawnsVersion>
+        <CustomSpawnsVersion>2.2.0</CustomSpawnsVersion>
         <BuildResourcesVersion>1.1.0.104</BuildResourcesVersion>
     </PropertyGroup>
 
