@@ -970,6 +970,11 @@
 	 		<!-- The capital counts as a town held, so this is 5000 while the invasion holds only its capital. -->
 	 		<MaxFactionStrength>4000</MaxFactionStrength>
 	 		<StrengthPerTownHeld>1000</StrengthPerTownHeld>
+	 		<!-- Food landed in the capital's market, about what the 400-man garrison alone eats in a week. -->
+	 		<Supplies>
+	 			<FoodPerConvoy>200</FoodPerConvoy>
+	 			<IntervalInDays>7</IntervalInDays>
+	 		</Supplies>
 	 		<Reinforcements>
 	 			<Rule><Id>main</Id><PartyTemplateId>cs_makko_invasion_reinforcement</PartyTemplateId><IntervalInDays>7</IntervalInDays><LordsPerWave>3</LordsPerWave></Rule>
 	 		</Reinforcements>
@@ -1020,6 +1025,11 @@
 	 		<!-- The capital counts as a town held, so this is 5000 while the invasion holds only its capital. -->
 	 		<MaxFactionStrength>4000</MaxFactionStrength>
 	 		<StrengthPerTownHeld>1000</StrengthPerTownHeld>
+	 		<!-- Food landed in the capital's market, about what the 400-man garrison alone eats in a week. -->
+	 		<Supplies>
+	 			<FoodPerConvoy>200</FoodPerConvoy>
+	 			<IntervalInDays>7</IntervalInDays>
+	 		</Supplies>
 	 		<Reinforcements>
 	 			<Rule><Id>main</Id><PartyTemplateId>cs_humar_invasion_reinforcement</PartyTemplateId><IntervalInDays>7</IntervalInDays><LordsPerWave>3</LordsPerWave></Rule>
 	 		</Reinforcements>
