@@ -965,6 +965,15 @@
 	 	<Name>Makkonian Invasion</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
 	 	<PriorityPartyBehaviourTemplateId>caw-siege-raid-and-patrol</PriorityPartyBehaviourTemplateId>
+	 	<Invasion>
+	 		<MinimumCapitalGarrison>400</MinimumCapitalGarrison>
+	 		<!-- The capital counts as a town held, so this is 5000 while the invasion holds only its capital. -->
+	 		<MaxFactionStrength>4000</MaxFactionStrength>
+	 		<StrengthPerTownHeld>1000</StrengthPerTownHeld>
+	 		<Reinforcements>
+	 			<Rule><Id>main</Id><PartyTemplateId>cs_makko_invasion_reinforcement</PartyTemplateId><IntervalInDays>7</IntervalInDays><LordsPerWave>3</LordsPerWave></Rule>
+	 		</Reinforcements>
+	 	</Invasion>
 	 	<SpawnMessage>The hordes of Makko have landed at [spawnPlace]. They're eager to raid and conquer!</SpawnMessage>
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The grand makkonian invasion have been defeated at [deathPlace]! The scourges of Calradia are no more.</DeathMessage>
@@ -1005,6 +1014,16 @@
 	 	<Name>Humar Invasion</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
 	 	<PriorityPartyBehaviourTemplateId>caw-siege-raid-and-patrol</PriorityPartyBehaviourTemplateId>
+	 	<Invasion>
+	 		<RequiresFirstCoastalConquest>true</RequiresFirstCoastalConquest>
+	 		<MinimumCapitalGarrison>400</MinimumCapitalGarrison>
+	 		<!-- The capital counts as a town held, so this is 5000 while the invasion holds only its capital. -->
+	 		<MaxFactionStrength>4000</MaxFactionStrength>
+	 		<StrengthPerTownHeld>1000</StrengthPerTownHeld>
+	 		<Reinforcements>
+	 			<Rule><Id>main</Id><PartyTemplateId>cs_humar_invasion_reinforcement</PartyTemplateId><IntervalInDays>7</IntervalInDays><LordsPerWave>3</LordsPerWave></Rule>
+	 		</Reinforcements>
+	 	</Invasion>
 	 	<SpawnMessage>A huge united force of clans from Humar invades Calradia! Their army has been spotted at [spawnPlace]. They have no mercy for the people of Calradia, as they seek glory and wealth in battle!</SpawnMessage>
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The Humar invasion force received a crushing defeat their end at [deathPlace].</DeathMessage>
