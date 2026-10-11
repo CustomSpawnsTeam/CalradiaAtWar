@@ -235,7 +235,6 @@
            is_noble="true"
            default_party_template="PartyTemplate.cs_makko_lord"
            settlement_banner_mesh="encounter_flag_f"
-           is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
            name="Makko"
@@ -257,11 +256,10 @@
            is_noble="true"
            default_party_template="PartyTemplate.cs_humar_lord"
            settlement_banner_mesh="encounter_flag_f"
-           is_minor_faction="true"
            is_outlaw="true"
            is_mafia="false"
            name="Humar"
-           tier="4"
+           tier="5"
            text="The Humar clans struggle with a lot of infighting just like Calradia. Though, sometimes there are strong men or women who rise to power and unite the clans under one banner. With their people having experienced nothing but constant rivalry and war, they have found ways to optimize and modernize their weaponry, let alone the use of black-powder!">
     </Faction>
 
