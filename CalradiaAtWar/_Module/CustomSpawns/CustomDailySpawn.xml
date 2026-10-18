@@ -966,11 +966,13 @@
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
 	 	<PriorityPartyBehaviourTemplateId>caw-siege-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<Invasion>
+			<RequiresFirstCoastalConquest>true</RequiresFirstCoastalConquest>
 	 		<MinimumCapitalGarrison>400</MinimumCapitalGarrison>
-	 		<!-- The capital counts as a town held, so this is 5000 while the invasion holds only its capital. -->
 	 		<MaxFactionStrength>4000</MaxFactionStrength>
 	 		<StrengthPerTownHeld>1000</StrengthPerTownHeld>
-	 		<!-- Food landed in the capital's market, about what the 400-man garrison alone eats in a week. -->
+	 		<MaxLords>6</MaxLords>
+	 		<LordsPerTownHeld>3</LordsPerTownHeld>
+	 		<!-- Food landed straight into the capital's food stocks, about what the 400-man garrison alone eats in a week. -->
 	 		<Supplies>
 	 			<FoodPerConvoy>200</FoodPerConvoy>
 	 			<IntervalInDays>7</IntervalInDays>
@@ -1025,7 +1027,9 @@
 	 		<!-- The capital counts as a town held, so this is 5000 while the invasion holds only its capital. -->
 	 		<MaxFactionStrength>4000</MaxFactionStrength>
 	 		<StrengthPerTownHeld>1000</StrengthPerTownHeld>
-	 		<!-- Food landed in the capital's market, about what the 400-man garrison alone eats in a week. -->
+	 		<MaxLords>6</MaxLords>
+	 		<LordsPerTownHeld>3</LordsPerTownHeld>
+	 		<!-- Food landed straight into the capital's food stocks, about what the 400-man garrison alone eats in a week. -->
 	 		<Supplies>
 	 			<FoodPerConvoy>200</FoodPerConvoy>
 	 			<IntervalInDays>7</IntervalInDays>

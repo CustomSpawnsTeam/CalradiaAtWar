@@ -747,27 +747,27 @@
 
     <MBPartyTemplate id="cs_makko_army_party" >
       <stacks>
-        <PartyTemplateStack min_value="25" max_value="60" troop="NPCCharacter.cs_makko_spearman" />
-        <PartyTemplateStack min_value="15" max_value="32" troop="NPCCharacter.cs_makko_shield_spearman" />
-        <PartyTemplateStack min_value="6" max_value="18" troop="NPCCharacter.cs_makko_greatshield_spearman" />
-        <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.cs_makko_ironguard" />
-        <PartyTemplateStack min_value="6" max_value="35" troop="NPCCharacter.cs_makko_skirmisher" />
-        <PartyTemplateStack min_value="2" max_value="10" troop="NPCCharacter.cs_makko_swordsman" />
-        <PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.cs_makko_elite_swordsman" />
-        <PartyTemplateStack min_value="15" max_value="35" troop="NPCCharacter.cs_makko_horseman" />
-        <PartyTemplateStack min_value="8" max_value="28" troop="NPCCharacter.cs_makko_horse_archer" />
-        <PartyTemplateStack min_value="1" max_value="20" troop="NPCCharacter.cs_makko_veteran_horse_archer" />
-        <PartyTemplateStack min_value="1" max_value="14" troop="NPCCharacter.cs_makko_elite_horse_archer" />
-        <PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.cs_makko_light_cavalry" />
-        <PartyTemplateStack min_value="2" max_value="5" troop="NPCCharacter.cs_makko_heavy_cavalry" />
-        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.cs_makko_charger_of_the_eternal_sky" />
-        <PartyTemplateStack min_value="4" max_value="10" troop="NPCCharacter.cs_makko_crossbowman" />
-        <PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.cs_makko_veteran_crossbowman" />
-        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.cs_makko_elite_crossbowman" />
-        <PartyTemplateStack min_value="14" max_value="32" troop="NPCCharacter.cs_makko_bannerpeasant" />
-        <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.cs_makko_standardbearer" />
-        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.cs_makko_heavy_standardbearer" />
-        <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.cs_makko_cavalry_standardbearer" />
+        <PartyTemplateStack min_value="50" max_value="120" troop="NPCCharacter.cs_makko_spearman" />
+        <PartyTemplateStack min_value="30" max_value="64" troop="NPCCharacter.cs_makko_shield_spearman" />
+        <PartyTemplateStack min_value="12" max_value="36" troop="NPCCharacter.cs_makko_greatshield_spearman" />
+        <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.cs_makko_ironguard" />
+        <PartyTemplateStack min_value="12" max_value="70" troop="NPCCharacter.cs_makko_skirmisher" />
+        <PartyTemplateStack min_value="4" max_value="20" troop="NPCCharacter.cs_makko_swordsman" />
+        <PartyTemplateStack min_value="2" max_value="12" troop="NPCCharacter.cs_makko_elite_swordsman" />
+        <PartyTemplateStack min_value="30" max_value="70" troop="NPCCharacter.cs_makko_horseman" />
+        <PartyTemplateStack min_value="16" max_value="56" troop="NPCCharacter.cs_makko_horse_archer" />
+        <PartyTemplateStack min_value="2" max_value="40" troop="NPCCharacter.cs_makko_veteran_horse_archer" />
+        <PartyTemplateStack min_value="2" max_value="28" troop="NPCCharacter.cs_makko_elite_horse_archer" />
+        <PartyTemplateStack min_value="6" max_value="20" troop="NPCCharacter.cs_makko_light_cavalry" />
+        <PartyTemplateStack min_value="4" max_value="10" troop="NPCCharacter.cs_makko_heavy_cavalry" />
+        <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.cs_makko_charger_of_the_eternal_sky" />
+        <PartyTemplateStack min_value="8" max_value="20" troop="NPCCharacter.cs_makko_crossbowman" />
+        <PartyTemplateStack min_value="2" max_value="10" troop="NPCCharacter.cs_makko_veteran_crossbowman" />
+        <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.cs_makko_elite_crossbowman" />
+        <PartyTemplateStack min_value="28" max_value="64" troop="NPCCharacter.cs_makko_bannerpeasant" />
+        <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.cs_makko_standardbearer" />
+        <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.cs_makko_heavy_standardbearer" />
+        <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.cs_makko_cavalry_standardbearer" />
       </stacks>
     </MBPartyTemplate>
 
@@ -783,28 +783,28 @@
 
     <MBPartyTemplate id="cs_makko_invasion_force" >
       <stacks>
-        <PartyTemplateStack min_value="80" max_value="200" troop="NPCCharacter.cs_makko_levy" />
-        <PartyTemplateStack min_value="90" max_value="160" troop="NPCCharacter.cs_makko_spearman" />
-        <PartyTemplateStack min_value="50" max_value="100" troop="NPCCharacter.cs_makko_shield_spearman" />
-        <PartyTemplateStack min_value="24" max_value="50" troop="NPCCharacter.cs_makko_greatshield_spearman" />
-        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.cs_makko_ironguard" />
-        <PartyTemplateStack min_value="40" max_value="100" troop="NPCCharacter.cs_makko_skirmisher" />
-        <PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.cs_makko_swordsman" />
-        <PartyTemplateStack min_value="3" max_value="15" troop="NPCCharacter.cs_makko_elite_swordsman" />
-        <PartyTemplateStack min_value="30" max_value="160" troop="NPCCharacter.cs_makko_horseman" />
-        <PartyTemplateStack min_value="20" max_value="130" troop="NPCCharacter.cs_makko_horse_archer" />
-        <PartyTemplateStack min_value="20" max_value="70" troop="NPCCharacter.cs_makko_veteran_horse_archer" />
-        <PartyTemplateStack min_value="15" max_value="60" troop="NPCCharacter.cs_makko_elite_horse_archer" />
-        <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.cs_makko_light_cavalry" />
-        <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.cs_makko_heavy_cavalry" />
-        <PartyTemplateStack min_value="2" max_value="10" troop="NPCCharacter.cs_makko_charger_of_the_eternal_sky" />
-        <PartyTemplateStack min_value="25" max_value="50" troop="NPCCharacter.cs_makko_crossbowman" />
-        <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.cs_makko_veteran_crossbowman" />
-        <PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.cs_makko_elite_crossbowman" />
-        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.cs_makko_bannerpeasant" />
-        <PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.cs_makko_standardbearer" />
-        <PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.cs_makko_heavy_standardbearer" />
-        <PartyTemplateStack min_value="3" max_value="10" troop="NPCCharacter.cs_makko_cavalry_standardbearer" />
+        <PartyTemplateStack min_value="160" max_value="400" troop="NPCCharacter.cs_makko_levy" />
+        <PartyTemplateStack min_value="180" max_value="320" troop="NPCCharacter.cs_makko_spearman" />
+        <PartyTemplateStack min_value="100" max_value="200" troop="NPCCharacter.cs_makko_shield_spearman" />
+        <PartyTemplateStack min_value="48" max_value="100" troop="NPCCharacter.cs_makko_greatshield_spearman" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.cs_makko_ironguard" />
+        <PartyTemplateStack min_value="80" max_value="200" troop="NPCCharacter.cs_makko_skirmisher" />
+        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.cs_makko_swordsman" />
+        <PartyTemplateStack min_value="6" max_value="30" troop="NPCCharacter.cs_makko_elite_swordsman" />
+        <PartyTemplateStack min_value="60" max_value="320" troop="NPCCharacter.cs_makko_horseman" />
+        <PartyTemplateStack min_value="40" max_value="260" troop="NPCCharacter.cs_makko_horse_archer" />
+        <PartyTemplateStack min_value="40" max_value="140" troop="NPCCharacter.cs_makko_veteran_horse_archer" />
+        <PartyTemplateStack min_value="30" max_value="120" troop="NPCCharacter.cs_makko_elite_horse_archer" />
+        <PartyTemplateStack min_value="30" max_value="60" troop="NPCCharacter.cs_makko_light_cavalry" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.cs_makko_heavy_cavalry" />
+        <PartyTemplateStack min_value="4" max_value="20" troop="NPCCharacter.cs_makko_charger_of_the_eternal_sky" />
+        <PartyTemplateStack min_value="50" max_value="100" troop="NPCCharacter.cs_makko_crossbowman" />
+        <PartyTemplateStack min_value="30" max_value="60" troop="NPCCharacter.cs_makko_veteran_crossbowman" />
+        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.cs_makko_elite_crossbowman" />
+        <PartyTemplateStack min_value="40" max_value="80" troop="NPCCharacter.cs_makko_bannerpeasant" />
+        <PartyTemplateStack min_value="10" max_value="40" troop="NPCCharacter.cs_makko_standardbearer" />
+        <PartyTemplateStack min_value="6" max_value="20" troop="NPCCharacter.cs_makko_heavy_standardbearer" />
+        <PartyTemplateStack min_value="6" max_value="20" troop="NPCCharacter.cs_makko_cavalry_standardbearer" />
       </stacks>
     </MBPartyTemplate>
 
@@ -835,23 +835,23 @@
 
     <MBPartyTemplate id="cs_humar_army_party" >
       <stacks>
-        <PartyTemplateStack min_value="25" max_value="50" troop="NPCCharacter.cs_humar_spearman" />
-        <PartyTemplateStack min_value="25" max_value="35" troop="NPCCharacter.cs_humar_pikeman" />
-        <PartyTemplateStack min_value="5" max_value="25" troop="NPCCharacter.cs_humar_veteran_pikeman" />
-        <PartyTemplateStack min_value="2" max_value="15" troop="NPCCharacter.cs_humar_elite_pikeman" />
-        <PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.cs_humar_light_cav" />
-        <PartyTemplateStack min_value="5" max_value="13" troop="NPCCharacter.cs_humar_banner_cavalry" />
-        <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.cs_humar_banner_bodyguard" />
-        <PartyTemplateStack min_value="5" max_value="13" troop="NPCCharacter.cs_humar_lancer" />
-        <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.cs_humar_heavy_lancer" />
-        <PartyTemplateStack min_value="15" max_value="35" troop="NPCCharacter.cs_humar_longbow_archer" />
-        <PartyTemplateStack min_value="5" max_value="25" troop="NPCCharacter.cs_humar_veteran_archer" />
-        <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.cs_humar_elite_archer" />
-        <PartyTemplateStack min_value="1" max_value="9" troop="NPCCharacter.cs_humar_bomb_thrower" />
-        <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.cs_humar_shinobi" />
-        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cs_humar_master_shinobi" />
-        <PartyTemplateStack min_value="6" max_value="28" troop="NPCCharacter.cs_humar_veteran_samurai" />
-        <PartyTemplateStack min_value="4" max_value="14" troop="NPCCharacter.cs_humar_elite_samurai" />
+        <PartyTemplateStack min_value="50" max_value="100" troop="NPCCharacter.cs_humar_spearman" />
+        <PartyTemplateStack min_value="50" max_value="70" troop="NPCCharacter.cs_humar_pikeman" />
+        <PartyTemplateStack min_value="10" max_value="50" troop="NPCCharacter.cs_humar_veteran_pikeman" />
+        <PartyTemplateStack min_value="4" max_value="30" troop="NPCCharacter.cs_humar_elite_pikeman" />
+        <PartyTemplateStack min_value="16" max_value="32" troop="NPCCharacter.cs_humar_light_cav" />
+        <PartyTemplateStack min_value="10" max_value="26" troop="NPCCharacter.cs_humar_banner_cavalry" />
+        <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.cs_humar_banner_bodyguard" />
+        <PartyTemplateStack min_value="10" max_value="26" troop="NPCCharacter.cs_humar_lancer" />
+        <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.cs_humar_heavy_lancer" />
+        <PartyTemplateStack min_value="30" max_value="70" troop="NPCCharacter.cs_humar_longbow_archer" />
+        <PartyTemplateStack min_value="10" max_value="50" troop="NPCCharacter.cs_humar_veteran_archer" />
+        <PartyTemplateStack min_value="4" max_value="16" troop="NPCCharacter.cs_humar_elite_archer" />
+        <PartyTemplateStack min_value="2" max_value="18" troop="NPCCharacter.cs_humar_bomb_thrower" />
+        <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.cs_humar_shinobi" />
+        <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.cs_humar_master_shinobi" />
+        <PartyTemplateStack min_value="12" max_value="56" troop="NPCCharacter.cs_humar_veteran_samurai" />
+        <PartyTemplateStack min_value="8" max_value="28" troop="NPCCharacter.cs_humar_elite_samurai" />
       </stacks>
     </MBPartyTemplate>
 
@@ -872,23 +872,23 @@
 	
     <MBPartyTemplate id="cs_humar_invasion_force" >
       <stacks>
-        <PartyTemplateStack min_value="100" max_value="350" troop="NPCCharacter.cs_humar_spearman" />
-        <PartyTemplateStack min_value="90" max_value="275" troop="NPCCharacter.cs_humar_pikeman" />
-        <PartyTemplateStack min_value="35" max_value="80" troop="NPCCharacter.cs_humar_veteran_pikeman" />
-        <PartyTemplateStack min_value="5" max_value="30" troop="NPCCharacter.cs_humar_elite_pikeman" />
-        <PartyTemplateStack min_value="20" max_value="76" troop="NPCCharacter.cs_humar_light_cav" />
-        <PartyTemplateStack min_value="10" max_value="53" troop="NPCCharacter.cs_humar_banner_cavalry" />
-        <PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.cs_humar_banner_bodyguard" />
-        <PartyTemplateStack min_value="20" max_value="53" troop="NPCCharacter.cs_humar_lancer" />
-        <PartyTemplateStack min_value="5" max_value="20" troop="NPCCharacter.cs_humar_heavy_lancer" />
-        <PartyTemplateStack min_value="45" max_value="195" troop="NPCCharacter.cs_humar_longbow_archer" />
-        <PartyTemplateStack min_value="25" max_value="155" troop="NPCCharacter.cs_humar_veteran_archer" />
-        <PartyTemplateStack min_value="15" max_value="50" troop="NPCCharacter.cs_humar_elite_archer" />
-        <PartyTemplateStack min_value="7" max_value="15" troop="NPCCharacter.cs_humar_bomb_thrower" />
-        <PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.cs_humar_shinobi" />
-        <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.cs_humar_master_shinobi" />
-        <PartyTemplateStack min_value="20" max_value="68" troop="NPCCharacter.cs_humar_veteran_samurai" />
-        <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.cs_humar_elite_samurai" />
+        <PartyTemplateStack min_value="200" max_value="700" troop="NPCCharacter.cs_humar_spearman" />
+        <PartyTemplateStack min_value="180" max_value="550" troop="NPCCharacter.cs_humar_pikeman" />
+        <PartyTemplateStack min_value="70" max_value="160" troop="NPCCharacter.cs_humar_veteran_pikeman" />
+        <PartyTemplateStack min_value="40" max_value="60" troop="NPCCharacter.cs_humar_elite_pikeman"/>
+        <PartyTemplateStack min_value="40" max_value="152" troop="NPCCharacter.cs_humar_light_cav" />
+        <PartyTemplateStack min_value="20" max_value="106" troop="NPCCharacter.cs_humar_banner_cavalry" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.cs_humar_banner_bodyguard"/>
+        <PartyTemplateStack min_value="40" max_value="106" troop="NPCCharacter.cs_humar_lancer" />
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.cs_humar_heavy_lancer"/>
+        <PartyTemplateStack min_value="200" max_value="390" troop="NPCCharacter.cs_humar_longbow_archer"/>
+        <PartyTemplateStack min_value="200" max_value="310" troop="NPCCharacter.cs_humar_veteran_archer"/>
+        <PartyTemplateStack min_value="50" max_value="100" troop="NPCCharacter.cs_humar_elite_archer"/>
+        <PartyTemplateStack min_value="40" max_value="80" troop="NPCCharacter.cs_humar_bomb_thrower"/>
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.cs_humar_shinobi"/>
+        <PartyTemplateStack min_value="20" max_value="40" troop="NPCCharacter.cs_humar_master_shinobi"/>
+        <PartyTemplateStack min_value="200" max_value="600" troop="NPCCharacter.cs_humar_veteran_samurai"/>
+        <PartyTemplateStack min_value="300" max_value="600" troop="NPCCharacter.cs_humar_elite_samurai"/>
       </stacks>
     </MBPartyTemplate>
 </partyTemplates>
