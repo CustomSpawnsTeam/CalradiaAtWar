@@ -968,8 +968,9 @@
 	 	<Invasion>
 			<RequiresFirstCoastalConquest>true</RequiresFirstCoastalConquest>
 	 		<MinimumCapitalGarrison>400</MinimumCapitalGarrison>
-	 		<MaxFactionStrength>4000</MaxFactionStrength>
-	 		<StrengthPerTownHeld>1000</StrengthPerTownHeld>
+	 		<!-- The capital counts as a town held, so the bank stops taking men at 2000 while the invasion holds only its capital. -->
+	 		<MaxBankedTroops>1700</MaxBankedTroops>
+	 		<BankedTroopsPerTownHeld>300</BankedTroopsPerTownHeld>
 	 		<MaxLords>6</MaxLords>
 	 		<LordsPerTownHeld>3</LordsPerTownHeld>
 	 		<!-- Food landed straight into the capital's food stocks, about what the 400-man garrison alone eats in a week. -->
@@ -978,7 +979,7 @@
 	 			<IntervalInDays>7</IntervalInDays>
 	 		</Supplies>
 	 		<Reinforcements>
-	 			<Rule><Id>main</Id><PartyTemplateId>cs_makko_invasion_reinforcement</PartyTemplateId><IntervalInDays>7</IntervalInDays><LordsPerWave>3</LordsPerWave></Rule>
+	 			<Rule><Id>main</Id><PartyTemplateId>cs_makko_invasion_reinforcement</PartyTemplateId><IntervalInDays>7</IntervalInDays><LordsPerWave>3</LordsPerWave><MaxMenPerWave>600</MaxMenPerWave></Rule>
 	 		</Reinforcements>
 	 	</Invasion>
 	 	<SpawnMessage>The hordes of Makko have landed at [spawnPlace]. They're eager to raid and conquer!</SpawnMessage>
@@ -1024,9 +1025,31 @@
 	 	<Invasion>
 	 		<RequiresFirstCoastalConquest>true</RequiresFirstCoastalConquest>
 	 		<MinimumCapitalGarrison>400</MinimumCapitalGarrison>
-	 		<!-- The capital counts as a town held, so this is 5000 while the invasion holds only its capital. -->
-	 		<MaxFactionStrength>4000</MaxFactionStrength>
-	 		<StrengthPerTownHeld>1000</StrengthPerTownHeld>
+	 		<!-- Every other fief is garrisoned up to this out of the capital, and no new siege is laid while one is short. -->
+	 		<MinimumFiefGarrison>250</MinimumFiefGarrison>
+	 		<!-- Each Humar lord leads this many more men than his clan tier gives him; more lords still need more towns. -->
+	 		<LordPartySizeBonus>50</LordPartySizeBonus>
+	 		<!-- At war for good with the first kingdom it takes a fief from; every other kingdom chooses for itself.
+	 		     Each fief held makes its neighbours likelier to declare war (from about eight fiefs the threat alone tips them), and
+	 		     it declares no war itself while it conquers. -->
+	 		<Conquest>
+	 			<ThreatPerFiefHeld>0.02</ThreatPerFiefHeld>
+	 			<OpenFrontIntervalInDays>0</OpenFrontIntervalInDays>
+	 			<!-- Humar lords want to besiege that kingdom's fiefs four times as much as anyone else's until it falls. -->
+	 			<TargetSiegePreference>4</TargetSiegePreference>
+	 			<!-- Every 30 days it weighs its target against the other kingdoms on its borders and turns on one that has become a much better prey. -->
+	 			<ReconsiderTargetIntervalInDays>30</ReconsiderTargetIntervalInDays>
+	 			<!-- Every 90 days, while its capital is not besieged, it leads half the capital's garrison out as one army under
+	 			     a lord made for it, never leaving fewer than the 400 men of MinimumCapitalGarrison behind; it besieges that kingdom's fortresses one after another
+	 			     until its lord is beaten, and then the men return to the capital. -->
+	 			<GarrisonArmy>
+	 				<IntervalInDays>90</IntervalInDays>
+	 				<GarrisonShare>0.5</GarrisonShare>
+	 			</GarrisonArmy>
+	 		</Conquest>
+	 		<!-- The capital counts as a town held, so the bank stops taking men at 2700 while the invasion holds only its capital. -->
+	 		<MaxBankedTroops>2400</MaxBankedTroops>
+	 		<BankedTroopsPerTownHeld>300</BankedTroopsPerTownHeld>
 	 		<MaxLords>6</MaxLords>
 	 		<LordsPerTownHeld>3</LordsPerTownHeld>
 	 		<!-- Food landed straight into the capital's food stocks, about what the 400-man garrison alone eats in a week. -->
@@ -1034,8 +1057,9 @@
 	 			<FoodPerConvoy>200</FoodPerConvoy>
 	 			<IntervalInDays>7</IntervalInDays>
 	 		</Supplies>
+	 		<!-- 800 men a week plus 300 for every town held, the capital included: 1100 while only the capital is held. -->
 	 		<Reinforcements>
-	 			<Rule><Id>main</Id><PartyTemplateId>cs_humar_invasion_reinforcement</PartyTemplateId><IntervalInDays>7</IntervalInDays><LordsPerWave>3</LordsPerWave></Rule>
+	 			<Rule><Id>main</Id><PartyTemplateId>cs_humar_invasion_reinforcement</PartyTemplateId><IntervalInDays>7</IntervalInDays><LordsPerWave>3</LordsPerWave><MaxMenPerWave>800</MaxMenPerWave><MenPerTownHeld>300</MenPerTownHeld></Rule>
 	 		</Reinforcements>
 	 	</Invasion>
 	 	<SpawnMessage>A huge united force of clans from Humar invades Calradia! Their army has been spotted at [spawnPlace]. They have no mercy for the people of Calradia, as they seek glory and wealth in battle!</SpawnMessage>
