@@ -966,49 +966,65 @@
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
 	 	<PriorityPartyBehaviourTemplateId>caw-siege-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<Invasion>
+	 		<!-- The first fief it takes, and so its capital, must be a coastal town it can be supplied through by sea:
+	 		     its parties gather their strength and besiege nothing else until they hold one. -->
 	 		<RequiresFirstCoastalConquest>true</RequiresFirstCoastalConquest>
 	 		<!-- A fallen capital moves to the nearest coastal town still held, instead of being retaken. -->
 	 		<RelocateCapitalOnLoss>true</RelocateCapitalOnLoss>
+	 		<!-- Its lords draw the capital's garrison down to 400 men to fill their parties, but never below. -->
 	 		<MinimumCapitalGarrison>400</MinimumCapitalGarrison>
 	 		<!-- Every other fief is garrisoned up to this out of the capital, and no new siege is laid while one is short. -->
 	 		<MinimumFiefGarrison>250</MinimumFiefGarrison>
 	 		<!-- Each Makkonian lord leads this many more men than his clan tier gives him; more lords still need more towns. -->
 	 		<LordPartySizeBonus>25</LordPartySizeBonus>
-	 		<!-- At war for good with the first kingdom it takes a fief from; every other kingdom chooses for itself.
-	 		     Each fief held makes its neighbours likelier to declare war (from about eleven fiefs the threat alone tips them), and
-	 		     it declares no war itself while it conquers. -->
+	 		<!-- At war for good with the first kingdom it takes a fief from; every other kingdom chooses for itself,
+	 		     and it declares no war itself while it conquers. -->
 	 		<Conquest>
+	 			<!-- Each fief held makes its neighbours likelier to declare war on it: from about eleven fiefs the threat alone
+	 			     tips them. -->
 	 			<ThreatPerFiefHeld>0.01</ThreatPerFiefHeld>
 	 			<!-- Makkonian lords want to besiege that kingdom's fiefs four times as much as anyone else's until it falls. -->
 	 			<TargetSiegePreference>4</TargetSiegePreference>
-	 			<!-- Every 30 days it weighs its target against the other kingdoms on its borders and turns on one that has become a much better prey. -->
+	 			<!-- Every 30 days it weighs its target against the other kingdoms on its borders and turns on one that has
+	 			     become a much better prey. -->
 	 			<ReconsiderTargetIntervalInDays>30</ReconsiderTargetIntervalInDays>
-	 			<!-- At most 3 Makkonian realms fight at once, the first included: a fallen kingdom lands
-	 			     no new one while 3 stand, only when one of them falls. -->
+	 			<!-- At most 3 Makkonian realms fight at once, the first included: a fallen kingdom lands no new one while 3
+	 			     stand, only when one of them falls. -->
 	 			<MaxRealms>3</MaxRealms>
-	 			<!-- Every 90 days, while its capital is not besieged, it leads half the capital's garrison out as one army under
-	 			     a lord made for it, never leaving fewer than the 400 men of MinimumCapitalGarrison behind; it besieges that kingdom's fortresses one after another
-	 			     until its lord is beaten, and then the men return to the capital. -->
+	 			<!-- Now and then, while its capital is not besieged, it leads part of the capital's garrison out as one army
+	 			     under a lord made for it; it besieges that kingdom's fortresses one after another until its lord is beaten,
+	 			     and then the men return to the capital. -->
 	 			<GarrisonArmy>
+	 				<!-- At most one army every 90 days. -->
 	 				<IntervalInDays>90</IntervalInDays>
+	 				<!-- The army takes half the garrison, never leaving fewer than the 400 men of MinimumCapitalGarrison behind. -->
 	 				<GarrisonShare>0.5</GarrisonShare>
 	 			</GarrisonArmy>
 	 		</Conquest>
-	 		<!-- The capital counts as a town held, so the bank stops taking men at 2100 while the invasion holds only its capital, and 100 more for every other town. -->
+	 		<!-- The bank, the capital's garrison, stops taking men at 2000... -->
 	 		<MaxBankedTroops>2000</MaxBankedTroops>
+	 		<!-- ...plus 100 for every town held, the capital included: 2100 while the invasion holds only its capital. -->
 	 		<BankedTroopsPerTownHeld>100</BankedTroopsPerTownHeld>
+	 		<!-- The waves bring no more lords once it has 6... -->
 	 		<MaxLords>6</MaxLords>
+	 		<!-- ...plus 3 for every town held, the capital included: 9 while the invasion holds only its capital. -->
 	 		<LordsPerTownHeld>3</LordsPerTownHeld>
 	 		<!-- 600 men a week plus 100 for every town held, the capital included: 700 while only the capital is held. -->
 	 		<Reinforcements>
 	 			<Rule>
-					<Id>main</Id>
-					<PartyTemplateId>cs_makko_invasion_reinforcement</PartyTemplateId>
-					<IntervalInDays>7</IntervalInDays>
-					<LordsPerWave>3</LordsPerWave>
-					<MaxMenPerWave>600</MaxMenPerWave>
-					<MenPerTownHeld>100</MenPerTownHeld>
-				</Rule>
+	 				<!-- Names this rule's clock, so editing the file never moves a running schedule onto another rule. -->
+	 				<Id>main</Id>
+	 				<!-- The party template each wave's men are drawn from. -->
+	 				<PartyTemplateId>cs_makko_invasion_reinforcement</PartyTemplateId>
+	 				<!-- A wave every 7 days, the first a week after the capital is taken. -->
+	 				<IntervalInDays>7</IntervalInDays>
+	 				<!-- Each wave brings 3 lords while the capital is held; they fill their parties from its garrison. -->
+	 				<LordsPerWave>3</LordsPerWave>
+	 				<!-- Each wave banks 600 men... -->
+	 				<MaxMenPerWave>600</MaxMenPerWave>
+	 				<!-- ...plus 100 for every town held, the capital included. -->
+	 				<MenPerTownHeld>100</MenPerTownHeld>
+	 			</Rule>
 	 		</Reinforcements>
 	 	</Invasion>
 	 	<SpawnMessage>The hordes of Makko have landed at [spawnPlace]. They're eager to raid and conquer!</SpawnMessage>
@@ -1052,49 +1068,65 @@
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
 	 	<PriorityPartyBehaviourTemplateId>caw-siege-raid-and-patrol</PriorityPartyBehaviourTemplateId>
 	 	<Invasion>
+	 		<!-- The first fief it takes, and so its capital, must be a coastal town it can be supplied through by sea:
+	 		     its parties gather their strength and besiege nothing else until they hold one. -->
 	 		<RequiresFirstCoastalConquest>true</RequiresFirstCoastalConquest>
 	 		<!-- A fallen capital moves to the nearest coastal town still held, instead of being retaken. -->
 	 		<RelocateCapitalOnLoss>true</RelocateCapitalOnLoss>
+	 		<!-- Its lords draw the capital's garrison down to 400 men to fill their parties, but never below. -->
 	 		<MinimumCapitalGarrison>400</MinimumCapitalGarrison>
 	 		<!-- Every other fief is garrisoned up to this out of the capital, and no new siege is laid while one is short. -->
 	 		<MinimumFiefGarrison>250</MinimumFiefGarrison>
 	 		<!-- Each Humar lord leads this many more men than his clan tier gives him; more lords still need more towns. -->
 	 		<LordPartySizeBonus>25</LordPartySizeBonus>
-	 		<!-- At war for good with the first kingdom it takes a fief from; every other kingdom chooses for itself.
-	 		     Each fief held makes its neighbours likelier to declare war (from about eleven fiefs the threat alone tips them), and
-	 		     it declares no war itself while it conquers. -->
+	 		<!-- At war for good with the first kingdom it takes a fief from; every other kingdom chooses for itself,
+	 		     and it declares no war itself while it conquers. -->
 	 		<Conquest>
+	 			<!-- Each fief held makes its neighbours likelier to declare war on it: from about eleven fiefs the threat alone
+	 			     tips them. -->
 	 			<ThreatPerFiefHeld>0.01</ThreatPerFiefHeld>
 	 			<!-- Humar lords want to besiege that kingdom's fiefs four times as much as anyone else's until it falls. -->
 	 			<TargetSiegePreference>4</TargetSiegePreference>
-	 			<!-- Every 30 days it weighs its target against the other kingdoms on its borders and turns on one that has become a much better prey. -->
+	 			<!-- Every 30 days it weighs its target against the other kingdoms on its borders and turns on one that has
+	 			     become a much better prey. -->
 	 			<ReconsiderTargetIntervalInDays>30</ReconsiderTargetIntervalInDays>
-	 			<!-- At most 3 Humar realms fight at once, the first included: a fallen kingdom lands
-	 			     no new one while 3 stand, only when one of them falls. -->
+	 			<!-- At most 3 Humar realms fight at once, the first included: a fallen kingdom lands no new one while 3
+	 			     stand, only when one of them falls. -->
 	 			<MaxRealms>3</MaxRealms>
-	 			<!-- Every 90 days, while its capital is not besieged, it leads half the capital's garrison out as one army under
-	 			     a lord made for it, never leaving fewer than the 400 men of MinimumCapitalGarrison behind; it besieges that kingdom's fortresses one after another
-	 			     until its lord is beaten, and then the men return to the capital. -->
+	 			<!-- Now and then, while its capital is not besieged, it leads part of the capital's garrison out as one army
+	 			     under a lord made for it; it besieges that kingdom's fortresses one after another until its lord is beaten,
+	 			     and then the men return to the capital. -->
 	 			<GarrisonArmy>
+	 				<!-- At most one army every 90 days. -->
 	 				<IntervalInDays>90</IntervalInDays>
+	 				<!-- The army takes half the garrison, never leaving fewer than the 400 men of MinimumCapitalGarrison behind. -->
 	 				<GarrisonShare>0.5</GarrisonShare>
 	 			</GarrisonArmy>
 	 		</Conquest>
-	 		<!-- The capital counts as a town held, so the bank stops taking men at 2100 while the invasion holds only its capital, and 100 more for every other town. -->
+	 		<!-- The bank, the capital's garrison, stops taking men at 2000... -->
 	 		<MaxBankedTroops>2000</MaxBankedTroops>
+	 		<!-- ...plus 100 for every town held, the capital included: 2100 while the invasion holds only its capital. -->
 	 		<BankedTroopsPerTownHeld>100</BankedTroopsPerTownHeld>
+	 		<!-- The waves bring no more lords once it has 6... -->
 	 		<MaxLords>6</MaxLords>
+	 		<!-- ...plus 3 for every town held, the capital included: 9 while the invasion holds only its capital. -->
 	 		<LordsPerTownHeld>3</LordsPerTownHeld>
 	 		<!-- 600 men a week plus 100 for every town held, the capital included: 700 while only the capital is held. -->
 	 		<Reinforcements>
 	 			<Rule>
-					<Id>main</Id>
-					<PartyTemplateId>cs_humar_invasion_reinforcement</PartyTemplateId>
-					<IntervalInDays>7</IntervalInDays>
-					<LordsPerWave>3</LordsPerWave>
-					<MaxMenPerWave>600</MaxMenPerWave>
-					<MenPerTownHeld>100</MenPerTownHeld>
-				</Rule>
+	 				<!-- Names this rule's clock, so editing the file never moves a running schedule onto another rule. -->
+	 				<Id>main</Id>
+	 				<!-- The party template each wave's men are drawn from. -->
+	 				<PartyTemplateId>cs_humar_invasion_reinforcement</PartyTemplateId>
+	 				<!-- A wave every 7 days, the first a week after the capital is taken. -->
+	 				<IntervalInDays>7</IntervalInDays>
+	 				<!-- Each wave brings 3 lords while the capital is held; they fill their parties from its garrison. -->
+	 				<LordsPerWave>3</LordsPerWave>
+	 				<!-- Each wave banks 600 men... -->
+	 				<MaxMenPerWave>600</MaxMenPerWave>
+	 				<!-- ...plus 100 for every town held, the capital included. -->
+	 				<MenPerTownHeld>100</MenPerTownHeld>
+	 			</Rule>
 	 		</Reinforcements>
 	 	</Invasion>
 	 	<SpawnMessage>A huge united force of clans from Humar invades Calradia! Their army has been spotted at [spawnPlace]. They have no mercy for the people of Calradia, as they seek glory and wealth in battle!</SpawnMessage>
