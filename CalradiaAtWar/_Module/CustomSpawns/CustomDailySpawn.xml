@@ -968,7 +968,7 @@
 	 	<Invasion>
 	 		<!-- The first fief it takes, and so its capital, must be a coastal town it can be supplied through by sea:
 	 		     its parties gather their strength and besiege nothing else until they hold one. -->
-	 		<RequiresFirstCoastalConquest>true</RequiresFirstCoastalConquest>
+	 		<FirstConquestMustBeSupplyBase>true</FirstConquestMustBeSupplyBase>
 	 		<!-- A fallen capital moves to the nearest coastal town still held, instead of being retaken. -->
 	 		<RelocateCapitalOnLoss>true</RelocateCapitalOnLoss>
 	 		<!-- Its lords draw the capital's garrison down to 400 men to fill their parties, but never below. -->
@@ -988,9 +988,9 @@
 	 			<!-- Every 30 days it weighs its target against the other kingdoms on its borders and turns on one that has
 	 			     become a much better prey. -->
 	 			<ReconsiderTargetIntervalInDays>30</ReconsiderTargetIntervalInDays>
-	 			<!-- At most 3 Makkonian realms fight at once, the first included: a fallen kingdom lands no new one while 3
+	 			<!-- At most 3 Makkonian kingdoms stand at once, the first included: a fallen kingdom lands no new one while 3
 	 			     stand, only when one of them falls. -->
-	 			<MaxRealms>3</MaxRealms>
+	 			<MaxKingdoms>3</MaxKingdoms>
 	 			<!-- Now and then, while its capital is not besieged, it leads part of the capital's garrison out as one army
 	 			     under a lord made for it; it besieges that kingdom's fortresses one after another until its lord is beaten,
 	 			     and then the men return to the capital. -->
@@ -1002,9 +1002,9 @@
 	 			</GarrisonArmy>
 	 		</Conquest>
 	 		<!-- The bank, the capital's garrison, stops taking men at 2000... -->
-	 		<MaxBankedTroops>2000</MaxBankedTroops>
+	 		<MaxCapitalGarrison>2000</MaxCapitalGarrison>
 	 		<!-- ...plus 100 for every town held, the capital included: 2100 while the invasion holds only its capital. -->
-	 		<BankedTroopsPerTownHeld>100</BankedTroopsPerTownHeld>
+	 		<CapitalGarrisonPerTownHeld>100</CapitalGarrisonPerTownHeld>
 	 		<!-- The waves bring no more lords once it has 6... -->
 	 		<MaxLords>6</MaxLords>
 	 		<!-- ...plus 3 for every town held, the capital included: 9 while the invasion holds only its capital. -->
@@ -1021,7 +1021,7 @@
 	 				<!-- Each wave brings 3 lords while the capital is held; they fill their parties from its garrison. -->
 	 				<LordsPerWave>3</LordsPerWave>
 	 				<!-- Each wave banks 600 men... -->
-	 				<MaxMenPerWave>600</MaxMenPerWave>
+	 				<MenPerWave>600</MenPerWave>
 	 				<!-- ...plus 100 for every town held, the capital included. -->
 	 				<MenPerTownHeld>100</MenPerTownHeld>
 	 			</Rule>
@@ -1070,7 +1070,7 @@
 	 	<Invasion>
 	 		<!-- The first fief it takes, and so its capital, must be a coastal town it can be supplied through by sea:
 	 		     its parties gather their strength and besiege nothing else until they hold one. -->
-	 		<RequiresFirstCoastalConquest>true</RequiresFirstCoastalConquest>
+	 		<FirstConquestMustBeSupplyBase>true</FirstConquestMustBeSupplyBase>
 	 		<!-- A fallen capital moves to the nearest coastal town still held, instead of being retaken. -->
 	 		<RelocateCapitalOnLoss>true</RelocateCapitalOnLoss>
 	 		<!-- Its lords draw the capital's garrison down to 400 men to fill their parties, but never below. -->
@@ -1090,9 +1090,9 @@
 	 			<!-- Every 30 days it weighs its target against the other kingdoms on its borders and turns on one that has
 	 			     become a much better prey. -->
 	 			<ReconsiderTargetIntervalInDays>30</ReconsiderTargetIntervalInDays>
-	 			<!-- At most 3 Humar realms fight at once, the first included: a fallen kingdom lands no new one while 3
+	 			<!-- At most 3 Humar kingdoms stand at once, the first included: a fallen kingdom lands no new one while 3
 	 			     stand, only when one of them falls. -->
-	 			<MaxRealms>3</MaxRealms>
+	 			<MaxKingdoms>3</MaxKingdoms>
 	 			<!-- Now and then, while its capital is not besieged, it leads part of the capital's garrison out as one army
 	 			     under a lord made for it; it besieges that kingdom's fortresses one after another until its lord is beaten,
 	 			     and then the men return to the capital. -->
@@ -1104,9 +1104,9 @@
 	 			</GarrisonArmy>
 	 		</Conquest>
 	 		<!-- The bank, the capital's garrison, stops taking men at 2000... -->
-	 		<MaxBankedTroops>2000</MaxBankedTroops>
+	 		<MaxCapitalGarrison>2000</MaxCapitalGarrison>
 	 		<!-- ...plus 100 for every town held, the capital included: 2100 while the invasion holds only its capital. -->
-	 		<BankedTroopsPerTownHeld>100</BankedTroopsPerTownHeld>
+	 		<CapitalGarrisonPerTownHeld>100</CapitalGarrisonPerTownHeld>
 	 		<!-- The waves bring no more lords once it has 6... -->
 	 		<MaxLords>6</MaxLords>
 	 		<!-- ...plus 3 for every town held, the capital included: 9 while the invasion holds only its capital. -->
@@ -1123,7 +1123,7 @@
 	 				<!-- Each wave brings 3 lords while the capital is held; they fill their parties from its garrison. -->
 	 				<LordsPerWave>3</LordsPerWave>
 	 				<!-- Each wave banks 600 men... -->
-	 				<MaxMenPerWave>600</MaxMenPerWave>
+	 				<MenPerWave>600</MenPerWave>
 	 				<!-- ...plus 100 for every town held, the capital included. -->
 	 				<MenPerTownHeld>100</MenPerTownHeld>
 	 			</Rule>
