@@ -90,7 +90,5 @@ ipch/
 # Rider
 .idea/
 
-# Module files the build deploys into the repository root, and palette backups
-/CustomSpawns/
-/ModuleData/
+# Palette backups
 *.bak_palette_*

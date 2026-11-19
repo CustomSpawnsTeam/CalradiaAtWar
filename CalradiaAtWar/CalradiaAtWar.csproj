@@ -12,46 +12,24 @@
         <ModuleName>CalradiaAtWar</ModuleName>
         <DisplayName>Calradia At War</DisplayName>
         <AssemblyName>$(ModuleName)</AssemblyName>
-        <Version>2.2.0</Version>
-        <BinaryFolder>$(GameFolder)\Modules\$(ModuleName)\bin\Win64_Shipping_Client</BinaryFolder>
     </PropertyGroup>
 
-    <!-- Remove generated binaries as there is no code -->
-    <Target Name="DeleteFiles" AfterTargets="Build">
-        <ItemGroup>
-            <FilesToDelete Include="$(BinaryFolder)\$(ModuleName).*" />
-        </ItemGroup>
-        <Message Text="Deleting Files @(FilesToDelete)" />
-        <Delete Files="@(FilesToDelete)">
-            <Output TaskParameter="DeletedFiles" ItemName="FilesDeleted" />
-        </Delete>
-        <Message Text="Files deleted: @(FilesDeleted)" />
-    </Target>
-
-    <!-- Versions of Major Dependencies (For Package References & SubModule.xml Substitution) -->
+    <!-- The module's files live at the repository root, which is the module folder in a local install.
+         Anywhere else, as in the publish workflow, the build copies them into the game's Modules folder. -->
     <PropertyGroup>
-        <CustomSpawnsVersion>2.2.0</CustomSpawnsVersion>
-        <BuildResourcesVersion>1.1.0.104</BuildResourcesVersion>
+        <ModuleSourceFolder>$([System.IO.Path]::GetFullPath('$(MSBuildProjectDirectory)\..\'))</ModuleSourceFolder>
+        <ModuleTargetFolder>$([System.IO.Path]::GetFullPath('$(GameFolder)\Modules\$(ModuleName)\'))</ModuleTargetFolder>
     </PropertyGroup>
 
-    <!-- NuGet Packages -->
-    <ItemGroup>
-        <PackageReference Include="Bannerlord.BuildResources" Version="$(BuildResourcesVersion)">
-            <PrivateAssets>all</PrivateAssets>
-            <IncludeAssets>contentfiles; buildtransitive</IncludeAssets>
-        </PackageReference>
-    </ItemGroup>
-
-    <!-- Extra Substitution Variables to Use in SubModule.xml -->
-    <ItemGroup>
-        <SubModuleOverrides Include="DisplayName">
-            <Regex>\$displayname\$</Regex>
-            <Replacement>$(DisplayName)</Replacement>
-        </SubModuleOverrides>
-        <SubModuleOverrides Include="CustomSpawnsVersion">
-            <Regex>\$customspawnsversion\$</Regex>
-            <Replacement>$(CustomSpawnsVersion)</Replacement>
-        </SubModuleOverrides>
-    </ItemGroup>
+    <Target Name="CopyModule" AfterTargets="Build"
+            Condition="'$(GameFolder)' != '' AND '$(ModuleSourceFolder.ToUpperInvariant())' != '$(ModuleTargetFolder.ToUpperInvariant())'">
+        <ItemGroup>
+            <ModuleDataFiles Include="$(ModuleSourceFolder)ModuleData\**\*" Exclude="$(ModuleSourceFolder)ModuleData\**\*.bak_*" />
+            <CustomSpawnsFiles Include="$(ModuleSourceFolder)CustomSpawns\*.xml" />
+        </ItemGroup>
+        <Copy SourceFiles="$(ModuleSourceFolder)SubModule.xml" DestinationFolder="$(ModuleTargetFolder)" />
+        <Copy SourceFiles="@(ModuleDataFiles)" DestinationFolder="$(ModuleTargetFolder)ModuleData\%(RecursiveDir)" />
+        <Copy SourceFiles="@(CustomSpawnsFiles)" DestinationFolder="$(ModuleTargetFolder)CustomSpawns" />
+    </Target>
 
 </Project>
