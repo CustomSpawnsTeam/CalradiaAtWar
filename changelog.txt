@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+Game Versions: v1.4.7,v1.4.8
+* Breaking Change: Calradia At War now requires Bannerlord v1.4.7 or later and Custom Spawns 2.2.0.
+* Feature: The Makkonians and the Humar invade. Each lands on a coast, conquers a kingdom and founds a realm around a capital supplied by convoy, then carries on conquering kingdom after kingdom.
+* Feature: The kingdoms band together against the Humar line, which grows more slowly.
+* Feature: Invasion clans that join a kingdom field three parties, with a lord cap per held town.
+* Improvement: Sword infantry is the main Humar force, keeping a fifth of the pikes.
+* Improvement: Party behaviours moved into PartyBehaviours.xml.
+* Fix: The eight banner colours removed in Bannerlord v1.4 are remapped to their v1.4 equivalents.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.0
 Game Versions: v1.3.13
 * Support Bannerlord v1.3.13.
