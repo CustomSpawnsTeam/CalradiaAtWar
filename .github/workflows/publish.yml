@@ -1,6 +1,7 @@
 name: Publish
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
 
@@ -11,9 +12,7 @@ jobs:
       mod_id: CalradiaAtWar
       workshop_id: 2878689343
       nexusmods_mod_id: "411"
-      # TODO: replace with the Calradia at War file group (mod file) id
-      nexusmods_file_group_id: REPLACE_WITH_CALRADIAATWAR_FILE_GROUP_ID
-      # The Nexus archive carries Custom Spawns too, built from its master
+      # The Nexus archive carries the Custom Spawns release that SubModule.xml depends on
       bundle_mod_id: CustomSpawns
     secrets:
       STEAM_WORKSHOP_LOGIN: ${{ secrets.STEAM_WORKSHOP_LOGIN }}
