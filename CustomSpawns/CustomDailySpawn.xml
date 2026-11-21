@@ -1031,6 +1031,7 @@
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The grand makkonian invasion have been defeated at [deathPlace]! The scourges of Calradia are no more.</DeathMessage>
 	 	<DeathMessageColor>relief</DeathMessageColor>
+	 	<MinimumNumberOfDaysUntilSpawn>200</MinimumNumberOfDaysUntilSpawn>
 	    <DynamicSpawnChancePeriod> 60 </DynamicSpawnChancePeriod>
 	 	<DynamicSpawnChanceEffect> 0.7 </DynamicSpawnChanceEffect>
 	 </RegularBanditDailySpawnData>
@@ -1133,6 +1134,7 @@
 	 	<SpawnMessageColor>danger</SpawnMessageColor>
 	 	<DeathMessage>The Humar invasion force received a crushing defeat their end at [deathPlace].</DeathMessage>
 	 	<DeathMessageColor>relief</DeathMessageColor>
+	 	<MinimumNumberOfDaysUntilSpawn>200</MinimumNumberOfDaysUntilSpawn>
 	 	<DynamicSpawnChancePeriod> 150 </DynamicSpawnChancePeriod>
 	 	<DynamicSpawnChanceEffect> 0.7 </DynamicSpawnChanceEffect>
 	 </RegularBanditDailySpawnData>
