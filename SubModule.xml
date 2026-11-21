@@ -1,22 +1,22 @@
 <Module>
 	<Name value="Calradia At War"/>
 	<Id value="CalradiaAtWar"/>
-	<Version value="v2.2.0"/>
+	<Version value="v2.3.0"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
 	<ModuleType value="Community"/>
 	<ModuleCategory value="Singleplayer" />
 	<DependedModules>
-		<DependedModule Id="Native" DependentVersion="v1.4.7" Optional="false"/>
-		<DependedModule Id="SandBoxCore" DependentVersion="v1.4.7" Optional="false"/>
-		<DependedModule Id="Sandbox" DependentVersion="v1.4.7" Optional="false"/>
-		<DependedModule Id="CustomSpawns" DependentVersion="v2.2.0" Optional="false"/>
+		<DependedModule Id="Native" DependentVersion="v1.5.7" Optional="false"/>
+		<DependedModule Id="SandBoxCore" DependentVersion="v1.5.7" Optional="false"/>
+		<DependedModule Id="Sandbox" DependentVersion="v1.5.7" Optional="false"/>
+		<DependedModule Id="CustomSpawns" DependentVersion="v2.3.0" Optional="false"/>
 	</DependedModules>
 	<DependedModuleMetadatas>
-		<DependedModuleMetadata id="Native" order="LoadBeforeThis" version="v1.4.7.*"/>
-		<DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" version="v1.4.7.*"/>
-		<DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" version="v1.4.7.*"/>
-		<DependedModuleMetadata id="CustomSpawns" order="LoadBeforeThis" version="v2.2.0"/>
+		<DependedModuleMetadata id="Native" order="LoadBeforeThis" version="v1.5.7.*"/>
+		<DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" version="v1.5.7.*"/>
+		<DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" version="v1.5.7.*"/>
+		<DependedModuleMetadata id="CustomSpawns" order="LoadBeforeThis" version="v2.3.0"/>
 	</DependedModuleMetadatas>
 	<SubModules/>
 	<Xmls>
