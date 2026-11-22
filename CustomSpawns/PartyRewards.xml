@@ -590,4 +590,57 @@
             </Reward>
         </RewardsList>
     </PartyReward>
+
+    <!-- Custom Spawns feature examples: reward triggers, Relation rewards and ItemCount. -->
+
+    <!-- Beating the cattle reivers wins back part of the herd and some coin. -->
+    <PartyReward>
+        <PartyId>cs_cattle_reivers</PartyId>
+        <RewardsList>
+            <Reward>
+                <Type>Item</Type>
+                <ItemId>cow</ItemId>
+                <ItemCount>3</ItemCount>
+                <Chance>0.75</Chance>
+            </Reward>
+            <Reward>
+                <Type>Money</Type>
+                <RenownInfluenceMoneyAmount>400</RenownInfluenceMoneyAmount>
+            </Reward>
+        </RewardsList>
+    </PartyReward>
+
+    <!-- Saving pilgrims from an attack pleases the lord of the nearest town. -->
+    <PartyReward>
+        <PartyId>cs_wandering_pilgrims</PartyId>
+        <Trigger>DefendedFromAttack</Trigger>
+        <RewardsList>
+            <Reward>
+                <Type>Relation</Type>
+                <RelationTarget>NearestTownOwner</RelationTarget>
+                <RenownInfluenceMoneyAmount>5</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Renown</Type>
+                <RenownInfluenceMoneyAmount>2</RenownInfluenceMoneyAmount>
+            </Reward>
+        </RewardsList>
+    </PartyReward>
+
+    <!-- Feeding pilgrims, through GiveSupplies(n) in CustomDialogue.xml, earns a little influence and the Redemptive Order's favour. -->
+    <PartyReward>
+        <PartyId>cs_wandering_pilgrims</PartyId>
+        <Trigger>GivenSupplies</Trigger>
+        <RewardsList>
+            <Reward>
+                <Type>Influence</Type>
+                <RenownInfluenceMoneyAmount>1</RenownInfluenceMoneyAmount>
+            </Reward>
+            <Reward>
+                <Type>Relation</Type>
+                <RelationTarget>cs_redemptive_order</RelationTarget>
+                <RenownInfluenceMoneyAmount>2</RenownInfluenceMoneyAmount>
+            </Reward>
+        </RewardsList>
+    </PartyReward>
 </PartyRewardsTemplate>

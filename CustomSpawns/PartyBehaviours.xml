@@ -92,4 +92,111 @@
 			</PatrolAroundClosestLestInterruptedAndSwitch>
 		</PriorityPartyBehaviours>
 	</PriorityPartyBehaviourTemplate>
+
+	<!-- Custom Spawns feature examples -->
+
+	<!-- TravelRoute: pilgrims walk the southern imperial towns in order, rest in each, then leave the map. -->
+	<PriorityPartyBehaviourTemplate>
+		<Id>caw-pilgrim-route</Id>
+		<PriorityPartyBehaviours>
+			<TravelRoute>
+				<Waypoints>
+					<Settlement>Settlement.town_ES4</Settlement>
+					<Settlement>Settlement.town_ES5</Settlement>
+					<Settlement>Settlement.town_ES1</Settlement>
+					<Settlement>Settlement.town_ES3</Settlement>
+				</Waypoints>
+				<StartAt>Nearest</StartAt>
+				<DwellTimeInDays>
+					<Minimum>0.5</Minimum>
+					<Maximum>1</Maximum>
+				</DwellTimeInDays>
+				<OnFinish>Despawn</OnFinish>
+				<EnterSettlements>true</EnterSettlements>
+			</TravelRoute>
+		</PriorityPartyBehaviours>
+	</PriorityPartyBehaviourTemplate>
+
+	<!-- LurkNearHome and Leash: ambushers wait near the hideout they came from and fall on caravans and villagers passing by. -->
+	<PriorityPartyBehaviourTemplate>
+		<Id>caw-lurk-near-hideout</Id>
+		<PriorityPartyBehaviours>
+			<LurkNearHome>
+				<Anchor>SpawnSettlement</Anchor>
+				<LurkRadiusInDays>0.3</LurkRadiusInDays>
+				<InterceptRadiusInDays>0.8</InterceptRadiusInDays>
+				<InterceptKinds>
+					<Kind>Caravan</Kind>
+					<Kind>Villager</Kind>
+					<Kind>Player</Kind>
+				</InterceptKinds>
+				<StrengthAssessment>
+					<MinimumAttackerToTargetRatio>1.0</MinimumAttackerToTargetRatio>
+				</StrengthAssessment>
+				<ChaseLimitInDays>0.5</ChaseLimitInDays>
+			</LurkNearHome>
+		</PriorityPartyBehaviours>
+		<Leash>
+			<Anchor>SpawnSettlement</Anchor>
+			<RadiusInDays>1.5</RadiusInDays>
+			<ReturnWhenOutside>true</ReturnWhenOutside>
+		</Leash>
+	</PriorityPartyBehaviourTemplate>
+
+	<!-- HuntHostileParties and Leash: bounty hunters ride down bandits and outlaws near their home town, and patrol between hunts. -->
+	<PriorityPartyBehaviourTemplate>
+		<Id>caw-hunt-outlaws</Id>
+		<PriorityPartyBehaviours>
+			<HuntHostileParties>
+				<TargetKinds>
+					<Kind>Bandit</Kind>
+					<Kind>Outlaw</Kind>
+				</TargetKinds>
+				<SearchRadiusInDays>1.5</SearchRadiusInDays>
+				<StrengthAssessment>
+					<MinimumAttackerToTargetRatio>1.2</MinimumAttackerToTargetRatio>
+				</StrengthAssessment>
+				<CooldownInDays>1</CooldownInDays>
+			</HuntHostileParties>
+			<PatrolAroundClosestLestInterruptedAndSwitch>
+				<StableTimeInDays>
+					<Minimum>1</Minimum>
+					<Maximum>2</Maximum>
+				</StableTimeInDays>
+			</PatrolAroundClosestLestInterruptedAndSwitch>
+		</PriorityPartyBehaviours>
+		<Leash>
+			<Anchor>HomeSettlement</Anchor>
+			<RadiusInDays>2</RadiusInDays>
+			<ReturnWhenOutside>true</ReturnWhenOutside>
+		</Leash>
+	</PriorityPartyBehaviourTemplate>
+
+	<!-- Raid TargetFilter, AfterRaid and Spoil: reivers only raid Khuzait villages, drive stolen cattle home, and patrol between raids. -->
+	<PriorityPartyBehaviourTemplate>
+		<Id>caw-reive-cattle</Id>
+		<PriorityPartyBehaviours>
+			<RaidClosestVillage>
+				<TargetFilter>
+					<Cultures>
+						<Culture>Culture.khuzait</Culture>
+					</Cultures>
+				</TargetFilter>
+				<AfterRaid>ReturnHome</AfterRaid>
+				<Spoil>
+					<Item>
+						<Id>Item.cow</Id>
+						<Minimum>2</Minimum>
+						<Maximum>4</Maximum>
+					</Item>
+				</Spoil>
+			</RaidClosestVillage>
+			<PatrolAroundClosestLestInterruptedAndSwitch>
+				<StableTimeInDays>
+					<Minimum>1</Minimum>
+					<Maximum>3</Maximum>
+				</StableTimeInDays>
+			</PatrolAroundClosestLestInterruptedAndSwitch>
+		</PriorityPartyBehaviours>
+	</PriorityPartyBehaviourTemplate>
 </PriorityPartyBehaviourTemplates>

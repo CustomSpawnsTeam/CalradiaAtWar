@@ -295,4 +295,13 @@
 	</ForceWarPeaceBehaviour>
 	<ForceNoKingdom>true</ForceNoKingdom>
 </DiplomacyData>
+
+<!-- Custom Spawns example: a neutral clan. At peace with everyone but bandits; attacking its parties costs crime and relation instead of starting a war. -->
+<DiplomacyData target ="cs_wandering_pilgrims">
+	<Neutral>true</Neutral>
+	<AttackPenalty>
+		<CrimeRatingOnNearestTownFaction>15</CrimeRatingOnNearestTownFaction>
+		<RelationWithNearestTownOwner>-5</RelationWithNearestTownOwner>
+	</AttackPenalty>
+</DiplomacyData>
 </root>

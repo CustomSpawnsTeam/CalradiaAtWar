@@ -410,7 +410,27 @@
            is_mafia="false"
            name="United Deserters"
            text = "Deserters from all factions united in fear of persecution. As you might imagine, fear can unite those who used to be enemies and make a man forget his most traumatic memories."
-           tier="3">        
+           tier="3">
     </Faction>
+
+  <!-- Custom Spawns example: a neutral clan with no heroes. Diplomacy.xml keeps it at peace with everyone. -->
+  <Faction id="cs_wandering_pilgrims"
+           banner_key="24.148.116.1836.1836.764.764.1.0.0.418.35.35.245.245.766.732.0.1.45"
+           label_color="FFF8F8F8"
+           color="FF6E5B3A"
+           color2="FFF8F8F8"
+           alternative_color="FF6E5B3A"
+           alternative_color2="FFF8F8F8"
+           culture="Culture.empire"
+           is_noble="false"
+           default_party_template="PartyTemplate.cs_wandering_pilgrims"
+           settlement_banner_mesh="encounter_flag_f"
+           is_minor_faction="false"
+           is_outlaw="false"
+           is_mafia="false"
+           name="Wandering Pilgrims"
+           tier="1"
+           text="Common folk walking from shrine to shrine across the south of the Empire. They carry little, harm no one, and the lords of the towns they pass take it ill when they are robbed.">
+  </Faction>
 
 </Factions>

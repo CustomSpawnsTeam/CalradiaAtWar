@@ -393,4 +393,61 @@ if set to true this is player dialogue. If multiple player dialogues are trigger
 
 <!-- -->
 
+<!-- Custom Spawns feature examples: the newer conditions and consequences. Arguments must not contain spaces. -->
+
+<!-- Wandering Pilgrims: Season, PlayerRelationWithClan, GiveSupplies, GiveItem -->
+
+	<Dialogue condition = "PartyIDStartsWith(cs_wandering_pilgrims)" text = "Peace be with you, traveller. We walk from shrine to shrine, and the road is long.">
+		<Dialogue text = "Take some food for the road." player = "true">
+			<Dialogue text = "Bless you! We will remember your kindness at every altar." consequence = "GiveSupplies(5) + Leave"/>
+		</Dialogue>
+		<Dialogue condition = "PlayerRelationWithClan(cs_redemptive_order,10)" text = "The Redemptive Order counts me a friend." player = "true">
+			<Dialogue text = "Then take this wine, with the Order's thanks." consequence = "GiveItem(wine,2) + Leave"/>
+		</Dialogue>
+		<Dialogue condition = "Season(Summer)" text = "A hot day for a pilgrimage." player = "true">
+			<Dialogue text = "The heat is our penance. We will reach the coast before autumn." consequence = "Leave"/>
+		</Dialogue>
+		<Dialogue text = "Safe travels." consequence = "Leave" player = "true"/>
+	</Dialogue>
+
+<!-- Hideout Ambushers: NearHome, PartyStrengthRatioAbove, TakeGold, Truce, BarterPeace(days) -->
+
+	<Dialogue condition = "PartyIDStartsWith(cs_hideout_ambushers) AND IsAttacking AND NearHome AND PartyStrengthRatioAbove(1)" text = "You walked into our woods. Pay the toll or bleed.">
+		<Dialogue text = "Here, take your toll." player = "true">
+			<Dialogue text = "Wise. Nobody in these woods will touch you for three days." consequence = "TakeGold(300) + Truce(3) + Leave"/>
+		</Dialogue>
+		<Dialogue text = "Let us talk terms." player = "true">
+			<Dialogue text = "Talk is cheap. Show us what a week of quiet is worth to you.">
+				<Dialogue text = "(barter)" consequence = "BarterPeace(7)">
+					<Dialogue condition = "BarterSuccessful" text = "A week, then. Go in peace." consequence = "Leave"/>
+					<Dialogue condition = "!BarterSuccessful" text = "Then we take it all." consequence = "Battle"/>
+				</Dialogue>
+			</Dialogue>
+		</Dialogue>
+		<Dialogue text = "Then bleed." consequence = "Battle" player = "true"/>
+	</Dialogue>
+
+<!-- Bounty Hunters: PlayerCrimeAbove, TakeGold, PlayerRelationWithClan, JoinPlayerParty, ChangeRelation, GiveGold -->
+
+	<Dialogue condition = "PartyIDStartsWith(cs_bounty_hunters) AND PlayerCrimeAbove(30)" text = "There is a price on your head. Pay the fine and we never met.">
+		<Dialogue text = "Fine. Take it." player = "true">
+			<Dialogue text = "Pleasure doing business." consequence = "TakeGold(1000) + Leave"/>
+		</Dialogue>
+		<Dialogue text = "I will take my chances." consequence = "Leave" player = "true"/>
+	</Dialogue>
+
+	<Dialogue condition = "PartyIDStartsWith(cs_bounty_hunters) AND PlayerRelationWithClan(cs_manhunters,10)" text = "Good to see you, friend. We are riding after raiders.">
+		<Dialogue text = "Lend me two of your men." player = "true">
+			<Dialogue text = "They are yours. Bring them back alive." consequence = "JoinPlayerParty(cs_manhunter,2) + ChangeRelation(cs_manhunters,-2) + Leave"/>
+		</Dialogue>
+		<Dialogue text = "Good hunting." consequence = "Leave" player = "true"/>
+	</Dialogue>
+
+	<Dialogue condition = "PartyIDStartsWith(cs_bounty_hunters)" text = "We hunt the raiders who burnt a village near here. Seen them?">
+		<Dialogue text = "They went that way." player = "true">
+			<Dialogue text = "Thanks. Here is something for your trouble." consequence = "GiveGold(50) + Leave"/>
+		</Dialogue>
+		<Dialogue text = "No." consequence = "Leave" player = "true"/>
+	</Dialogue>
+
 </root>

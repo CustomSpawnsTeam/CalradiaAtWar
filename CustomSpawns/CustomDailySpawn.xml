@@ -1152,4 +1152,109 @@
 	 	<Name>Ronin</Name>
 	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
 	 </RegularBanditDailySpawnData>
+
+	 <!-- Custom Spawns feature examples. One small spawn per feature group; see the Custom Spawns docs folder for every option. -->
+
+	 <!-- Neutral clan, civilian PartyType, TravelRoute and a seasonal calendar window:
+	      pilgrims of a heroless neutral clan walk the southern imperial towns in spring and summer, and leave the map in autumn. -->
+	 <RegularBanditDailySpawnData
+	 party_template ="PartyTemplate.cs_wandering_pilgrims"
+	 spawn_clan = "Faction.cs_wandering_pilgrims"
+	 overriden_spawn_settlement_0 = "Settlement.town_ES4"
+	 overriden_spawn_settlement_1 = "Settlement.town_ES3"
+	 >
+	 	<PartyType>Civilian</PartyType>
+	 	<MaximumOnMap>3</MaximumOnMap>
+	 	<ChanceOfSpawn>0.15</ChanceOfSpawn>
+	 	<Name>Wandering Pilgrims</Name>
+	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
+	 	<PriorityPartyBehaviourTemplateId>caw-pilgrim-route</PriorityPartyBehaviourTemplateId>
+	 	<ActiveSeasons>
+	 		<Season>Spring</Season>
+	 		<Season>Summer</Season>
+	 	</ActiveSeasons>
+	 	<OutOfWindow>DespawnExisting</OutOfWindow>
+	 </RegularBanditDailySpawnData>
+
+	 <!-- SpawnAtHideouts, LurkNearHome and Leash: forest ambushers appear at hideouts where forest bandits camp, and wait by the road nearby. -->
+	 <RegularBanditDailySpawnData
+	 party_template ="PartyTemplate.cs_hideout_ambushers"
+	 spawn_clan = "Faction.forest_bandits"
+	 >
+	 	<MaximumOnMap>3</MaximumOnMap>
+	 	<ChanceOfSpawn>0.05</ChanceOfSpawn>
+	 	<Name>Hideout Ambushers</Name>
+	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
+	 	<PriorityPartyBehaviourTemplateId>caw-lurk-near-hideout</PriorityPartyBehaviourTemplateId>
+	 	<SpawnAtHideouts>
+	 		<Clans>
+	 			<Clan>Clan.forest_bandits</Clan>
+	 		</Clans>
+	 	</SpawnAtHideouts>
+	 </RegularBanditDailySpawnData>
+
+	 <!-- Event Trigger, ExcludeFromClanForces and HuntHostileParties: when raiders sack a village, bounty hunters ride out of
+	      its town and go after the raiders first. They fight like a war party but never weigh on the Manhunters' strength or wages. -->
+	 <RegularBanditDailySpawnData
+	 party_template ="PartyTemplate.cs_bounty_hunters"
+	 spawn_clan = "Faction.cs_manhunters"
+	 >
+	 	<MaximumOnMap>3</MaximumOnMap>
+	 	<ChanceOfSpawn>0.5</ChanceOfSpawn>
+	 	<Name>Bounty Hunters</Name>
+	 	<ExcludeFromClanForces>true</ExcludeFromClanForces>
+	 	<PriorityPartyBehaviourTemplateId>caw-hunt-outlaws</PriorityPartyBehaviourTemplateId>
+	 	<Trigger>
+	 		<OnVillageRaided>
+	 			<SpawnAt>BoundTown</SpawnAt>
+	 			<InitialTarget>Raider</InitialTarget>
+	 		</OnVillageRaided>
+	 	</Trigger>
+	 </RegularBanditDailySpawnData>
+
+	 <!-- Raid TargetFilter, AfterRaid, Spoil and a day-of-year window: in autumn and early winter, reivers leave Sturgian towns,
+	      raid Khuzait villages and drive the cattle home. -->
+	 <RegularBanditDailySpawnData
+	 party_template ="PartyTemplate.cs_cattle_reivers"
+	 spawn_clan = "Faction.cs_northern_liberators"
+	 overriden_spawn_culture_0 = "Culture.sturgia"
+	 >
+	 	<MaximumOnMap>2</MaximumOnMap>
+	 	<ChanceOfSpawn>0.05</ChanceOfSpawn>
+	 	<Name>Cattle Reivers</Name>
+	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
+	 	<TrySpawnAt>Town</TrySpawnAt>
+	 	<PriorityPartyBehaviourTemplateId>caw-reive-cattle</PriorityPartyBehaviourTemplateId>
+	 	<ActiveWindow>
+	 		<FromDayOfYear>43</FromDayOfYear>
+	 		<ToDayOfYear>70</ToDayOfYear>
+	 	</ActiveWindow>
+	 </RegularBanditDailySpawnData>
+
+	 <!-- LeaderHero, Conditions and OncePerCampaign: once Vlandia and Battania are at war, after day 20, an existing
+	      Redemptive Order lord takes the field with an inquisition retinue, once in the whole campaign. -->
+	 <RegularBanditDailySpawnData
+	 party_template ="PartyTemplate.cs_inquisitor_retinue"
+	 spawn_clan = "Faction.cs_redemptive_order"
+	 overriden_spawn_culture_0 = "Culture.vlandia"
+	 >
+	 	<MaximumOnMap>1</MaximumOnMap>
+	 	<ChanceOfSpawn>0.2</ChanceOfSpawn>
+	 	<Name>Inquisitor's Retinue</Name>
+	 	<RepeatSpawnRolls>1</RepeatSpawnRolls>
+	 	<LeaderHero>cs_lord_redemptive_order_2</LeaderHero>
+	 	<PriorityPartyBehaviourTemplateId>caw-patrol-all-3-6</PriorityPartyBehaviourTemplateId>
+	 	<Conditions>
+	 		<AtWar>
+	 			<Faction1>Kingdom.vlandia</Faction1>
+	 			<Faction2>Kingdom.battania</Faction2>
+	 		</AtWar>
+	 		<CampaignDayBetween>
+	 			<Minimum>20</Minimum>
+	 		</CampaignDayBetween>
+	 	</Conditions>
+	 	<OncePerCampaign>true</OncePerCampaign>
+	 	<SpawnMessage>A Redemptive Order inquisitor rides out of [spawnPlace] to judge those who prolong the war.</SpawnMessage>
+	 	<SpawnMessageColor>danger</SpawnMessageColor>
+	 </RegularBanditDailySpawnData>
 </root>

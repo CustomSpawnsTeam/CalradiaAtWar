@@ -934,4 +934,42 @@
         <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.cs_humar_shinobi" />
       </stacks>
     </MBPartyTemplate>
+
+    <!-- Custom Spawns feature examples. Each example spawn has its own template, since rewards, dialogue and the spawn's party count all match parties by template id. -->
+    <MBPartyTemplate id="cs_wandering_pilgrims" >
+      <stacks>
+        <PartyTemplateStack min_value="6" max_value="18" troop="NPCCharacter.cs_redemptive_pilgrim" />
+        <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.cs_redemptive_priest" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="cs_hideout_ambushers" >
+      <stacks>
+        <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.forest_bandits_raider" />
+        <PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.cs_forest_trainee" />
+        <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.cs_forest_waylay" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="cs_bounty_hunters" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cs_sherrif" />
+        <PartyTemplateStack min_value="5" max_value="11" troop="NPCCharacter.cs_manhunter" />
+        <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.cs_veteran_manhunter" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="cs_cattle_reivers" >
+      <stacks>
+        <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.cs_bjorning_skullboss" />
+        <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.cs_bjorning_skulldrinker" />
+        <PartyTemplateStack min_value="10" max_value="18" troop="NPCCharacter.cs_bjorning_headhunter" />
+      </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="cs_inquisitor_retinue" >
+      <stacks>
+        <PartyTemplateStack min_value="3" max_value="9" troop="NPCCharacter.cs_redemptive_inquisitor" />
+        <PartyTemplateStack min_value="1" max_value="8" troop="NPCCharacter.cs_redemptive_footman" />
+        <PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.cs_redemptive_crusader" />
+        <PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.cs_redemptive_longbowman" />
+        <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.cs_redemptive_priest" />
+      </stacks>
+    </MBPartyTemplate>
 </partyTemplates>
